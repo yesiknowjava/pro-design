@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-US">
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "head.html" . }}
+<body
+    class="page-template page-template-page-templates page-template-template-carrieres page-template-page-templatestemplate-carrieres-php page page-id-906 wp-custom-logo wp-embed-responsive group-blog">
+
+{{ partial "header.html" . }}
+    <div id="careers">
+
+        <section id="intro" class="d-flex justify-content-start align-items-center inner">
+            <div class="overlayContent">
+                <h1>
+                    <span class="small wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="">{{ $data.careers.hero_text1 | safeHTML  }}</span>
+                    <span class="big wow fadeInRight" data-wow-duration=".5s" data-wow-delay="">{{ $data.careers.hero_text2 | safeHTML  }}</span>
+                </h1>
+            </div>
+            <img src="{{"/img/header_careers.png" | relURL }}" class="wow fadeIn"
+                data-wow-duration="1s" data-wow-delay="0" width="100%" alt />
+        </section>
+
+        <section id="main-content"
+            style="background: url(/img/foret.jpg) #fff top center no-repeat; background-size: cover;">
+            <div class="row">
+                <div class="col-xl-6 d-flex flex-column">
+                    <h2>
+                        <span>{{ $data.careers.sub_head | safeHTML  }}</span>
+                        {{ $data.careers.sub_head6 | safeHTML  }}</h2>
+                    <p>{{ $data.careers.text1 | safeHTML  }}</p>
+                    <img src="{{"/img/careers_img1.png" | relURL }}"
+                        class="mt-auto" width="100%" alt="" />
+                </div>
+                <div class="col-xl-6">
+                    <img src="{{"/img/careers_img2.png" | relURL }}"
+                        class="ml-5" width="100%" alt="" />
+                </div>
+        </section>
+
+        <section id="cta-maitre-paysagiste">
+
+            <div class="title-container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 style="color: #fff;">
+                            <span></span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slider-etapes">
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/users-2.svg" | relURL }}" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.careers.item1 | safeHTML  }}</span>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/trees.svg" | relURL }}" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.careers.item2 | safeHTML  }}</span>
+                            {{ $data.careers.item2_text | safeHTML  }} </div>
+                        <p>{{ $data.careers.item2_text2 | safeHTML  }}</p>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/direction.svg" | relURL }}" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.careers.item3 | safeHTML  }}</span>
+                            {{ $data.careers.item3_text | safeHTML  }} </div>
+                        <p>{{ $data.careers.item3_text2 | safeHTML  }}</p>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/construction.svg" | relURL }}" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.careers.item4 | safeHTML  }}</span>
+                            {{ $data.careers.item4_text | safeHTML  }} </div>
+                        <p>{{ $data.careers.item4_text2 | safeHTML  }}</p>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/sandbox-1.svg"  | relURL }}"alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.careers.item5 | safeHTML  }}</span>
+                            {{ $data.careers.item5_text | safeHTML  }} </div>
+                        <p>{{ $data.careers.item5_text2 | safeHTML  }}</p>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/balance-1.svg" | relURL }}" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.careers.item6 | safeHTML  }}</span>
+                            {{ $data.careers.item6_text | safeHTML  }} </div>
+                        <p>{{ $data.careers.item6_text2 | safeHTML  }}</p>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/alarm-clock.svg" | relURL }}" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.careers.item7 | safeHTML  }}</span>
+                            {{ $data.careers.item7_text | safeHTML  }} </div>
+                        <p>{{ $data.careers.item7_text2 | safeHTML  }}</p>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/tshirt.svg" | relURL }}" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.careers.item8 | safeHTML  }}</span>
+                            {{ $data.careers.item8_text | safeHTML  }} </div>
+                        <p>{{ $data.careers.item8_text2 | safeHTML  }}</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section id="careers-jobs">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>
+                        <span>{{ $data.careers.sub_head1 | safeHTML  }}</span>
+                        {{ $data.careers.sub_head2 | safeHTML  }} </h2>
+                </div>
+                <div class="col-md-6">
+
+                    <div class="steps-accordion">
+                        <div class="accordion-title first">{{ $data.careers.post | safeHTML  }}</div>
+                        <div class="accordion-content first">
+                            <p class="intro">{{ $data.careers.sub_text1 | safeHTML  }} <br />
+                            </p>
+                            <p>{{ $data.careers.sub_text2 | safeHTML  }}
+                            </p>
+                            <div class="btn-container text-left"><a href="#" target="" class="btn-animated-line">{{ $data.careers.button | safeHTML  }}</a></div>
+                        </div>
+                        <div class="accordion-title ">{{ $data.careers.post | safeHTML  }}</div>
+                        <div class="accordion-content ">
+                            <p class="intro">{{ $data.careers.sub_text3 | safeHTML  }} <br />
+                            </p>
+                            <p>{{ $data.careers.sub_text4 | safeHTML  }}
+                            </p>
+                            <div class="btn-container text-left"><a href="#" target="" class="btn-animated-line">{{ $data.careers.button | safeHTML  }}</a></div>
+                        </div>
+                        <div class="last-border"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="content-par-2col">
+            <div class="row">
+                <div class="col-12">
+                    <h2>
+                        <span>{{ $data.careers.sub_head4 | safeHTML  }}</span>
+                        {{ $data.careers.sub_head5 | safeHTML  }}
+                    </h2>
+                    <p>{{ $data.careers.sub_text4 | safeHTML  }}</p>
+                    <p>{{ $data.careers.sub_text5 | safeHTML  }}</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    {{ partial "innercta.html" . }}
+    {{ partial "footerlogo.html" . }}
+  
+{{ partial "footer.html" . }}
+{{ partial "last.html" . }}
+</body>
+
+</html>

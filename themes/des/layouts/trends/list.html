@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+{{ partial "head.html" .}}
+<body class="blog wp-custom-logo wp-embed-responsive group-blog hfeed">
+
+{{ partial "header.html" . }}
+    <div id="tendances">
+
+        <section id="intro" class="d-flex justify-content-start align-items-center inner">
+            <div class="overlayContent">
+                <h1>
+                    <span class="small wow fadeInLeft" data-wow-duration=".5s" data-wow-delay=""> </span>
+                    <span class="big wow fadeInRight" data-wow-duration=".5s" data-wow-delay="">{{ $data.trends.hero_text | safeHTML  }}11</span>
+                </h1>
+            </div>
+        </section>
+
+        <section id="main-content">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="navpost-container">
+                        <span><a href="https://pro-design.ca/en/trends/">{{ $data.trends.all | safeHTML  }}</a></span>
+                        <span>
+                            <select name='cat' id='cat' class='postform'>
+                                <option value='0' selected='selected'>{{ $data.trends.cat | safeHTML  }}</option>
+                                <option class="level-0" value="2">{{ $data.trends.uncat | safeHTML  }}</option>
+                                <option class="level-0" value="160">{{ $data.trends.sustainabel | safeHTML  }}</option>
+                                <option class="level-0" value="161">{{ $data.trends.dare | safeHTML  }}</option>
+                                <option class="level-0" value="162">{{ $data.trends.dare | safeHTML  }}</option>
+                                <option class="level-0" value="163">{{ $data.trends.roots | safeHTML  }}</option>
+                                <option class="level-0" value="164">{{ $data.trends.touch | safeHTML  }}</option>
+                            </select>
+                            <i class="fas fa-angle-down selectArrow"></i>
+                        </span>
+                    </div>
+
+                    <script>
+                        document.getElementById('cat').onchange = function () {
+                            // if value is category id
+                            if (this.value !== '-1') {
+                                window.location = '/?cat=' + this.value
+                            }
+                        }
+                    </script>
+                </div>
+
+                {{ range $data.trends.trends }}
+                    
+                
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="{{ .link }}">
+                            <img width="2154" height="1424"
+                                src="{{"/img/blogueprodesign_zones-e1593790674574.jpg"  | relURL }}"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-src="{{"/img/blogueprodesign_zones-e1593790674574.jpg" | relURL }}"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/en/category/the-key-elements/"
+                                                rel="category tag">{{ .category | safeHTML  }}</a></li>
+                                    </ul>
+                                </span>
+                                {{ .name | safeHTML  }} </h2>
+                        </a>
+                    </div>
+                </div>
+                {{ end }}
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+   {{partial "footerlogo.html" . }}
+{{partial "footer.html" .}}
+{{ partial "last.html" . }}
+</body>
+
+</html>

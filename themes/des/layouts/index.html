@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+{{ partial "head.html" . }}
+<body>
+    
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+    <main role="main">
+    
+    class="home page-template page-template-page-templates page-template-template-accueil page-template-page-templatestemplate-accueil-php page page-id-468 wp-custom-logo wp-embed-responsive group-blog">
+
+{{ partial "header.html" . }}
+    <div id="home">
+
+        <section id="intro">
+
+            <div id="intro-slider">
+
+
+
+                <div class="d-flex justify-content-center align-items-center" style="height:100%">
+                    <div class="overlayContent">
+                        <h1>
+                            <span class="big wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="">{{ $data.home.hero_text | safeHTML  }}</span>
+                            <span class="small wow fadeInRight" data-wow-duration=".5s"
+                                data-wow-delay="">{{ $data.home.hero_text1 | safeHTML  }}</span>
+                        </h1>
+                    </div>
+                    <video playsinline autoplay muted loop id="bgvid">
+                        <source src="{{ $data.home.video | safeHTML  }}"
+                            type=video/mp4> </video> </div> <div class="hero-filter">
+                </div>
+
+
+
+            </div>
+
+            <div class="social">
+                <a href="https://www.facebook.com/createurdepaysage" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/prodesign.ca/" target="_blank">Instagram</a>
+            </div>
+
+        </section>
+
+
+
+        <section id="main-content"
+            style="background: url(/img/foret.jpg) #fff top center no-repeat;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <h2>
+                            <span>{{ $data.home.heading | safeHTML  }}</span>
+                            {{ $data.home.text | safeHTML  }} </h2>
+                        <p><span style="font-weight: 400;">{{ $data.home.text1 | safeHTML  }}</span></p>
+                        <a href="{{ $data.home.link | safeHTML  }}" class="btn-square" target="">{{ $data.home.link_text | safeHTML  }}</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="d-flex justify-content-center align-items-center">
+            <div class="overlayContent">
+                <h3>{{ $data.home.hero_text2 | safeHTML  }}</h3>
+            </div>
+            <img src="{{"/img/home-cta.jpg" | relURL }}"
+                width="100%" alt="" />
+
+            <div class="home-services">
+                <ul class="row d-flex">
+                    <li class="col"><a href="{{ $data.home.land_link | safeHTML  }}">{{ $data.home.land_text | safeHTML  }}</a></li>
+                    <li class="col"><a href="{{ $data.home.masonry_link | safeHTML  }}">{{ $data.home.masonry | safeHTML  }}</a></li>
+                    <li class="col"><a href="{{ $data.home.retaining_link | safeHTML  }}">{{ $data.home.retaining | safeHTML  }}</a></li>
+                    <li class="col"><a href="{{ $data.home.pave_link | safeHTML  }}">{{ $data.home.pave | safeHTML  }}</a></li>
+                    <li class="col"><a href="{{ $data.home.stone_link | safeHTML  }}">{{ $data.home.stone | safeHTML  }}</a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section id="home-portfolio">
+
+            <div class="row">
+                <div class="col-12">
+
+                    <div id="product__slider">
+                        <div class="product__slider-main">
+
+
+
+
+
+                            <div class="slide">
+                                <div class="row">
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <div class="slide-infos">
+                                            <span class="slide-id">
+                                                01 /
+                                                02 </span>
+                                            <span class="slide-title">
+                                                <span>{{ $data.home.sub_head | safeHTML  }}</span>
+                                                {{ $data.home.sub_text | safeHTML  }} </span>
+                                            <span class="slide-btn"><a
+                                                    href="{{ $data.home.find_link | safeHTML  }}">{{ $data.home.find_text | safeHTML  }}</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 homeRealImg"
+                                        style="background: url(/img/projet-blanc-01.jpg) no-repeat center center; background-size: cover;">
+                                        <div class="sliderFilter"></div>
+                                        <img src="{{"/img/projet-blanc-01.jpg" | relURL }}"
+                                            width="100%" style="display: none;" />
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="slide">
+                                <div class="row">
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <div class="slide-infos">
+                                            <span class="slide-id">
+                                                02 /
+                                                02 </span>
+                                            <span class="slide-title">
+                                                <span>{{ $data.home.sub_head1 | safeHTML  }}</span>
+                                                {{ $data.home.sub_text1 | safeHTML  }} </span>
+                                            <span class="slide-btn"><a
+                                                    href="{{ $data.home.find_link1 | safeHTML  }}">{{ $data.home.find_text | safeHTML  }}</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 homeRealImg"
+                                        style="background: url(/img/st-sauveur-01.jpg) no-repeat center center; background-size: cover;">
+                                        <div class="sliderFilter"></div>
+                                        <img src="{{"/img/st-sauveur-01.jpg" | relURL }}"
+                                            width="100%" style="display: none;" />
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12">
+
+                    <div class="product__slider-thmb" dir="rtl">
+
+
+
+                        <div class="slide"
+                            style="background:url(/img/projet-blanc-01.jpg) center center no-repeat; background-repeat: cover;">
+                        </div>
+
+
+
+                        <div class="slide"
+                            style="background:url(/img/st-sauveur-01.jpg) center center no-repeat; background-repeat: cover;">
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="home-blog">
+            <div class="row">
+                <div class="col-md-6 p-0">
+                    <h2 class="white">{{ $data.home.trend | safeHTML  }}</h2>
+                </div>
+                <div class="col-md-6 url-blog-container">
+                    <a href="{{ $data.home.trend_link | safeHTML  }}" class="btn-text">{{ $data.home.article | safeHTML  }}</a>
+                </div>
+            </div>
+            <div class="row aBlogRow">
+
+
+                <div class="col-md-4 aBlogContainer">
+                    <div class="aBlog">
+                        <div class="blog-img"><a
+                                href="{{ $data.home.landscape_design | safeHTML  }}"><img
+                                    width="2154" height="1424"
+                                    src="{{"/img/blogueprodesign_zones-e1593790674574.jpg" | relURL }}"
+                                    class="attachment-full size-full wp-post-image jetpack-lazy-image" alt=""
+                                    loading="lazy"
+                                    data-lazy-src="{{"/img/blogueprodesign_zones-e1593790674574.jpg" | relURL}}"
+                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+                        </div>
+                        <div class="blog-title"><a
+                                href="{{ $data.home.landscape_design | safeHTML  }}">{{ $data.home.land_text1 | safeHTML  }}</a></div>
+                        <div class="blog-excerpt">
+                            <p>{{ $data.home.land_text2 | safeHTML  }} [&#8230;]</p>
+                            <p><a class="btn btn-secondary understrap-read-more-link"
+                                    href="{{ $data.home.landscape_design | safeHTML  }}">{{ $data.home.land_text3 | safeHTML  }}&#8230;</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 aBlogContainer">
+                    <div class="aBlog">
+                        <div class="blog-img"><a href="{{ $data.home.land_new_link | safeHTML  }}"><img
+                                    width="1200" height="900"
+                                    src="{{"/img/IMG_3245.jpg" | relURL }}"
+                                    class="attachment-full size-full wp-post-image jetpack-lazy-image"
+                                    alt="amenagement_exterieur_tendances" loading="lazy"
+                                    data-lazy-srcset="/img/IMG_3245.jpg  1200w, 
+                                    /img/IMG_3245_300.jpg 300w,
+                                     /img/IMG_3245_1024.jpg  1024w,
+                                      /img/IMG_3245_768.jpg 768w"
+                                    data-lazy-sizes="(max-width: 1200px) 100vw, 1200px"
+                                    data-lazy-src="{{"/img/IMG_3245.jpg" | relURL }}"
+                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+                        </div>
+                        <div class="blog-title"><a href="{{ $data.home.land_new_link | safeHTML  }}">{{ $data.home.land_new_text1 | safeHTML  }}</a></div>
+                        <div class="blog-excerpt">
+                            <p>{{ $data.home.land_new_text2 | safeHTML  }} [&#8230;]</p>
+                            <p><a class="btn btn-secondary understrap-read-more-link"
+                                    href="{{ $data.home.land_new_link | safeHTML  }}">{{ $data.home.land_new_text3 | safeHTML  }}&#8230;</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 aBlogContainer">
+                    <div class="aBlog">
+                        <div class="blog-img"><a href="{{ $data.home.land_maintain_link | safeHTML  }}"><img
+                                    width="600" height="429"
+                                    src="{{"/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg" | relURL }}"
+                                    class="attachment-full size-full wp-post-image jetpack-lazy-image" alt=""
+                                    loading="lazy"
+                                    data-lazy-srcset="/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg 600w, 
+                                    /img/308050_10150331172586681_523016680_8469649_661628271_n_800.jpg 300w"
+                                    data-lazy-sizes="(max-width: 600px) 100vw, 600px"
+                                    data-lazy-src="{{"/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg" | relURL }}"
+                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+                        </div>
+                        <div class="blog-title"><a
+                                href="{{ $data.home.land_maintain_link | safeHTML  }}">{{ $data.home.land_maintain_text1 | safeHTML  }}</a></div>
+                        <div class="blog-excerpt">
+                            <p>{{ $data.home.land_maintain_text2 | safeHTML  }} [&#8230;]</p>
+                            <p><a class="btn btn-secondary understrap-read-more-link"
+                                    href="{{ $data.home.land_maintain_link | safeHTML  }}">{{ $data.home.land_text3 | safeHTML  }}&#8230;</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 aBlogContainer">
+                    <div class="aBlog">
+                        <div class="blog-img"><a
+                                href="{{ $data.home.create_garden_link | safeHTML  }}"><img
+                                    width="2154" height="1424"
+                                    src="{{"/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png" | relURL }}"
+                                    class="attachment-full size-full wp-post-image jetpack-lazy-image" alt=""
+                                    loading="lazy"
+                                    data-lazy-src="/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
+                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+                        </div>
+                        <div class="blog-title"><a
+                                href="{{ $data.home.create_garden_link | safeHTML  }}">{{ $data.home.create_garden_text1 | safeHTML  }}</a></div>
+                        <div class="blog-excerpt">
+                            <p>{{ $data.home.create_garden_text2 | safeHTML  }}
+                                [&#8230;]</p>
+                            <p><a class="btn btn-secondary understrap-read-more-link"
+                                    href="{{ $data.home.create_garden_link | safeHTML  }}">{{ $data.home.land_text3 | safeHTML  }}&#8230;</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 aBlogContainer">
+                    <div class="aBlog">
+                        <div class="blog-img"><a
+                                href="{{ $data.home.land_light_link | safeHTML  }}"><img width="960"
+                                    height="639"
+                                    src="{{"/img/IMG_7262.JPG.jpg" | relURL }}"
+                                    class="attachment-full size-full wp-post-image jetpack-lazy-image" alt=""
+                                    loading="lazy"
+                                    data-lazy-srcset="/img/IMG_7262.JPG.jpg 960w,
+                                    /img /IMG_7262_300.JPG.jpg 300w,
+                                      /img/IMG_7262_768.JPG.jpg 768w"
+                                    data-lazy-sizes="(max-width: 960px) 100vw, 960px"
+                                    data-lazy-src="{{"/img/IMG_7262.JPG.jpg" | relURL }}"
+                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+                        </div>
+                        <div class="blog-title"><a
+                                href="{{ $data.home.land_light_link | safeHTML  }}">{{ $data.home.land_light_text1 | safeHTML  }}</a></div>
+                        <div class="blog-excerpt">
+                            <p>{{ $data.home.land_light_text2 | safeHTML  }} [&#8230;]
+                            </p>
+                            <p><a class="btn btn-secondary understrap-read-more-link"
+                                    href="{{ $data.home.land_light_link | safeHTML  }}">{{ $data.home.land_text3 | safeHTML  }}&#8230;</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <section id="footer-logos">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center logosFooter">
+
+                <div class="col-md-4 text-center">
+                    <a href="https://www.maitrepaysagiste.com/" class="logosFooterImg" target="_blank">
+                        <img src="{{"/img/logo_maitre-paysagiste.png" | relURL }}"
+                            alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="https://appq.org/" class="logosFooterImg" target="_blank">
+                        <img src="{{"/img/logo_appq.png" | relURL }}"
+                            alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="https://rocvale.com/createur-dart-certifie-rocvale/" class="logosFooterImg"
+                        target="_blank">
+                        <img src="{{"/img/logo_createur-dart.png" | relURL }}"
+                            alt="" />
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+{{ partial "footer.html" . }}
+    <link rel='stylesheet' id='wpforms-full-css'
+        href='{{"/css/wpforms-full.min.css" | relURL }}'
+        type='text/css' media='all' />
+    <script type='text/javascript' src='{{"/js/photon.min.js" | relURL }}'
+        id='jetpack-photon-js'></script>
+    <script type='text/javascript'
+        src='{{"/js/theme.min.js" | relURL }}'
+        id='understrap-scripts-js'></script>
+    <script type='text/javascript'
+        src='{{"/js/intersection-observer.js" | relURL }}'
+        id='jetpack-lazy-images-polyfill-intersectionobserver-js'></script>
+    <script type='text/javascript' id='jetpack-lazy-images-js-extra'>
+        /* <![CDATA[ */
+        var jetpackLazyImagesL10n = {
+            "loading_warning": "Images are still loading. Please cancel your print and try again."
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript'
+        src='{{"/js/lazy-images.js" | relURL }}'
+        id='jetpack-lazy-images-js'></script>
+    <script type='text/javascript' src='{{"/js/wp-embed.min.js" | relURL }}' id='wp-embed-js'>
+    </script>
+    <script type='text/javascript'
+        src='{{"/js/jquery.validate.min.js" | relURL }}'
+        id='wpforms-validation-js'></script>
+    <script type='text/javascript'
+        src='{{"/js/jquery.inputmask.min.js" | relURL }}'
+        id='wpforms-maskedinput-js'></script>
+    <script type='text/javascript'
+        src='{{"/js/mailcheck.min.js" | relURL }}'
+        id='wpforms-mailcheck-js'></script>
+    <script type='text/javascript'
+        src='{{"/js/punycode.min.js" | relURL }}'
+        id='wpforms-punycode-js'></script>
+    <script type='text/javascript' src='{{"/js/wpforms.js" | relURL }}'
+        id='wpforms-js'></script>
+    <script type='text/javascript'
+        src='https://www.google.com/recaptcha/api.js?render=6Lf4q_8UAAAAAJHnVEqmusAvSZl_dHhOhchzgRrv'
+        id='wpforms-recaptcha-js'></script>
+    <script type='text/javascript' id='wpforms-recaptcha-js-after'>
+        var wpformsDispatchEvent = function (el, ev, custom) {
+            var e = document.createEvent(custom ? "CustomEvent" : "HTMLEvents");
+            custom ? e.initCustomEvent(ev, true, true, false) : e.initEvent(ev, true, true);
+            el.dispatchEvent(e);
+        };
+        var wpformsRecaptchaLoad = function () {
+            grecaptcha.execute("6Lf4q_8UAAAAAJHnVEqmusAvSZl_dHhOhchzgRrv", {
+                action: "wpforms"
+            }).then(function (token) {
+                Array.prototype.forEach.call(document.getElementsByName("wpforms[recaptcha]"), function (
+                el) {
+                    el.value = token;
+                });
+            });
+            wpformsDispatchEvent(document, "wpformsRecaptchaLoaded", true);
+        };
+        grecaptcha.ready(wpformsRecaptchaLoad);
+    </script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wpforms_settings = {
+            "val_required": "This field is required.",
+            "val_email": "Please enter a valid email address.",
+            "val_email_suggestion": "Did you mean {suggestion}?",
+            "val_email_suggestion_title": "Click to accept this suggestion.",
+            "val_email_restricted": "This email address is not allowed.",
+            "val_number": "Please enter a valid number.",
+            "val_number_positive": "Please enter a valid positive number.",
+            "val_confirm": "Field values do not match.",
+            "val_checklimit": "You have exceeded the number of allowed selections: {#}.",
+            "val_limit_characters": "{count} of {limit} max characters.",
+            "val_limit_words": "{count} of {limit} max words.",
+            "val_recaptcha_fail_msg": "La v\u00e9rification Google reCAPTCHA a \u00e9chou\u00e9, veuillez r\u00e9essayer ult\u00e9rieurement.",
+            "val_empty_blanks": "Please fill out all blanks.",
+            "uuid_cookie": "1",
+            "locale": "en",
+            "wpforms_plugin_url": "https:\/\/pro-design.ca\/wp-content\/plugins\/wpforms\/",
+            "gdpr": "",
+            "ajaxurl": "https:\/\/pro-design.ca\/wp-admin\/admin-ajax.php",
+            "mailcheck_enabled": "1",
+            "mailcheck_domains": [],
+            "mailcheck_toplevel_domains": ["dev"],
+            "is_ssl": "1",
+            "currency_code": "USD",
+            "currency_thousands": ",",
+            "currency_decimals": "2",
+            "currency_decimal": ".",
+            "currency_symbol": "$",
+            "currency_symbol_pos": "left",
+            "val_requiredpayment": "Payment is required.",
+            "val_creditcard": "Please enter a valid credit card number.",
+            "val_post_max_size": "The total size of the selected files {totalSize} Mb exceeds the allowed limit {maxSize} Mb.",
+            "val_time12h": "Please enter time in 12-hour AM\/PM format (eg 8:45 AM).",
+            "val_time24h": "Please enter time in 24-hour format (eg 22:45).",
+            "val_url": "Please enter a valid URL.",
+            "val_fileextension": "File type is not allowed.",
+            "val_filesize": "File exceeds max size allowed. File was not uploaded.",
+            "post_max_size": "134217728",
+            "val_password_strength": "A stronger password is required. Consider using upper and lower case letters, numbers, and symbols.",
+            "val_phone": "Please enter a valid phone number.",
+            "richtext_add_media_button": "",
+            "entry_preview_iframe_styles": [
+                "https:\/\/pro-design.ca\/wp-includes\/js\/tinymce\/skins\/lightgray\/content.min.css?ver=5.8.2",
+                "https:\/\/pro-design.ca\/wp-includes\/css\/dashicons.min.css?ver=5.8.2",
+                "https:\/\/pro-design.ca\/wp-includes\/js\/tinymce\/skins\/wordpress\/wp-content.css?ver=5.8.2"
+            ]
+        }
+        /* ]]> */
+    </script>
+    <script src='{{"/js/e-202151.js" | relURL }}' defer></script>
+    <script>
+        _stq = window._stq || [];
+        _stq.push(['view', {
+            v: 'ext',
+            j: '1:10.2',
+            blog: '198672254',
+            post: '468',
+            tz: '-5',
+            srv: 'pro-design.ca'
+        }]);
+        _stq.push(['clickTrackerInit', '198672254', '468']);
+    </script>
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="{{"/css/slick.css" | relURL }}" />
+    <script type="text/javascript" src="{{"/js/slick.min.js" | relURL }}"></script>
+
+    <!-- WOW JS -->
+    <script src="{{"/js/wow.min.js" | relURL }}"></script>
+    <script>
+        function afterReveal(el) {
+            el.addEventListener('animationend', function (event) {
+                $('.wow').each(function () {
+                    $(this).css('opacity', 1);
+                });
+            });
+        }
+        new WOW({
+            callback: afterReveal
+        }).init()
+    </script>
+
+    <!-- Custom JS -->
+    <script type="text/javascript" src="{{"/js/custom.js" | relURL }}"></script>
+
+</main>
+
+</body>
+
+</html>

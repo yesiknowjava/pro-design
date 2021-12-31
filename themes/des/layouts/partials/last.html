@@ -1,0 +1,146 @@
+
+    <link rel='stylesheet' id='wpforms-full-css'
+    href='{{"/css/wpforms-full.min.css" | relURL }}'
+    type='text/css' media='all' />
+<script type='text/javascript' src='{{"/js/photon.min.js" | relURL }}'
+    id='jetpack-photon-js'></script>
+<script type='text/javascript'
+    src='{{"/js/theme.min.js" | relURL }}'
+    id='understrap-scripts-js'></script>
+<script type='text/javascript'
+    src='{{"/js/intersection-observer.js" | relURL }}'
+    id='jetpack-lazy-images-polyfill-intersectionobserver-js'></script>
+<script type='text/javascript' id='jetpack-lazy-images-js-extra'>
+    /* <![CDATA[ */
+    var jetpackLazyImagesL10n = {
+        "loading_warning": "Images are still loading. Please cancel your print and try again."
+    };
+    /* ]]> */
+</script>
+<script type='text/javascript'
+    src='{{"/js/lazy-images.js" | relURL }}'
+    id='jetpack-lazy-images-js'></script>
+<script type='text/javascript' src='{{"/js/wp-embed.min.js" | relURL }}' id='wp-embed-js'>
+</script>
+<script type='text/javascript'
+    src='{{"/js/jquery.validate.min.js" | relURL }}'
+    id='wpforms-validation-js'></script>
+<script type='text/javascript'
+    src='{{"/js/jquery.inputmask.min.js" |relURL }}'
+    id='wpforms-maskedinput-js'></script>
+<script type='text/javascript'
+    src='{{"/js/mailcheck.min.js" | relURL }}'
+    id='wpforms-mailcheck-js'></script>
+<script type='text/javascript'
+    src='{{"/js/punycode.min.js" | relURL }}'
+    id='wpforms-punycode-js'></script>
+<script type='text/javascript' src='{{"/js/wpforms.js" | relURL }}'
+    id='wpforms-js'></script>
+<script type='text/javascript'
+    src='{{"/js/api.js" | relURL }}'
+    id='wpforms-recaptcha-js'></script>
+<script type='text/javascript' id='wpforms-recaptcha-js-after'>
+    var wpformsDispatchEvent = function (el, ev, custom) {
+        var e = document.createEvent(custom ? "CustomEvent" : "HTMLEvents");
+        custom ? e.initCustomEvent(ev, true, true, false) : e.initEvent(ev, true, true);
+        el.dispatchEvent(e);
+    };
+    var wpformsRecaptchaLoad = function () {
+        grecaptcha.execute("6Lf4q_8UAAAAAJHnVEqmusAvSZl_dHhOhchzgRrv", {
+            action: "wpforms"
+        }).then(function (token) {
+            Array.prototype.forEach.call(document.getElementsByName("wpforms[recaptcha]"), function (
+            el) {
+                el.value = token;
+            });
+        });
+        wpformsDispatchEvent(document, "wpformsRecaptchaLoaded", true);
+    };
+    grecaptcha.ready(wpformsRecaptchaLoad);
+</script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var wpforms_settings = {
+        "val_required": "This field is required.",
+        "val_email": "Please enter a valid email address.",
+        "val_email_suggestion": "Did you mean {suggestion}?",
+        "val_email_suggestion_title": "Click to accept this suggestion.",
+        "val_email_restricted": "This email address is not allowed.",
+        "val_number": "Please enter a valid number.",
+        "val_number_positive": "Please enter a valid positive number.",
+        "val_confirm": "Field values do not match.",
+        "val_checklimit": "You have exceeded the number of allowed selections: {#}.",
+        "val_limit_characters": "{count} of {limit} max characters.",
+        "val_limit_words": "{count} of {limit} max words.",
+        "val_recaptcha_fail_msg": "La v\u00e9rification Google reCAPTCHA a \u00e9chou\u00e9, veuillez r\u00e9essayer ult\u00e9rieurement.",
+        "val_empty_blanks": "Please fill out all blanks.",
+        "uuid_cookie": "1",
+        "locale": "en",
+        "wpforms_plugin_url": "https:\/\/pro-design.ca\/wp-content\/plugins\/wpforms\/",
+        "gdpr": "",
+        "ajaxurl": "https:\/\/pro-design.ca\/wp-admin\/admin-ajax.php",
+        "mailcheck_enabled": "1",
+        "mailcheck_domains": [],
+        "mailcheck_toplevel_domains": ["dev"],
+        "is_ssl": "1",
+        "currency_code": "USD",
+        "currency_thousands": ",",
+        "currency_decimals": "2",
+        "currency_decimal": ".",
+        "currency_symbol": "$",
+        "currency_symbol_pos": "left",
+        "val_requiredpayment": "Payment is required.",
+        "val_creditcard": "Please enter a valid credit card number.",
+        "val_post_max_size": "The total size of the selected files {totalSize} Mb exceeds the allowed limit {maxSize} Mb.",
+        "val_time12h": "Please enter time in 12-hour AM\/PM format (eg 8:45 AM).",
+        "val_time24h": "Please enter time in 24-hour format (eg 22:45).",
+        "val_url": "Please enter a valid URL.",
+        "val_fileextension": "File type is not allowed.",
+        "val_filesize": "File exceeds max size allowed. File was not uploaded.",
+        "post_max_size": "134217728",
+        "val_password_strength": "A stronger password is required. Consider using upper and lower case letters, numbers, and symbols.",
+        "val_phone": "Please enter a valid phone number.",
+        "richtext_add_media_button": "",
+        "entry_preview_iframe_styles": [
+            "/css/content.min.css",
+            "/css/dashicons.min.css",
+            "/js//wp-content.css"
+        ]
+    }
+    /* ]]> */
+</script>
+<script src='{{"/js/e-202152.js" | relURL }}' defer></script>
+<script>
+    _stq = window._stq || [];
+    _stq.push(['view', {
+        v: 'ext',
+        j: '1:10.2',
+        blog: '198672254',
+        post: '504',
+        tz: '-5',
+        srv: 'pro-design.ca'
+    }]);
+    _stq.push(['clickTrackerInit', '198672254', '504']);
+</script>
+
+<!-- Slick Slider -->
+<link rel="stylesheet" type="text/css" href="{{"/css/slick.css" | relURL }}" />
+<script type="text/javascript" src="{{"/js/slick.min.js" | relURL }}"></script>
+
+<!-- WOW JS -->
+<script src="{{"/js/wow.min.js" | relURL }}"></script>
+<script>
+    function afterReveal(el) {
+        el.addEventListener('animationend', function (event) {
+            $('.wow').each(function () {
+                $(this).css('opacity', 1);
+            });
+        });
+    }
+    new WOW({
+        callback: afterReveal
+    }).init()
+</script>
+
+<!-- Custom JS -->
+<script type="text/javascript" src="{{"/js/custom.js" | relURL }}"></script>

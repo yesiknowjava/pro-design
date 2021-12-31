@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "head.html" .}}
+<body class="blog wp-custom-logo wp-embed-responsive group-blog hfeed">
+
+{{ partial "header.html" . }}
+    <div id="tendances">
+
+        <section id="intro" class="d-flex justify-content-start align-items-center inner">
+            <div class="overlayContent">
+                <h1>
+                    <span class="small wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="">{{ $data.category.hero_text1 | safeHTML  }}</span>
+                    <span class="big wow fadeInRight" data-wow-duration=".5s" data-wow-delay="">{{ $data.category.hero_text2 | safeHTML  }}</span>
+                </h1>
+            </div>
+        </section>
+
+        <section id="main-content">
+            <div class="row">
+
+            
+                <div class="col-12">
+                    <div class="navpost-container">
+                        <span><a href="https://pro-design.ca/tendances/">{{ $data.category.sub_head1 | safeHTML  }}</a></span>
+                        <span>
+                            <select name='cat' id='cat' class='postform'>
+                                <option value='0' selected='selected'>{{ $data.category.sub_head2 | safeHTML  }}</option>
+                                <option class="level-0" value="155">{{ $data.category.durable | safeHTML  }}</option>
+                                <option class="level-0" value="156">{{ $data.category.osez | safeHTML  }}</option>
+                                <option class="level-0" value="157">{{ $data.category.elements | safeHTML  }}</option>
+                                <option class="level-0" value="158">{{ $data.category.source | safeHTML  }}</option>
+                                <option class="level-0" value="159">{{ $data.category.source | safeHTML  }}</option>
+                            </select>
+                            <i class="fas fa-angle-down selectArrow"></i>
+                        </span>
+                    </div>
+
+                    <script>
+                        document.getElementById('cat').onchange = function () {
+                            // if value is category id
+                            if (this.value !== '-1') {
+                                window.location = '/?cat=' + this.value
+                            }
+                        }
+                    </script>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/systemes-dirrigation-et-darrosage-automatiques/">
+                            <img width="1200" height="900"
+                                src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/09/blogue_arrosage.jpg?fit=1200%2C900&amp;ssl=1"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-srcset="https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/09/blogue_arrosage.jpg?w=1200&amp;ssl=1 1200w, 
+                                https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/09/blogue_arrosage.jpg?resize=300%2C225&amp;ssl=1 300w, 
+                                https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/09/blogue_arrosage.jpg?resize=1024%2C768&amp;ssl=1 1024w, 
+                                https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/09/blogue_arrosage.jpg?resize=768%2C576&amp;ssl=1 768w"
+                                data-lazy-sizes="(max-width: 1200px) 100vw, 1200px"
+                                data-lazy-src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/09/blogue_arrosage.jpg?fit=1200%2C900&amp;ssl=1&amp;is-pending-load=1"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/category/la-touche-finale/"
+                                                rel="category tag">La touche finale</a></li>
+                                    </ul>
+                                </span>
+                                Systèmes d’irrigation et d’arrosage automatiques : ça vaut le coût? </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/tendance-vegetaux-2021-la-nature-mise-en-vedette/">
+                            <img width="1200" height="900"
+                                src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2021/08/blofue_vegetaux.jpg?fit=1200%2C900&amp;ssl=1"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-srcset="https://i1.wp.com/pro-design.ca/wp-content/uploads/2021/08/blofue_vegetaux.jpg?w=1200&amp;ssl=1 1200w, 
+                                https://i1.wp.com/pro-design.ca/wp-content/uploads/2021/08/blofue_vegetaux.jpg?resize=300%2C225&amp;ssl=1 300w, 
+                                
+                                https://i1.wp.com/pro-design.ca/wp-content/uploads/2021/08/blofue_vegetaux.jpg?resize=1024%2C768&amp;ssl=1 1024w, 
+                                https://i1.wp.com/pro-design.ca/wp-content/uploads/2021/08/blofue_vegetaux.jpg?resize=768%2C576&amp;ssl=1 768w"
+                                data-lazy-sizes="(max-width: 1200px) 100vw, 1200px"
+                                data-lazy-src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2021/08/blofue_vegetaux.jpg?fit=1200%2C900&amp;ssl=1&amp;is-pending-load=1"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/category/la-touche-finale/"
+                                                rel="category tag">La touche finale</a></li>
+                                    </ul>
+                                </span>
+                                Tendance végétaux 2021 : la nature mise en vedette </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/vivre-a-la-maison-vivre-dehors/">
+                            <img width="1200" height="900"
+                                src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_vivre_maison.jpg?fit=1200%2C900&amp;ssl=1"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-srcset="https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_vivre_maison.jpg?w=1200&amp;ssl=1 1200w, 
+                                https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_vivre_maison.jpg?resize=300%2C225&amp;ssl=1 300w, 
+                                https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_vivre_maison.jpg?resize=1024%2C768&amp;ssl=1 1024w, 
+                                
+                             768w"
+                                data-lazy-sizes="(max-width: 1200px) 100vw, 1200px"
+                                data-lazy-src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_vivre_maison.jpg?fit=1200%2C900&amp;ssl=1&amp;is-pending-load=1"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/category/les-elements-cles/"
+                                                rel="category tag">Les éléments clés</a></li>
+                                    </ul>
+                                </span>
+                                Vivre à la maison, vivre dehors </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/construire-sur-une-fondation-solide/">
+                            <img width="1200" height="900"
+                                src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_fondation-1.jpg?fit=1200%2C900&amp;ssl=1"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-srcset="https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_fondation-1.jpg?w=1200&amp;ssl=1 1200w,
+                                 https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_fondation-1.jpg?resize=300%2C225&amp;ssl=1 300w,
+                                  https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_fondation-1.jpg?resize=1024%2C768&amp;ssl=1 1024w, 
+                                  https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_fondation-1.jpg?resize=768%2C576&amp;ssl=1 768w"
+                                data-lazy-sizes="(max-width: 1200px) 100vw, 1200px"
+                                data-lazy-src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2021/05/blogue_fondation-1.jpg?fit=1200%2C900&amp;ssl=1&amp;is-pending-load=1"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/category/les-elements-cles/"
+                                                rel="category tag">Les éléments clés</a></li>
+                                    </ul>
+                                </span>
+                                Construire sur une fondation solide </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/lentretien-de-votre-paysage/">
+                            <img width="600" height="429"
+                                src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/09/308050_10150331172586681_523016680_8469649_661628271_n.jpg?fit=600%2C429&amp;ssl=1"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-srcset="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/09/308050_10150331172586681_523016680_8469649_661628271_n.jpg?w=600&amp;ssl=1 600w, 
+                                https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/09/308050_10150331172586681_523016680_8469649_661628271_n.jpg?resize=300%2C215&amp;ssl=1 300w"
+                                data-lazy-sizes="(max-width: 600px) 100vw, 600px"
+                                data-lazy-src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/09/308050_10150331172586681_523016680_8469649_661628271_n.jpg?fit=600%2C429&amp;ssl=1&amp;is-pending-load=1"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/category/investissement-durable/"
+                                                rel="category tag">Investissement durable</a></li>
+                                    </ul>
+                                </span>
+                                L’entretien de votre paysage </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/osez-un-paysagement-different/">
+                            <img width="1200" height="900"
+                                src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/07/IMG_3245.jpg?fit=1200%2C900&amp;ssl=1"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image"
+                                alt="amenagement_exterieur_tendances" loading="lazy"
+                                data-lazy-srcset="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/07/IMG_3245.jpg?w=1200&amp;ssl=1 1200w,
+                                 https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/07/IMG_3245.jpg?resize=300%2C225&amp;ssl=1 300w, 
+                                 https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/07/IMG_3245.jpg?resize=1024%2C768&amp;ssl=1 1024w,
+                                  https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/07/IMG_3245.jpg?resize=768%2C576&amp;ssl=1 768w"
+                                data-lazy-sizes="(max-width: 1200px) 100vw, 1200px"
+                                data-lazy-src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/07/IMG_3245.jpg?fit=1200%2C900&amp;ssl=1&amp;is-pending-load=1"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/category/osez/" rel="category tag">Osez</a>
+                                        </li>
+                                    </ul>
+                                </span>
+                                Osez un paysagement différent </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/reussir-son-amenagement-exterieur/">
+                            <img width="1201" height="901"
+                                src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/06/blogueprodesign_zones-e1593790674574.jpg?fit=1201%2C901&amp;ssl=1"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-srcset="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/06/blogueprodesign_zones-e1593790674574.jpg?w=1201&amp;ssl=1 1201w,
+                                 https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/06/blogueprodesign_zones-e1593790674574.jpg?resize=300%2C225&amp;ssl=1 300w, 
+                                 https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/06/blogueprodesign_zones-e1593790674574.jpg?resize=1024%2C768&amp;ssl=1 1024w,
+                                  https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/06/blogueprodesign_zones-e1593790674574.jpg?resize=768%2C576&amp;ssl=1 768w"
+                                data-lazy-sizes="(max-width: 1201px) 100vw, 1201px"
+                                data-lazy-src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/06/blogueprodesign_zones-e1593790674574.jpg?fit=1201%2C901&amp;ssl=1&amp;is-pending-load=1"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/category/les-elements-cles/"
+                                                rel="category tag">Les éléments clés</a></li>
+                                    </ul>
+                                </span>
+                                Réussir son aménagement extérieur </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/la-creation-despaces-verts-lumiere-sur-les-potagers-et-jardins/">
+                            <img width="1201" height="901"
+                                src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png?fit=1201%2C901&amp;ssl=1"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-srcset="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png?w=1201&amp;ssl=1 1201w,
+                                 https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png?resize=300%2C225&amp;ssl=1 300w,
+                                  https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png?resize=1024%2C768&amp;ssl=1 1024w, 
+                                  https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png?resize=768%2C576&amp;ssl=1 768w"
+                                data-lazy-sizes="(max-width: 1201px) 100vw, 1201px"
+                                data-lazy-src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png?fit=1201%2C901&amp;ssl=1&amp;is-pending-load=1"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/category/retour-aux-sources/"
+                                                rel="category tag">Retour aux sources</a></li>
+                                    </ul>
+                                </span>
+                                Lumière sur les potagers et jardins </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/leclairage-un-incontournable-de-lamenagement-paysager/">
+                            <img width="960" height="639"
+                                src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/IMG_7262.JPG.jpg?fit=960%2C639&amp;ssl=1"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-srcset="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/IMG_7262.JPG.jpg?w=960&amp;ssl=1 960w,
+                                 https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/IMG_7262.JPG.jpg?resize=300%2C200&amp;ssl=1 300w, 
+                                 https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/IMG_7262.JPG.jpg?resize=768%2C511&amp;ssl=1 768w"
+                                data-lazy-sizes="(max-width: 960px) 100vw, 960px"
+                                data-lazy-src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/IMG_7262.JPG.jpg?fit=960%2C639&amp;ssl=1&amp;is-pending-load=1"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/category/la-touche-finale/"
+                                                rel="category tag">La touche finale</a></li>
+                                    </ul>
+                                </span>
+                                L’éclairage, un incontournable de l’aménagement paysager </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+{{ partial "footerlogo.html" . }}
+{{ partial "footer.html" . }}
+{{ partial "last.html" . }}
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+    <section id="inner-cta">
+        <div class="row">
+            <div class="col-md-4 p-0">
+                <div class="cta-left-container">
+                    <div class="cta-left" style="cursor: pointer;"
+                        onclick="window.location='/en/contact/';">
+                        <div class="object">
+                            <img src="{{"/img/rock-blk-shadow-2.png" | relURL }}"
+                                alt="" />
+                        </div>
+                        <div>
+                            <span class="small">{{ $data.expertise.proj_text | safeHTML  }} </span>
+                            <span class="big">{{ $data.expertise.proj_text2 | safeHTML  }} </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="cta-center-container">
+                    <div class="cta-center" style="cursor: pointer;"
+                        onclick="window.location='/en/exterior-design/';">
+                        <div class="object">
+                            <img src="{{"/img/plant.png" | relURL }}"
+                                alt="" />
+                        </div>
+                        <div>
+                            <span class="small">{{ $data.expertise.space_head | safeHTML  }} </span>
+                            <span class="big">{{ $data.expertise.space_text | safeHTML  }} </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="cta-right-container">
+                    <div class="cta-right" style="cursor: pointer;"
+                        onclick="window.location='https://pro-design.ca/en/portfolio/';">
+                        <div class="object">
+                            <img src="{{"/img/rocks.png" | relURL }}"
+                                alt="" />
+                        </div>
+                        <div>
+                            <span class="small">{{ $data.expertise.mode_head | safeHTML  }} </span>
+                            <span class="big">{{ $data.expertise.mode_text | safeHTML  }} </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

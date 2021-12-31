@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+{{ partial "head.html" .}}
+<body class="blog wp-custom-logo wp-embed-responsive group-blog hfeed">
+
+{{ partial "header.html" . }}
+    <div id="tendances">
+
+        <section id="intro" class="d-flex justify-content-start align-items-center inner">
+            <div class="overlayContent">
+                <h1>
+                    <span class="small wow fadeInLeft" data-wow-duration=".5s" data-wow-delay=""> </span>
+                    <span class="big wow fadeInRight" data-wow-duration=".5s" data-wow-delay="">{{ $data.trends.hero_text | safeHTML  }}</span>
+                </h1>
+            </div>
+        </section>
+
+        <section id="main-content">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="navpost-container">
+                        <span><a href="https://pro-design.ca/en/trends/">{{ $data.trends.all | safeHTML  }}</a></span>
+                        <span>
+                            <select name='cat' id='cat' class='postform'>
+                                <option value='0' selected='selected'>{{ $data.trends.cat | safeHTML  }}</option>
+                                <option class="level-0" value="2">{{ $data.trends.uncat | safeHTML  }}</option>
+                                <option class="level-0" value="160">{{ $data.trends.sustainabel | safeHTML  }}</option>
+                                <option class="level-0" value="161">{{ $data.trends.dare | safeHTML  }}</option>
+                                <option class="level-0" value="162">{{ $data.trends.dare | safeHTML  }}</option>
+                                <option class="level-0" value="163">{{ $data.trends.roots | safeHTML  }}</option>
+                                <option class="level-0" value="164">{{ $data.trends.touch | safeHTML  }}</option>
+                            </select>
+                            <i class="fas fa-angle-down selectArrow"></i>
+                        </span>
+                    </div>
+
+                    <script>
+                        document.getElementById('cat').onchange = function () {
+                            // if value is category id
+                            if (this.value !== '-1') {
+                                window.location = '/?cat=' + this.value
+                            }
+                        }
+                    </script>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/en/making-the-most-of-your-landscape-design/">
+                            <img width="2154" height="1424"
+                                src="{{"/img/blogueprodesign_zones-e1593790674574.jpg"  | relURL }}"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-src="{{"/img/blogueprodesign_zones-e1593790674574.jpg" | relURL }}"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/en/category/the-key-elements/"
+                                                rel="category tag">{{ $data.trends.key_element | safeHTML  }}</a></li>
+                                    </ul>
+                                </span>
+                                {{ $data.trends.land_design | safeHTML  }} </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/en/a-daring-new-landscape/">
+                            <img width="1200" height="900"
+                                src="{{"/img/IMG_3245.jpg?" | relURL }}"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image"
+                                alt="amenagement_exterieur_tendances" loading="lazy"
+                                data-lazy-srcset="/img/IMG_3245.jpg 1200w,
+                                 /img/IMG_3245_300.jpg 300w,
+                                  /img/IMG_3245_1024.jpg 1024w, 
+                                  /img/IMG_3245_768.jpg 768w"
+                                data-lazy-sizes="(max-width: 1200px) 100vw, 1200px"
+                                data-lazy-src="{{"/img/IMG_3245.jpg"  | relURL }}"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/en/category/dare/"
+                                                rel="category tag">{{ $data.trends.dare | safeHTML  }}</a></li>
+                                    </ul>
+                                </span>
+                                {{ $data.trends.dare_land | safeHTML  }}</h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/en/maintaining-your-landscape/">
+                            <img width="600" height="429"
+                                src="{{"/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"  | relURL }}"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-srcset="/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg 600w,
+                                 /img/308050_10150331172586681_523016680_8469649_661628271_n_800.jpg 300w"
+                                data-lazy-sizes="(max-width: 600px) 100vw, 600px"
+                                data-lazy-src="{{"/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"  | relURL }}"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/en/category/sustainable-investment/"
+                                                rel="category tag">{{ $data.trends.sustainabel | safeHTML  }}</a></li>
+                                    </ul>
+                                </span>
+                                {{ $data.trends.main_land | safeHTML  }}</h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/en/creating-green-spaces-gardens-and-vegetable-plots/">
+                            <img width="2154" height="1424"
+                                src="{{"/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png" | relURL }}"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-src="{{"/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png" | relURL }}"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/en/category/back-to-the-roots/"
+                                                rel="category tag">{{ $data.trends.roots | safeHTML  }}</a></li>
+                                    </ul>
+                                </span>
+                                {{ $data.trends.garden | safeHTML  }} </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="aTendance">
+                        <a href="https://pro-design.ca/en/lighting-is-crucial-in-landscaping/">
+                            <img width="960" height="639"
+                                src="{{"/img/IMG_7262.JPG.jpg" | relURL }}"
+                                class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
+                                data-lazy-srcset="/img/IMG_7262.JPG.jpg 960w,
+                                 /img/IMG_7262.JPG_300.jpg 300w,
+                                  /img/IMG_7262.JPG_768.jpg 768w"
+                                data-lazy-sizes="(max-width: 960px) 100vw, 960px"
+                                data-lazy-src="{{"/img/IMG_7262.JPG.jpg" | relURL }}"
+                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+                            <h2>
+                                <span>
+                                    <ul class="post-categories">
+                                        <li><a href="https://pro-design.ca/en/category/the-final-touch/"
+                                                rel="category tag">{{ $data.trends.touch | safeHTML  }}</a></li>
+                                    </ul>
+                                </span>
+                                {{ $data.trends.light | safeHTML  }} </h2>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+   {{partial "footerlogo.html" . }}
+{{partial "footer.html" .}}
+{{ partial "last.html" . }}
+</body>
+
+</html>

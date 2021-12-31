@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+{{ partial "head.html" . }}
+<body
+    class="page-template page-template-page-templates page-template-template-expertise page-template-page-templatestemplate-expertise-php page page-id-504 wp-custom-logo wp-embed-responsive group-blog">
+
+{{ partial "header.html" . }}
+    <div id="expertise">
+
+        <section id="intro" class="d-flex justify-content-start align-items-center inner">
+            <div class="overlayContent">
+                <h1>
+                    <span class="small wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="">{{ $data.expertise.hero_text1 | safeHTML  }}</span>
+                    <span class="big wow fadeInRight" data-wow-duration=".5s" data-wow-delay="">{{ $data.expertise.hero_text2 | safeHTML  }}</span>
+                </h1>
+            </div>
+            <img src="{{"/img/header-expertise.jpg" | relURL }} " class="wow fadeIn" data-wow-duration="1s"
+                data-wow-delay="0" width="100%" alt />
+        </section>
+
+        <section id="main-content"
+            style="background: url(/img/foret.jpg) #fff top center no-repeat;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>
+                            <span>{{ $data.expertise.pro_text | safeHTML  }}</span>
+                            {{ $data.expertise.landtext | safeHTML  }}
+                        </h2>
+                    </div>
+                    <div class="col-xl-6">
+                        <p><span style="font-weight: 400;">{{ $data.expertise.pro_text1 | safeHTML  }}</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="expertise-infos">
+            <div class="container">
+
+                <div class="row d-flex justify-content-center align-items-start">
+                    <div class="col-md-5">
+                        <img src="{{"/img/yannick-bigras.jpg" | relURL }}"
+                            alt="" />
+                    </div>
+                    <div class="col-md-7">
+                        <div class="text-col-right">
+                            <h2>
+                                <span>{{ $data.expertise.founder | safeHTML  }}</span>
+                                {{ $data.expertise.founder_nme | safeHTML  }}
+                            </h2>
+                            <p><span style="font-weight: 400;">{{ $data.expertise.founder_text | safeHTML  }}</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center align-items-end flex-md-row-reverse negative-margin-less">
+                    <div class="col-md-5">
+                        <img src="{{"/img/sebastien-bigras.jpg" | relURL }}"
+                            alt="" />
+                    </div>
+                    <div class="col-md-7">
+                        <div class="text-col-left">
+                            <h2 class="white">
+                                <span>{{ $data.expertise.associate | safeHTML  }}</span>
+                                {{ $data.expertise.associate_nme | safeHTML  }} </h2>
+                            <p class="white"><span style="font-weight: 400;">{{ $data.expertise.associate_text | safeHTML  }}</span></p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="cta-maitre-paysagiste">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <img src="{{"/img/maitre-paysagiste.jpg" | relURL }}"
+                        alt="" />
+                </div>
+            </div>
+            <div class="row more-more-padding">
+                <div class="col-12">
+                    <h2 class="white">
+                        <span>{{ $data.expertise.master_head1 | safeHTML  }}</span>
+                        {{ $data.expertise.master_head2 | safeHTML  }}
+                    </h2>
+                </div>
+                <div class="col-md-6">
+                    <p class="white"><strong class="medium">{{ $data.expertise.master_text1 | safeHTML  }}</strong></p>
+                </div>
+                <div class="col-md-6">
+                    <p class="white">{{ $data.expertise.master_text2 | safeHTML  }}</p>
+                </div>
+            </div>
+
+            <div id="slider-etapes">
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/logo-paysagiste-certifie.png" | relURL }}"
+                            alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.expertise.first_head | safeHTML  }}</span>
+                            {{ $data.expertise.first_text | safeHTML  }}<p>{{ $data.expertise.first_text2 | safeHTML  }}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/003-like.png" | relURL }}"
+                            alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.expertise.second_head | safeHTML  }}</span>
+                            {{ $data.expertise.second_text | safeHTML  }}</div>
+                        <p>{{ $data.expertise.second_text2 | safeHTML  }}</p>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/001-chat.png" | relURL }}"
+                            alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.expertise.third_head | safeHTML  }}</span>
+                            {{ $data.expertise.third_text | safeHTML  }}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/004-organize.png" | relURL }}"
+                            alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.expertise.fou_head | safeHTML  }}</span>
+                            {{ $data.expertise.fou_text | safeHTML  }}<p>{{ $data.expertise.fou_text2 | safeHTML  }}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="{{"/img/05_blanc.svg" | relURL }}" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.expertise.five_head | safeHTML  }}</span>
+                            {{ $data.expertise.five_text | safeHTML  }} <p>{{ $data.expertise.five_text2 | safeHTML  }}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="https://pro-design.ca/wp-content/uploads/2020/05/06_blanc.svg" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.expertise.six_head | safeHTML  }}</span>
+                            {{ $data.expertise.six_text | safeHTML  }} <p>{{ $data.expertise.six_text2 | safeHTML  }}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="https://pro-design.ca/wp-content/uploads/2020/05/07_blanc.svg" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.expertise.seven_head| safeHTML  }}</span>
+                            {{ $data.expertise.seven_text | safeHTML  }} <p>{{ $data.expertise.seven_text2 | safeHTML  }}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="https://pro-design.ca/wp-content/uploads/2020/05/08_blanc.svg" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.expertise.eight_head | safeHTML  }}</span>
+                            {{ $data.expertise.eight_text | safeHTML  }} <p>{{ $data.expertise.eight_text2 | safeHTML  }}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="https://pro-design.ca/wp-content/uploads/2020/05/09_blanc.svg" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.expertise.nine_head | safeHTML  }}</span>
+                            {{ $data.expertise.nine_text | safeHTML  }} <p>{{ $data.expertise.nine_text2 | safeHTML  }}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="https://pro-design.ca/wp-content/uploads/2020/05/10_blanc.svg" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>{{ $data.expertise.ten_head | safeHTML  }}</span>
+                            {{ $data.expertise.ten_text | safeHTML  }} <p>{{ $data.expertise.ten_text2 | safeHTML  }}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </section>
+
+        <section id="createur-art"
+            style="background: url(/img/bg-createur-art.jpg) center center no-repeat; background-size: cover;">
+            <div class="row m-0">
+                <div class="col-md-6 p-0">
+                    <img src="{{"/img/logo-certifie-rocvale.png" | relURL }}"
+                        class="mb-5" alt="" />
+                    <p>Pro Design&#8217;s expertise in exterior landscaping as well as its ability to work with natural
+                        stone and concrete products have earned the company the designation of Rocvale Certified Art
+                        Creator.</p>
+                    <p> {{ $data.expertise.rocvale_text2 | safeHTML  }} </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+{{ partial "innercta.html" . }}
+  {{ partial "footerlogo.html" . }}
+{{ partial "footer.html" . }}
+{{ partial "last.html" . }}
+</body>
+
+</html>

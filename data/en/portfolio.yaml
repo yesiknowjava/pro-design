@@ -1,0 +1,14 @@
+hero_text1: "Our"
+hero_text2: "Portfolio"
+portfolio_listings:
+  - link: "/en/ct_portfolio/amenagement-exterieur/"
+    name: "Aménagement extérieur"
+
+  - link: "/en/ct_portfolio/eclairage-paysager/"
+    name: "Éclairage paysager"
+
+  - link: "/en/ct_portfolio/pave-et-muret/"
+    name: "Pavé et muret"
+
+  - link: "/en/ct_portfolio/travail-de-la-pierre/"
+    name: "Travail de la pierre"
