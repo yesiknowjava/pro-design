@@ -14,11 +14,64 @@ main_land: "Maintaining your landscape"
 garden: "Creating green spaces: gardens and vegetable plots "
 light: "Lighting is crucial in landscaping"
 
-trends:
-  - name: "Making the most of your landscape design11"
+pages:
+  - tag: "making_the_1"
+    name: "Making the most of your landscape design"
     category :  "THE KEY ELEMENTS11"
     link :  "/en/making-the-most-of-your-landscape-design/"
+    para1:
+      col1: '<div class="col-md-6 col-lg-7">
+                        <p>In recent years, exterior design has become a vital part of a home&#8217;s identity, with the
+                            notion of a comfortable, thoughtfully designed backyard having become a focal point for
+                            many. A growing number of people want to essentially live outside instead of staying cooped
+                            up indoors! To make the most out of your investment, your outdoor space must offer the same
+                            level of well-being and functionality offered by your interior design.</p>
+                        <p><strong>Different Areas for Different Purposes</strong></p>
+                        <p>Your home benefits from having rooms with distinct atmospheres and functions. Why not give
+                            your outdoor space the same consideration by splitting it into different areas that satisfy
+                            different needs? When planning your layout, don’t forget to take advantage of the natural
+                            elements that are already at your disposal.</p>
+                        <ul>
+                            <li><strong>Relaxation area</strong>: preferably in a shaded section of the grounds, this
+                                area should include comfortable furniture for napping, reading, and chatting. Privacy
+                                barriers may be useful to isolate this portion of the yard.</li>
+                            <li><strong>Sunny area</strong>: often close to the pool, this area is in the sunniest spot
+                                and features loungers for sunbathing. It’s also a perfect area to include exotic plants
+                                or playground equipment for kids.</li>
+                            <li><strong>Evening area</strong>: the outdoor fireplace is the central focus of this area.
+                                Consider elements such as atmospheric ambient lighting, wooden chairs, and music. If
+                                you’re keen on keeping away mosquitoes, the use of natural, paving, or river stone is
+                                ideal.</li>
+                            <li><strong>Dining area</strong>: also located in the shade, this area is the most robust
+                                part of your layout. It must have enough space to include furniture as well as shelter
+                                to protect you from mosquitoes, rain, or harsh sunlight. Your vegetable garden can be
+                                placed nearby, and this area ought to be close to the entrance leading inside.</li>
+                        </ul>
+                    </div>'
+      col2: '<div class="col-md-6 col-lg-5 col-right">
+          <h6>
+            Now matter how complex and ambitious your ideas may be, we can make your outdoor space a dream come true!          </h6>
+        </div>'
+  - tag: "making_the_2"
+    name: "A DARING NEW LANDSCAPE"
+    category :  "THE KEY ELEMENTS2222"
+    link :  "/en/a-daring-new-landscape/"
+    para1:
+      col1: '<div class="col-md-6 col-lg-7">
+          <p>2020 is the year of happiness at home. Current trends in exterior design are clear: it’s time to recreate the indoors in your outdoor space! Bring the comfort of the living room, the warmth of the bedroom, and the functionality of the kitchen right into your backyard.</p>
+<p>Landscape design has become a genuine art form as well as an integral part of a home’s overall layout and identity. If you’re willing to carefully refine each room of your home by adding interesting colours, decorations, and accessories, why not do the same with your landscaping? This summer, we invite you to be bold and think outside the box!</p>
+        </div>'
+      col2: '<div class="col-md-6 col-lg-5 col-right">
+          <h6>
+            Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.           </h6>
+        </div>'
+    
 
-  - name: "Making the most of your landscape design22"
-    category :  "THE KEY ELEMENTS22"
-    link :  "/en/making-the-most-of-your-landscape-design/"
+# trends:        
+#   - name: "Making the most of your landscape design11"
+#     category :  "THE KEY ELEMENTS22"
+#     link :  "/en/making-the-most-of-your-landscape-design/"    
+
+#   - name: "Making the most of your landscape design22"
+#     category :  "THE KEY ELEMENTS22"
+#     link :  "/en/making-the-most-of-your-landscape-design/"
