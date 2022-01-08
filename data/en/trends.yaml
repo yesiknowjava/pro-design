@@ -15,10 +15,12 @@ garden: "Creating green spaces: gardens and vegetable plots "
 light: "Lighting is crucial in landscaping"
 
 pages:
-  - tag: "making_the_1"
+  - tag: "Making the most of your landscape design"
     name: "Making the most of your landscape design"
     category :  "THE KEY ELEMENTS11"
     link :  "/en/making-the-most-of-your-landscape-design/"
+    img1 : "/img/blogueprodesign_zones-e1593790674574.jpg"
+    img2 : "/img/blogueprodesign_zones-e1593790674574.jpg"
     para1:
       col1: '<div class="col-md-6 col-lg-7">
                         <p>In recent years, exterior design has become a vital part of a home&#8217;s identity, with the
@@ -52,19 +54,81 @@ pages:
           <h6>
             Now matter how complex and ambitious your ideas may be, we can make your outdoor space a dream come true!          </h6>
         </div>'
-  - tag: "making_the_2"
+      col3: '<div class="col-12 p-2col">
+        	<p><strong>The Outdoor Kitchen</strong></p>
+            <p>Outdoor kitchens are more popular than ever! If you’re interested, it’s important to choose the right section of your space, making sure that it’s close to the house and easily accessible. In this area, no rainwater should be able to accumulate and no large trees should be nearby in order to avoid the need for frequent maintenance. Next, choose equipment suited to your needs and select products and materials that are utilitarian, weather-resistant, and easy to maintain. As for the design itself, there are no limits: countertops, furniture, integrated pizza oven and smoker, storage, appliances, patio heaters, light fixtures, and so much more– anything is possible!</p>
+            <p><strong>Don’t Forget About Maintenance</strong></p>
+            <p>Just like indoors, cleaning and maintenance are necessary to ensure the longevity of your outdoor space. However, you can choose equipment and plants that require very little care and attention so that you can enjoy your weekends to the fullest. Unlike wood, both natural stone and concrete are weather-resistant materials that require only a small degree of maintenance. While they’re more expensive to install, their extreme durability will help them last for years to come. As for plants, if you don’t have a particularly green thumb, we recommend that you opt for perennials, grasses, and small conifers. You should also consider choosing sturdy furniture and adding storage space for rainy days.</p>
+            </div>'
+      col4: '<p>Now matter how complex and ambitious your ideas may be, we can make your outdoor space a dream come true!</p>'
+
+
+
+  - tag: "A DARING NEW LANDSCAPE"
     name: "A DARING NEW LANDSCAPE"
-    category :  "THE KEY ELEMENTS2222"
+    category :  "PRO DESIGN LANDSCAPING"
     link :  "/en/a-daring-new-landscape/"
+    img1 : "/img/IMG_3245.jpg"
+    img2 : "/img/IMG_3245.jpg"
     para1:
-      col1: '<div class="col-md-6 col-lg-7">
-          <p>2020 is the year of happiness at home. Current trends in exterior design are clear: it’s time to recreate the indoors in your outdoor space! Bring the comfort of the living room, the warmth of the bedroom, and the functionality of the kitchen right into your backyard.</p>
-<p>Landscape design has become a genuine art form as well as an integral part of a home’s overall layout and identity. If you’re willing to carefully refine each room of your home by adding interesting colours, decorations, and accessories, why not do the same with your landscaping? This summer, we invite you to be bold and think outside the box!</p>
-        </div>'
-      col2: '<div class="col-md-6 col-lg-5 col-right">
+        col1: '<div class="col-md-6 col-lg-7">
+            <p>2020 is the year of happiness at home. Current trends in exterior design are clear: it’s time to recreate the indoors in your outdoor space! Bring the comfort of the living room, the warmth of the bedroom, and the functionality of the kitchen right into your backyard.</p>
+            <p>Landscape design has become a genuine art form as well as an integral part of a home’s overall layout and identity. If you’re willing to carefully refine each room of your home by adding interesting colours, decorations, and accessories, why not do the same with your landscaping? This summer, we invite you to be bold and think outside the box!</p>
+            </div>'
+        col2: '<div class="col-md-6 col-lg-5 col-right">
+            <h6>
+            Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.           
+            </h6>
+            </div>'
+        row1: '<div class="row">
+        <div class="col-12 p-2col">
+        	<p><strong>Slabs and Paving Stones</strong></p>
+        <p>It’s always fun to get in touch with your creative side and let your imagination run wild to create a unique outdoor design. One key element that can completely change the look of your space is the addition of natural stone. Whether for flooring or retaining walls, there are tons of amazing colours, textures, and layouts that you can explore. Adding Chinese steps to the 2.0 look, inserting herringbone or honeycomb stones, and mixing colours and materials within the same cladding are just scratching the surface!</p>
+        <p>Although adding natural stone requires a somewhat higher investment, its unmatched beauty will last for years, requiring only minimal maintenance.</p>
+        <p>This season’s trend focuses on contemporary design and large format slabs with a smooth finish. Just as we see in interior design, we aim for a clean look that allows for the juxtaposition of compelling finishing elements. When it comes to quality and aesthetics, Rocvale products are the perfect choice!</p>
+        <p><strong>Mixing Materials</strong></p>
+        <p>To be at the cutting edge, you have to let your creativity shine. Be bold and combine different kinds of materials and styles! If you opt for clean and modern flooring, add some warm wood elements or wicker furniture. You can also set up privacy barriers made of wooden slats and dress them with climbing plants to add a pop of colour. Metal, river stone, wood, rattan, cork, and glass are all materials that can coexist harmoniously within the same space if matched thoughtfully.</p>
+        <p><strong>The Warmth of Home</strong></p>
+        <p>Finally, don’t hesitate to incorporate interior elements into your exterior areas. Small bedside lamps on side tables, cushions, carpets, and potted plants such as succulents or cacti will liven up your landscape design and make you want to enjoy your outdoor space as often as possible. As far as comfort goes, rope chairs and hammocks are popular choices for fostering a cozy, bohemian atmosphere.</p>
+        <p>Another indoor element you can bring outside is your kitchen. No matter your space and budget, it can work wonders to simply dress up your barbecue with a wooden structure while also adding some shelves, herb trays, or a small work surface.</p>
+        </div>
+         </div>'
+        row2: '<div class="row">
+                <div class="col-12 mention">
+        	<p>The idea here is to show you that the only limit is your own imagination. Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.</p>
+             </div>
+            </div>'
+
+
+  - tag: "MAINTAINING YOUR LANDSCAPE"
+    name: "MAINTAINING YOUR LANDSCAPE"
+    category :  "PRO DESIGN LANDSCAPING"
+    link :  "/en/maintaining-your-landscape/"
+    img1 : "/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"
+    img2 : "/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"
+    para1:
+        col1: '<div class="col-md-6 col-lg-7">
+          <p>Your outdoor layout is everything you’ve ever wanted: a flowering garden, a vegetable plot, strategic lighting, and delineated areas. Now that you’ve invested in plants and paving stones, you might be wondering how to make the most of your beautiful project and ensure its longevity. The simple secret? Maintenance!</p>
+          <p>An outdoor space lives and breathes, which means that it needs to be properly maintained in order to retain its beauty for years to come.</p>
+          </div>'
+        col2: '<div class="col-md-6 col-lg-5 col-right">
           <h6>
-            Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.           </h6>
-        </div>'
+            Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.          </h6>
+          </div>'
+        row1: '<div class="col-12 p-2col">
+        	<p><strong>Maintain Your Pavers and Natural Stone</strong></p>
+            <p>The main benefit of natural stone is its resistance, as it requires little attention and is durable enough to weather the seasons and years. However, there are a few key maintenance tips to keep in mind.</p>
+            <p>First, we recommend treating your surface right upon installation with a product suitable for natural stone. You will be able to choose between different finishes depending on your preferences: natural or satin, for example.</p>
+            <p>Another key tip is cleaning. No matter which type of natural stone you have, wipe off stains and deposits regularly with a brush along with a mixture of water and mild soap (Marseille soap is an excellent option). This will prevent dirt, debris, and other greasy/vegetal stains from accumulating. In the case of rainwater buildup, paver sections can begin to sag. In such a case, quickly readjust any sagging paving stones in order to prevent future problems. Although polymeric sand improves with new technologies, some maintenance is still necessary. Adding polymeric sand wherever it is missing is very important, and thankfully the installation technique is super simple.</p>
+            <p>We recommend cleaning the joints every season with a small soft-bristle brush. Note that the use of a pressure washer is not recommended. It’s also important not to let freshly cut grass clippings or dead leaves accumulate in the fall. The use of a leaf blower is an ideal choice for removing such debris.</p>
+            <p>Over time, plant deposits such as moss can become embedded between the stones, particularly in shaded areas. This phenomenon is typically caused by the accumulation of water and does not indicate that your stone is in poor health. To avoid it, you can treat your surface two to three times a year with a suitable natural product. Another common phenomenon is limestone efflorescence. This is a normal occurrence caused by crystalline deposits of salts resulting from the evaporation of water from the stone’s surface. While these stains eventually disappear on their own, recurring rain or sweeping can hasten the process.</p>
+            <p><strong>As for Winter?</strong></p>
+            <p>The majority of high quality stones and pavers such as Rocvale products are resistant to sand, gravel, and non-slip mixes without salts or chemicals. However, if you must use de-icing products, we recommend that you do so on a surface covered with snow or ice and not directly on the stone. Furthermore, de-icing salts must absolutely be avoided, as salt can cause the concrete to crumble. Another key recommendation is to choose a plastic snow shovel or to equip a metal shovel with a protector in order to avoid damaging the stone or leaving rust marks.</p>
+            <p><strong>Give a Little Love to Your Greenery</strong></p>
+            <p>While maintaining your flower beds is fairly simple, it still requires a bit of time and care. First, make sure to regularly remove unwanted weeds, which will help keep away harmful insects. In the spring, perform any necessary trimming and remove dead leaves, broken branches, and gravel. Before winter, from October to mid-November, make sure to completely remove dead leaves and flowers as well as any other unwanted debris from the ground. We recommend that you install specially designed protective fabrics to protect perennial shrubs from snow and ice.</p>
+            </div>'
+        row2: '<p>And don’t forget that the Pro Design team is always here to help! No matter the time of the year or your maintenance needs, our team is happy to offer advice and even do the work for you.</p>'
+    
     
 
 # trends:        

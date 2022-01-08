@@ -16,6 +16,12 @@
         {{ if eq $page_title_data .name }}
             {{ $scratch.Set "col1" .para1.col1 }}
             {{ $scratch.Set "col2" .para1.col2 }}
+            {{ $scratch.Set "row1" .para1.row1 }}
+            {{ $scratch.Set "row2" .para1.row2 }}
+            {{ $scratch.Set "img1" .img1 }}
+            {{ $scratch.Set "img2" .img2 }}
+            {{ $scratch.Set "category" .category }}
+            {{ $scratch.Set "name" .name}}
         {{ end }}
     {{ end }}
     <script type='text/javascript'
@@ -25,7 +31,7 @@
     <div id="tendances">
 
         <section id="intro" class="d-flex justify-content-start align-items-center inner single"
-            style="background: url(/img/blogueprodesign_zones-e1593790674574.jpg) center center no-repeat #000; background-size: cover;">
+            style="background: url( {{ .Scratch.Get "img1" | safeHTML }} ) center center no-repeat #000; background-size: cover;">
         </section>
 
         <section id="main-content" style="background-color: #f2f2ee;">
@@ -33,8 +39,8 @@
                 <div class="row">
                     <div class="col-12">
                         <h1>
-                            <span>Pro Design landscaping</span>
-                            Making the most of your landscape design
+                            <span>{{ .Scratch.Get "category" | safeHTML }}</span>
+                            {{ .Scratch.Get "name" | safeHTML }}
                         </h1>
                     </div>
                     {{ .Scratch.Get "col1" | safeHTML }}
@@ -46,42 +52,16 @@
 
             <div id="article-photo" class="row">
                 <div class="col-12">
-                    <img src="{{"/img/blogueprodesign_zones-e1593790674574.jpg" | relURL }}"
+                    <img src="{{ .Scratch.Get "img2" | safeHTML  }}"
                         alt="" />
                 </div>
             </div>
 
             <div class="container">
 
-                <div class="row">
-                    <div class="col-12 p-2col">
-                        <p><strong>The Outdoor Kitchen</strong></p>
-                        <p>Outdoor kitchens are more popular than ever! If you’re interested, it’s important to choose
-                            the right section of your space, making sure that it’s close to the house and easily
-                            accessible. In this area, no rainwater should be able to accumulate and no large trees
-                            should be nearby in order to avoid the need for frequent maintenance. Next, choose equipment
-                            suited to your needs and select products and materials that are utilitarian,
-                            weather-resistant, and easy to maintain. As for the design itself, there are no limits:
-                            countertops, furniture, integrated pizza oven and smoker, storage, appliances, patio
-                            heaters, light fixtures, and so much more&#8211; anything is possible!</p>
-                        <p><strong>Don&#8217;t Forget About Maintenance</strong></p>
-                        <p>Just like indoors, cleaning and maintenance are necessary to ensure the longevity of your
-                            outdoor space. However, you can choose equipment and plants that require very little care
-                            and attention so that you can enjoy your weekends to the fullest. Unlike wood, both natural
-                            stone and concrete are weather-resistant materials that require only a small degree of
-                            maintenance. While they’re more expensive to install, their extreme durability will help
-                            them last for years to come. As for plants, if you don&#8217;t have a particularly green
-                            thumb, we recommend that you opt for perennials, grasses, and small conifers. You should
-                            also consider choosing sturdy furniture and adding storage space for rainy days.</p>
-                    </div>
-                </div>
+                {{ .Scratch.Get "row1" | safeHTML }}
 
-                <div class="row">
-                    <div class="col-12 mention">
-                        <p>Now matter how complex and ambitious your ideas may be, we can make your outdoor space a
-                            dream come true!</p>
-                    </div>
-                </div>
+                {{ .Scratch.Get "row2" | safeHTML }}
 
                 <div class="row">
                     <div class="col-12 partage">

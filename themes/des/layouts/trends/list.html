@@ -21,7 +21,7 @@
 
                 <div class="col-12">
                     <div class="navpost-container">
-                        <span><a href="https://pro-design.ca/en/trends/">{{ $data.trends.all | safeHTML  }}</a></span>
+                        <span><a href="/en/trends/">{{ $data.trends.all | safeHTML  }}</a></span>
                         <span>
                             <select name='cat' id='cat' class='postform'>
                                 <option value='0' selected='selected'>{{ $data.trends.cat | safeHTML  }}</option>
@@ -52,16 +52,16 @@
                 
                 <div class="col-md-6">
                     <div class="aTendance">
-                        <a href="{{ .link }}">
+                        <a href="{{ .link | relURL }}">
                             <img width="2154" height="1424"
-                                src="{{"/img/blogueprodesign_zones-e1593790674574.jpg"  | relURL }}"
+                                src="{{ .img1 | relURL  }}"
                                 class="attachment-full size-full wp-post-image jetpack-lazy-image" alt="" loading="lazy"
-                                data-lazy-src="{{"/img/blogueprodesign_zones-e1593790674574.jpg" | relURL }}"
+                                data-lazy-src="{{ .img2 | relURL }}"
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
                             <h2>
                                 <span>
                                     <ul class="post-categories">
-                                        <li><a href="https://pro-design.ca/en/category/the-key-elements/"
+                                        <li><a href="{{ .link | relURL }}"
                                                 rel="category tag">{{ .category | safeHTML  }}</a></li>
                                     </ul>
                                 </span>
