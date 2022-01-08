@@ -55,21 +55,22 @@ pages:
           <h6>
             Now matter how complex and ambitious your ideas may be, we can make your outdoor space a dream come true!          </h6>
         </div>'
-      col3: '<div class="col-12 p-2col">
+      row1: '<div class="col-12 p-2col">
         	<p><strong>The Outdoor Kitchen</strong></p>
             <p>Outdoor kitchens are more popular than ever! If you’re interested, it’s important to choose the right section of your space, making sure that it’s close to the house and easily accessible. In this area, no rainwater should be able to accumulate and no large trees should be nearby in order to avoid the need for frequent maintenance. Next, choose equipment suited to your needs and select products and materials that are utilitarian, weather-resistant, and easy to maintain. As for the design itself, there are no limits: countertops, furniture, integrated pizza oven and smoker, storage, appliances, patio heaters, light fixtures, and so much more– anything is possible!</p>
             <p><strong>Don’t Forget About Maintenance</strong></p>
             <p>Just like indoors, cleaning and maintenance are necessary to ensure the longevity of your outdoor space. However, you can choose equipment and plants that require very little care and attention so that you can enjoy your weekends to the fullest. Unlike wood, both natural stone and concrete are weather-resistant materials that require only a small degree of maintenance. While they’re more expensive to install, their extreme durability will help them last for years to come. As for plants, if you don’t have a particularly green thumb, we recommend that you opt for perennials, grasses, and small conifers. You should also consider choosing sturdy furniture and adding storage space for rainy days.</p>
             </div>'
-      col4: '<p>Now matter how complex and ambitious your ideas may be, we can make your outdoor space a dream come true!</p>'
+      row2: '<p>Now matter how complex and ambitious your ideas may be, we can make your outdoor space a dream come true!</p>'
 
 
 
   - tag: "A DARING NEW LANDSCAPE"
     name: "A DARING NEW LANDSCAPE"
     sub:  "PRO DESIGN LANDSCAPING"
-    category :  "PRO DESIGN LANDSCAPING"
-    link :  "/en/a-daring-new-landscape/"
+    category :  "DARE"
+    link :  "/en/a-daring-new-landscape/"`
+    
     img1 : "/img/IMG_3245.jpg"
     img2 : "/img/IMG_3245.jpg"
     para1:
@@ -105,7 +106,7 @@ pages:
   - tag: "MAINTAINING YOUR LANDSCAPE"
     name: "MAINTAINING YOUR LANDSCAPE"
     sub:  "PRO DESIGN LANDSCAPING"
-    category :  "PRO DESIGN LANDSCAPING"
+    category :  "SUSTAINABLE INVESTMENT"
     link :  "/en/maintaining-your-landscape/"
     img1 : "/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"
     img2 : "/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"
@@ -138,7 +139,7 @@ pages:
   - tag: "CREATING GREEN SPACES: GARDENS AND VEGETABLE PLOTS"
     name: "CREATING GREEN SPACES: GARDENS AND VEGETABLE PLOTS"
     sub:  "PRO DESIGN LANDSCAPING"
-    category :  "PRO DESIGN LANDSCAPING"
+    category :  "BACK TO THE ROOTS"
     link :  "/en/creating-green-spaces-gardens-and-vegetable-plots/"
     img1 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
     img2 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
@@ -168,18 +169,50 @@ pages:
 <p>Need a hand? We’re happy to help design your outdoor space.</p>
         </div>'
 
-  # - tag: "LIGHTING IS CRUCIAL IN LANDSCAPING"
-  #   name: "LIGHTING IS CRUCIAL IN LANDSCAPING"
-  #   category :  "PRO DESIGN LANDSCAPING"
-  #   link :  "/en/creating-green-spaces-gardens-and-vegetable-plots/"
-  #   img1 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
-  #   img2 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
-  #   para1:
-  #       col1: '<div class="col-md-6 col-lg-7">
-  #         <p><span style="font-weight: 400;">After spending the bulk of spring confined at home, people are itching to take advantage of the summer and enjoy all the wonderful things nature has to offer! Summer 2020 is looking to be the season of beautiful gardens and vegetable plots, with plenty of exciting ways to give life to your outdoor space.</span></p>
-  #         <p>&nbsp;</p>
-  #         </div>'
-  #       col2: '<div class="col-md-6 col-lg-5 col-right">
+  - tag: "LIGHTING IS CRUCIAL IN LANDSCAPING"
+    name: "LIGHTING IS CRUCIAL IN LANDSCAPING"
+    category : "THE FINAL TOUCH"
+    sub: "PRO DESIGN LANDSCAPING"
+    link :  "/en/lighting-is-crucial-in-landscaping/"
+    img1 : "/img/IMG_7262.JPG.jpg"
+    img2 : "/img/IMG_7262.JPG.jpg"
+    para1:
+        col1: '<div class="col-md-6 col-lg-7">
+          <p><span style="font-weight: 400;">When night falls, the beauty of your landscape tends to fade into the darkness. As landscape designers, our mission is to create living spaces that allow you to enjoy every moment of your day outdoors, with proper lighting offering a solution that is both functional and aesthetically pleasing!</span></p>
+          <p><span style="font-weight: 400;">Proper lighting places makes it possible to:</span></p>
+          <ul>
+          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Enhance the overall look of your layout</span></li>
+          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Create different zones and atmospheres</span></li>
+          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Add value to your property</span></li>
+          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Highlight the key elements of your outdoor design</span></li>
+          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Increase security</span></li>
+          </ul>
+          </div>'
+        col2: ''
+        row1: '<div class="col-12 p-2col">
+        	<p><b>Enhance Your Outdoor Space</b></p>
+          <p><span style="font-weight: 400;">Lighting fixtures are key decorative elements in interior design, and the same can be true for your home’s exterior. If every room in your home benefits from lighting fixtures that enhance style and décor, there’s no reason for your outdoor space not to enjoy those same benefits. Exterior lighting not only adds value to your investment, but also allows you to top off your project in style. All of your accessories, installations, and plants will be highlighted no matter the time of day.</span></p>
+          <p><b>Think Security</b></p>
+          <p><span style="font-weight: 400;">Exterior lighting also helps to mark out places of passage while maintaining a sophisticated aesthetic. With the right system, your driveway, garden, or swimming pool will benefit from sober and practical lighting. We also advise you to opt for in-ground lighting; this simple, subtle light source will guide your path without detracting from the harmony of your design.</span></p>
+          <p><span style="font-weight: 400;">Your lighting system can also be automated. Your house can light up whenever you want, even if you aren’t home, to help you keep peace of mind.</span></p>
+          <p><b>Every Atmosphere Needs Its Own Lighting</b></p>
+          <p><span style="font-weight: 400;">Looking to highlight a beautiful tree? A light fixture projecting upward is the best solution. On the other hand, rock gardens and flowerbeds benefit from multiple light sources scattered on the ground.</span></p>
+          <p><span style="font-weight: 400;">As for your stone walls, they may require a concealed, specially-designed system. You can choose from a wide range of fixture designs that are able to cultivate your desired ambiance in every corner of your outdoor space, including your terrace, pergola, and more. Whatever the case, the goal is to choose light sources that are decorative at night but discreet during the day.</span></p>
+          <p><span style="font-weight: 400;">We’re also happy to recommend various eco-friendly options using solar energy and LED technology.</span></p>
+          </div>'
+
+        row2: '<div class="col-12 mention">
+        	<p><span style="font-weight: 400;">Tips in a nutshell:</span></p>
+          <ul>
+          <li>Direct lighting according to the needs of the area or object that must be lit</li>
+          <li>Opt for waterproof luminaires</li>
+          <li>Differentiate between utility, mood, or decorative lighting</li>
+          <li>Choose a soft, warm light in the dining and relaxation areas, with a brighter choice for travel areas</li>
+          <li>Consider wireless luminaires</li>
+          <li>Be creative!</li>
+          </ul>
+          <p><span style="font-weight: 400;">Do you have a lighting project in mind? Tell us about your ideas!</span></p>
+          </div>'
   
   
 
