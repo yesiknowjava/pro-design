@@ -18,12 +18,14 @@
             {{ $scratch.Set "col2" .para1.col2 }}
             {{ $scratch.Set "row1" .para1.row1 }}
             {{ $scratch.Set "row2" .para1.row2 }}
+            {{ $scratch.Set "sub" .sub }}
             {{ $scratch.Set "img1" .img1 }}
             {{ $scratch.Set "img2" .img2 }}
             {{ $scratch.Set "category" .category }}
             {{ $scratch.Set "name" .name}}
         {{ end }}
     {{ end }}
+    
     <script type='text/javascript'
         src='https://platform-api.sharethis.com/js/sharethis.js#property=5ebd8263a356d90013c4b05b&product=inline-share-buttons&cms=sop'
         async='async'></script>
@@ -31,7 +33,7 @@
     <div id="tendances">
 
         <section id="intro" class="d-flex justify-content-start align-items-center inner single"
-            style="background: url( {{ .Scratch.Get "img1" | safeHTML }} ) center center no-repeat #000; background-size: cover;">
+            style='background: url( {{ .Scratch.Get "img1" | safeHTML }} ) center center no-repeat #000; background-size: cover;'>
         </section>
 
         <section id="main-content" style="background-color: #f2f2ee;">
@@ -39,7 +41,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h1>
-                            <span>{{ .Scratch.Get "category" | safeHTML }}</span>
+                            <span>{{ .Scratch.Get "sub" | safeHTML }}</span>
                             {{ .Scratch.Get "name" | safeHTML }}
                         </h1>
                     </div>

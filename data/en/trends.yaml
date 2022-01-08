@@ -17,7 +17,8 @@ light: "Lighting is crucial in landscaping"
 pages:
   - tag: "Making the most of your landscape design"
     name: "Making the most of your landscape design"
-    category :  "THE KEY ELEMENTS11"
+    sub:  "PRO DESIGN LANDSCAPING"
+    category :  "THE KEY ELEMENTS"
     link :  "/en/making-the-most-of-your-landscape-design/"
     img1 : "/img/blogueprodesign_zones-e1593790674574.jpg"
     img2 : "/img/blogueprodesign_zones-e1593790674574.jpg"
@@ -66,6 +67,7 @@ pages:
 
   - tag: "A DARING NEW LANDSCAPE"
     name: "A DARING NEW LANDSCAPE"
+    sub:  "PRO DESIGN LANDSCAPING"
     category :  "PRO DESIGN LANDSCAPING"
     link :  "/en/a-daring-new-landscape/"
     img1 : "/img/IMG_3245.jpg"
@@ -102,6 +104,7 @@ pages:
 
   - tag: "MAINTAINING YOUR LANDSCAPE"
     name: "MAINTAINING YOUR LANDSCAPE"
+    sub:  "PRO DESIGN LANDSCAPING"
     category :  "PRO DESIGN LANDSCAPING"
     link :  "/en/maintaining-your-landscape/"
     img1 : "/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"
@@ -127,9 +130,58 @@ pages:
             <p><strong>Give a Little Love to Your Greenery</strong></p>
             <p>While maintaining your flower beds is fairly simple, it still requires a bit of time and care. First, make sure to regularly remove unwanted weeds, which will help keep away harmful insects. In the spring, perform any necessary trimming and remove dead leaves, broken branches, and gravel. Before winter, from October to mid-November, make sure to completely remove dead leaves and flowers as well as any other unwanted debris from the ground. We recommend that you install specially designed protective fabrics to protect perennial shrubs from snow and ice.</p>
             </div>'
-        row2: '<p>And don’t forget that the Pro Design team is always here to help! No matter the time of the year or your maintenance needs, our team is happy to offer advice and even do the work for you.</p>'
+        row2: '<div class="col-12 mention">
+                <p>And don’t forget that the Pro Design team is always here to help! No matter the time of the year or your maintenance needs, our team is happy to offer advice and even do the work for you.</p>
+                </div>'
+
     
-    
+  - tag: "CREATING GREEN SPACES: GARDENS AND VEGETABLE PLOTS"
+    name: "CREATING GREEN SPACES: GARDENS AND VEGETABLE PLOTS"
+    sub:  "PRO DESIGN LANDSCAPING"
+    category :  "PRO DESIGN LANDSCAPING"
+    link :  "/en/creating-green-spaces-gardens-and-vegetable-plots/"
+    img1 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
+    img2 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
+    para1:
+        col1: '<div class="col-md-6 col-lg-7">
+          <p><span style="font-weight: 400;">After spending the bulk of spring confined at home, people are itching to take advantage of the summer and enjoy all the wonderful things nature has to offer! Summer 2020 is looking to be the season of beautiful gardens and vegetable plots, with plenty of exciting ways to give life to your outdoor space.</span></p>
+          <p>&nbsp;</p>
+          </div>'
+        col2: '<div class="col-md-6 col-lg-5 col-right">
+          <h6>
+            Do you have everything you need to invigorate your landscape? Here are a few tips on mastering your plants!          </h6>
+          </div>'
+        row1: '<div class="col-12 p-2col">
+        	<p><b>Vegetable Gardens</b></p>
+<p><span style="font-weight: 400;">Fresh, organic vegetables at your fingertips? Now that’s a treat! The first thing to consider is the location of your vegetable garden, which ought to be in direct sunlight in order for it to soak up as much natural light as possible throughout the day. Keep in mind that a vegetable garden requires 6 hours of sunshine per day. It should also be built at least 5 metres from a tree so that vegetable growth doesn’t become hindered by the tree’s roots. Finally, your land must be flat so that water doesn’t run off the sides. A vegetable garden needs plenty of water to stay healthy, so don’t forget to give it a spray every day!</span></p>
+<p><span style="font-weight: 400;">There are a few ways to approach your vegetable garden set-up: squares, rows, and plots. For beginners, we recommend using the square method, which is easy to set up and maintain. On the other hand, the row method allows you to better organize your seedlings and move between batches.</span></p>
+<p><span style="font-weight: 400;">As for the veggies themselves, the easiest ones to grow are tomatoes, carrots, beans, lettuce, zucchini, radishes, cucumbers, and fresh herbs. Be sure to properly separate your vegetables; for example, you should keep tomatoes away from cucumbers and beans.</span></p>
+<p><strong>Gardens</strong></p>
+<p><span style="font-weight: 400;">If you’re more interested in flowers than vegetables, a colourful garden is a great way to beautify your home and help you enjoy a day out in the sun. Getting your hands dirty can be super relaxing, but it definitely requires some knowledge. Firstly, just like a vegetable garden, your flower garden needs a fair amount of sunshine as well as soil that’s rich in nutrients and organic matter.</span></p>
+<p><span style="font-weight: 400;">Next, you have to choose between perennials and annuals. Perennials have a life span of several years, while annuals flower for a single season. Perennials have a slower flowering cycle; they remain in leaf for quite some time, but provide a nice structure to a garden. Some perennials also lack flowers altogether, but have beautiful green leaves. They also require less care compared to annuals, remaining beautiful year after year. Annuals are perfect for those who enjoy a garden in full bloom, though they tend to need more care, with cultivation work required every spring.</span></p>
+        </div>'
+
+        row2: '<div class="col-12 mention">
+        	<p><strong>Plant Arrangement</strong></p>
+<p>Ideally, you would go for a combination of both annuals and perennials! They can coexist extremely well, fostering a beautiful balance of shapes and colours. Keep in mind the importance of choosing the right combinations, as certain plants aren’t meant to grow together.</p>
+<p>You can also merge your vegetable and flower gardens, with several mutually beneficial combinations to optimize each garden’s growth. Cucumber and nasturtium, squash and dill, broccoli and marigolds–&nbsp; these are just a few great pairings!</p>
+<p>Need a hand? We’re happy to help design your outdoor space.</p>
+        </div>'
+
+  # - tag: "LIGHTING IS CRUCIAL IN LANDSCAPING"
+  #   name: "LIGHTING IS CRUCIAL IN LANDSCAPING"
+  #   category :  "PRO DESIGN LANDSCAPING"
+  #   link :  "/en/creating-green-spaces-gardens-and-vegetable-plots/"
+  #   img1 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
+  #   img2 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
+  #   para1:
+  #       col1: '<div class="col-md-6 col-lg-7">
+  #         <p><span style="font-weight: 400;">After spending the bulk of spring confined at home, people are itching to take advantage of the summer and enjoy all the wonderful things nature has to offer! Summer 2020 is looking to be the season of beautiful gardens and vegetable plots, with plenty of exciting ways to give life to your outdoor space.</span></p>
+  #         <p>&nbsp;</p>
+  #         </div>'
+  #       col2: '<div class="col-md-6 col-lg-5 col-right">
+  
+  
 
 # trends:        
 #   - name: "Making the most of your landscape design11"
