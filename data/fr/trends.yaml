@@ -1,0 +1,217 @@
+hero_text: "Trends"
+all: "All"
+cat: "CATEGORY"
+uncat: "Uncategorized"
+sustainabel: "Sustainable investment"
+dare: "Dare"
+key: "The key elements"
+roots: "Back to the roots"
+touch: "The final touch"
+key_element: "The key elements"
+land_des: "Making the most of your landscape design"
+dare_land: "A daring new landscape"
+main_land: "Maintaining your landscape"
+garden: "Creating green spaces: gardens and vegetable plots "
+light: "Lighting is crucial in landscaping"
+
+pages:
+  - tag: "Making the most of your landscape design"
+    name: "Making the most of your landscape design"
+    sub:  "PRO DESIGN LANDSCAPING"
+    category :  "THE KEY ELEMENTS"
+    link :  "/en/making-the-most-of-your-landscape-design/"
+    img1 : "/img/blogueprodesign_zones-e1593790674574.jpg"
+    img2 : "/img/blogueprodesign_zones-e1593790674574.jpg"
+    para1:
+      col1: '<div class="col-md-6 col-lg-7">
+                        <p>In recent years, exterior design has become a vital part of a home&#8217;s identity, with the
+                            notion of a comfortable, thoughtfully designed backyard having become a focal point for
+                            many. A growing number of people want to essentially live outside instead of staying cooped
+                            up indoors! To make the most out of your investment, your outdoor space must offer the same
+                            level of well-being and functionality offered by your interior design.</p>
+                        <p><strong>Different Areas for Different Purposes</strong></p>
+                        <p>Your home benefits from having rooms with distinct atmospheres and functions. Why not give
+                            your outdoor space the same consideration by splitting it into different areas that satisfy
+                            different needs? When planning your layout, don’t forget to take advantage of the natural
+                            elements that are already at your disposal.</p>
+                        <ul>
+                            <li><strong>Relaxation area</strong>: preferably in a shaded section of the grounds, this
+                                area should include comfortable furniture for napping, reading, and chatting. Privacy
+                                barriers may be useful to isolate this portion of the yard.</li>
+                            <li><strong>Sunny area</strong>: often close to the pool, this area is in the sunniest spot
+                                and features loungers for sunbathing. It’s also a perfect area to include exotic plants
+                                or playground equipment for kids.</li>
+                            <li><strong>Evening area</strong>: the outdoor fireplace is the central focus of this area.
+                                Consider elements such as atmospheric ambient lighting, wooden chairs, and music. If
+                                you’re keen on keeping away mosquitoes, the use of natural, paving, or river stone is
+                                ideal.</li>
+                            <li><strong>Dining area</strong>: also located in the shade, this area is the most robust
+                                part of your layout. It must have enough space to include furniture as well as shelter
+                                to protect you from mosquitoes, rain, or harsh sunlight. Your vegetable garden can be
+                                placed nearby, and this area ought to be close to the entrance leading inside.</li>
+                        </ul>
+                    </div>'
+      col2: '<div class="col-md-6 col-lg-5 col-right">
+          <h6>
+            Now matter how complex and ambitious your ideas may be, we can make your outdoor space a dream come true!          </h6>
+        </div>'
+      row1: '<div class="col-12 p-2col">
+        	<p><strong>The Outdoor Kitchen</strong></p>
+            <p>Outdoor kitchens are more popular than ever! If you’re interested, it’s important to choose the right section of your space, making sure that it’s close to the house and easily accessible. In this area, no rainwater should be able to accumulate and no large trees should be nearby in order to avoid the need for frequent maintenance. Next, choose equipment suited to your needs and select products and materials that are utilitarian, weather-resistant, and easy to maintain. As for the design itself, there are no limits: countertops, furniture, integrated pizza oven and smoker, storage, appliances, patio heaters, light fixtures, and so much more– anything is possible!</p>
+            <p><strong>Don’t Forget About Maintenance</strong></p>
+            <p>Just like indoors, cleaning and maintenance are necessary to ensure the longevity of your outdoor space. However, you can choose equipment and plants that require very little care and attention so that you can enjoy your weekends to the fullest. Unlike wood, both natural stone and concrete are weather-resistant materials that require only a small degree of maintenance. While they’re more expensive to install, their extreme durability will help them last for years to come. As for plants, if you don’t have a particularly green thumb, we recommend that you opt for perennials, grasses, and small conifers. You should also consider choosing sturdy furniture and adding storage space for rainy days.</p>
+            </div>'
+      row2: '<p>Now matter how complex and ambitious your ideas may be, we can make your outdoor space a dream come true!</p>'
+
+
+
+  - tag: "A DARING NEW LANDSCAPE"
+    name: "A DARING NEW LANDSCAPE"
+    sub:  "PRO DESIGN LANDSCAPING"
+    category: "DARE"
+    link :  "/en/a-daring-new-landscape/"
+    
+    img1 : "/img/IMG_3245.jpg"
+    img2 : "/img/IMG_3245.jpg"
+    para1:
+        col1: '<div class="col-md-6 col-lg-7">
+            <p>2020 is the year of happiness at home. Current trends in exterior design are clear: it’s time to recreate the indoors in your outdoor space! Bring the comfort of the living room, the warmth of the bedroom, and the functionality of the kitchen right into your backyard.</p>
+            <p>Landscape design has become a genuine art form as well as an integral part of a home’s overall layout and identity. If you’re willing to carefully refine each room of your home by adding interesting colours, decorations, and accessories, why not do the same with your landscaping? This summer, we invite you to be bold and think outside the box!</p>
+            </div>'
+        col2: '<div class="col-md-6 col-lg-5 col-right">
+            <h6>
+            Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.           
+            </h6>
+            </div>'
+        row1: '<div class="row">
+        <div class="col-12 p-2col">
+        	<p><strong>Slabs and Paving Stones</strong></p>
+        <p>It’s always fun to get in touch with your creative side and let your imagination run wild to create a unique outdoor design. One key element that can completely change the look of your space is the addition of natural stone. Whether for flooring or retaining walls, there are tons of amazing colours, textures, and layouts that you can explore. Adding Chinese steps to the 2.0 look, inserting herringbone or honeycomb stones, and mixing colours and materials within the same cladding are just scratching the surface!</p>
+        <p>Although adding natural stone requires a somewhat higher investment, its unmatched beauty will last for years, requiring only minimal maintenance.</p>
+        <p>This season’s trend focuses on contemporary design and large format slabs with a smooth finish. Just as we see in interior design, we aim for a clean look that allows for the juxtaposition of compelling finishing elements. When it comes to quality and aesthetics, Rocvale products are the perfect choice!</p>
+        <p><strong>Mixing Materials</strong></p>
+        <p>To be at the cutting edge, you have to let your creativity shine. Be bold and combine different kinds of materials and styles! If you opt for clean and modern flooring, add some warm wood elements or wicker furniture. You can also set up privacy barriers made of wooden slats and dress them with climbing plants to add a pop of colour. Metal, river stone, wood, rattan, cork, and glass are all materials that can coexist harmoniously within the same space if matched thoughtfully.</p>
+        <p><strong>The Warmth of Home</strong></p>
+        <p>Finally, don’t hesitate to incorporate interior elements into your exterior areas. Small bedside lamps on side tables, cushions, carpets, and potted plants such as succulents or cacti will liven up your landscape design and make you want to enjoy your outdoor space as often as possible. As far as comfort goes, rope chairs and hammocks are popular choices for fostering a cozy, bohemian atmosphere.</p>
+        <p>Another indoor element you can bring outside is your kitchen. No matter your space and budget, it can work wonders to simply dress up your barbecue with a wooden structure while also adding some shelves, herb trays, or a small work surface.</p>
+        </div>
+         </div>'
+        row2: '<div class="row">
+                <div class="col-12 mention">
+        	<p>The idea here is to show you that the only limit is your own imagination. Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.</p>
+             </div>
+            </div>'
+
+
+  - tag: "MAINTAINING YOUR LANDSCAPE"
+    name: "MAINTAINING YOUR LANDSCAPE"
+    sub:  "PRO DESIGN LANDSCAPING"
+    category :  "SUSTAINABLE INVESTMENT"
+    link :  "/en/maintaining-your-landscape/"
+    img1 : "/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"
+    img2 : "/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"
+    para1:
+        col1: '<div class="col-md-6 col-lg-7">
+          <p>Your outdoor layout is everything you’ve ever wanted: a flowering garden, a vegetable plot, strategic lighting, and delineated areas. Now that you’ve invested in plants and paving stones, you might be wondering how to make the most of your beautiful project and ensure its longevity. The simple secret? Maintenance!</p>
+          <p>An outdoor space lives and breathes, which means that it needs to be properly maintained in order to retain its beauty for years to come.</p>
+          </div>'
+        col2: '<div class="col-md-6 col-lg-5 col-right">
+          <h6>
+            Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.          </h6>
+          </div>'
+        row1: '<div class="col-12 p-2col">
+        	<p><strong>Maintain Your Pavers and Natural Stone</strong></p>
+            <p>The main benefit of natural stone is its resistance, as it requires little attention and is durable enough to weather the seasons and years. However, there are a few key maintenance tips to keep in mind.</p>
+            <p>First, we recommend treating your surface right upon installation with a product suitable for natural stone. You will be able to choose between different finishes depending on your preferences: natural or satin, for example.</p>
+            <p>Another key tip is cleaning. No matter which type of natural stone you have, wipe off stains and deposits regularly with a brush along with a mixture of water and mild soap (Marseille soap is an excellent option). This will prevent dirt, debris, and other greasy/vegetal stains from accumulating. In the case of rainwater buildup, paver sections can begin to sag. In such a case, quickly readjust any sagging paving stones in order to prevent future problems. Although polymeric sand improves with new technologies, some maintenance is still necessary. Adding polymeric sand wherever it is missing is very important, and thankfully the installation technique is super simple.</p>
+            <p>We recommend cleaning the joints every season with a small soft-bristle brush. Note that the use of a pressure washer is not recommended. It’s also important not to let freshly cut grass clippings or dead leaves accumulate in the fall. The use of a leaf blower is an ideal choice for removing such debris.</p>
+            <p>Over time, plant deposits such as moss can become embedded between the stones, particularly in shaded areas. This phenomenon is typically caused by the accumulation of water and does not indicate that your stone is in poor health. To avoid it, you can treat your surface two to three times a year with a suitable natural product. Another common phenomenon is limestone efflorescence. This is a normal occurrence caused by crystalline deposits of salts resulting from the evaporation of water from the stone’s surface. While these stains eventually disappear on their own, recurring rain or sweeping can hasten the process.</p>
+            <p><strong>As for Winter?</strong></p>
+            <p>The majority of high quality stones and pavers such as Rocvale products are resistant to sand, gravel, and non-slip mixes without salts or chemicals. However, if you must use de-icing products, we recommend that you do so on a surface covered with snow or ice and not directly on the stone. Furthermore, de-icing salts must absolutely be avoided, as salt can cause the concrete to crumble. Another key recommendation is to choose a plastic snow shovel or to equip a metal shovel with a protector in order to avoid damaging the stone or leaving rust marks.</p>
+            <p><strong>Give a Little Love to Your Greenery</strong></p>
+            <p>While maintaining your flower beds is fairly simple, it still requires a bit of time and care. First, make sure to regularly remove unwanted weeds, which will help keep away harmful insects. In the spring, perform any necessary trimming and remove dead leaves, broken branches, and gravel. Before winter, from October to mid-November, make sure to completely remove dead leaves and flowers as well as any other unwanted debris from the ground. We recommend that you install specially designed protective fabrics to protect perennial shrubs from snow and ice.</p>
+            </div>'
+        row2: '<div class="col-12 mention">
+                <p>And don’t forget that the Pro Design team is always here to help! No matter the time of the year or your maintenance needs, our team is happy to offer advice and even do the work for you.</p>
+                </div>'
+
+    
+  - tag: "CREATING GREEN SPACES: GARDENS AND VEGETABLE PLOTS"
+    name: "CREATING GREEN SPACES: GARDENS AND VEGETABLE PLOTS"
+    sub:  "PRO DESIGN LANDSCAPING"
+    category :  "BACK TO THE ROOTS"
+    link :  "/en/creating-green-spaces-gardens-and-vegetable-plots/"
+    img1 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
+    img2 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
+    para1:
+        col1: '<div class="col-md-6 col-lg-7">
+          <p><span style="font-weight: 400;">After spending the bulk of spring confined at home, people are itching to take advantage of the summer and enjoy all the wonderful things nature has to offer! Summer 2020 is looking to be the season of beautiful gardens and vegetable plots, with plenty of exciting ways to give life to your outdoor space.</span></p>
+          <p>&nbsp;</p>
+          </div>'
+        col2: '<div class="col-md-6 col-lg-5 col-right">
+          <h6>
+            Do you have everything you need to invigorate your landscape? Here are a few tips on mastering your plants!          </h6>
+          </div>'
+        row1: '<div class="col-12 p-2col">
+        	<p><b>Vegetable Gardens</b></p>
+<p><span style="font-weight: 400;">Fresh, organic vegetables at your fingertips? Now that’s a treat! The first thing to consider is the location of your vegetable garden, which ought to be in direct sunlight in order for it to soak up as much natural light as possible throughout the day. Keep in mind that a vegetable garden requires 6 hours of sunshine per day. It should also be built at least 5 metres from a tree so that vegetable growth doesn’t become hindered by the tree’s roots. Finally, your land must be flat so that water doesn’t run off the sides. A vegetable garden needs plenty of water to stay healthy, so don’t forget to give it a spray every day!</span></p>
+<p><span style="font-weight: 400;">There are a few ways to approach your vegetable garden set-up: squares, rows, and plots. For beginners, we recommend using the square method, which is easy to set up and maintain. On the other hand, the row method allows you to better organize your seedlings and move between batches.</span></p>
+<p><span style="font-weight: 400;">As for the veggies themselves, the easiest ones to grow are tomatoes, carrots, beans, lettuce, zucchini, radishes, cucumbers, and fresh herbs. Be sure to properly separate your vegetables; for example, you should keep tomatoes away from cucumbers and beans.</span></p>
+<p><strong>Gardens</strong></p>
+<p><span style="font-weight: 400;">If you’re more interested in flowers than vegetables, a colourful garden is a great way to beautify your home and help you enjoy a day out in the sun. Getting your hands dirty can be super relaxing, but it definitely requires some knowledge. Firstly, just like a vegetable garden, your flower garden needs a fair amount of sunshine as well as soil that’s rich in nutrients and organic matter.</span></p>
+<p><span style="font-weight: 400;">Next, you have to choose between perennials and annuals. Perennials have a life span of several years, while annuals flower for a single season. Perennials have a slower flowering cycle; they remain in leaf for quite some time, but provide a nice structure to a garden. Some perennials also lack flowers altogether, but have beautiful green leaves. They also require less care compared to annuals, remaining beautiful year after year. Annuals are perfect for those who enjoy a garden in full bloom, though they tend to need more care, with cultivation work required every spring.</span></p>
+        </div>'
+
+        row2: '<div class="col-12 mention">
+        	<p><strong>Plant Arrangement</strong></p>
+<p>Ideally, you would go for a combination of both annuals and perennials! They can coexist extremely well, fostering a beautiful balance of shapes and colours. Keep in mind the importance of choosing the right combinations, as certain plants aren’t meant to grow together.</p>
+<p>You can also merge your vegetable and flower gardens, with several mutually beneficial combinations to optimize each garden’s growth. Cucumber and nasturtium, squash and dill, broccoli and marigolds–&nbsp; these are just a few great pairings!</p>
+<p>Need a hand? We’re happy to help design your outdoor space.</p>
+        </div>'
+
+  - tag: "LIGHTING IS CRUCIAL IN LANDSCAPING"
+    name: "LIGHTING IS CRUCIAL IN LANDSCAPING"
+    category : "THE FINAL TOUCH"
+    sub: "PRO DESIGN LANDSCAPING"
+    link :  "/en/lighting-is-crucial-in-landscaping/"
+    img1 : "/img/IMG_7262.JPG.jpg"
+    img2 : "/img/IMG_7262.JPG.jpg"
+    para1:
+        col1: '<div class="col-md-6 col-lg-7">
+          <p><span style="font-weight: 400;">When night falls, the beauty of your landscape tends to fade into the darkness. As landscape designers, our mission is to create living spaces that allow you to enjoy every moment of your day outdoors, with proper lighting offering a solution that is both functional and aesthetically pleasing!</span></p>
+          <p><span style="font-weight: 400;">Proper lighting places makes it possible to:</span></p>
+          <ul>
+          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Enhance the overall look of your layout</span></li>
+          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Create different zones and atmospheres</span></li>
+          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Add value to your property</span></li>
+          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Highlight the key elements of your outdoor design</span></li>
+          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Increase security</span></li>
+          </ul>
+          </div>'
+        col2: ''
+        row1: '<div class="col-12 p-2col">
+        	<p><b>Enhance Your Outdoor Space</b></p>
+          <p><span style="font-weight: 400;">Lighting fixtures are key decorative elements in interior design, and the same can be true for your home’s exterior. If every room in your home benefits from lighting fixtures that enhance style and décor, there’s no reason for your outdoor space not to enjoy those same benefits. Exterior lighting not only adds value to your investment, but also allows you to top off your project in style. All of your accessories, installations, and plants will be highlighted no matter the time of day.</span></p>
+          <p><b>Think Security</b></p>
+          <p><span style="font-weight: 400;">Exterior lighting also helps to mark out places of passage while maintaining a sophisticated aesthetic. With the right system, your driveway, garden, or swimming pool will benefit from sober and practical lighting. We also advise you to opt for in-ground lighting; this simple, subtle light source will guide your path without detracting from the harmony of your design.</span></p>
+          <p><span style="font-weight: 400;">Your lighting system can also be automated. Your house can light up whenever you want, even if you aren’t home, to help you keep peace of mind.</span></p>
+          <p><b>Every Atmosphere Needs Its Own Lighting</b></p>
+          <p><span style="font-weight: 400;">Looking to highlight a beautiful tree? A light fixture projecting upward is the best solution. On the other hand, rock gardens and flowerbeds benefit from multiple light sources scattered on the ground.</span></p>
+          <p><span style="font-weight: 400;">As for your stone walls, they may require a concealed, specially-designed system. You can choose from a wide range of fixture designs that are able to cultivate your desired ambiance in every corner of your outdoor space, including your terrace, pergola, and more. Whatever the case, the goal is to choose light sources that are decorative at night but discreet during the day.</span></p>
+          <p><span style="font-weight: 400;">We’re also happy to recommend various eco-friendly options using solar energy and LED technology.</span></p>
+          </div>'
+
+        row2: '<div class="col-12 mention">
+        	<p><span style="font-weight: 400;">Tips in a nutshell:</span></p>
+          <ul>
+          <li>Direct lighting according to the needs of the area or object that must be lit</li>
+          <li>Opt for waterproof luminaires</li>
+          <li>Differentiate between utility, mood, or decorative lighting</li>
+          <li>Choose a soft, warm light in the dining and relaxation areas, with a brighter choice for travel areas</li>
+          <li>Consider wireless luminaires</li>
+          <li>Be creative!</li>
+          </ul>
+          <p><span style="font-weight: 400;">Do you have a lighting project in mind? Tell us about your ideas!</span></p>
+          </div>'
+  
+  
