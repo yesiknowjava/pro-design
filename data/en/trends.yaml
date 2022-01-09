@@ -68,8 +68,8 @@ pages:
   - tag: "A DARING NEW LANDSCAPE"
     name: "A DARING NEW LANDSCAPE"
     sub:  "PRO DESIGN LANDSCAPING"
-    category :  "DARE"
-    link :  "/en/a-daring-new-landscape/"`
+    category: "DARE"
+    link :  "/en/a-daring-new-landscape/"
     
     img1 : "/img/IMG_3245.jpg"
     img2 : "/img/IMG_3245.jpg"
