@@ -1,217 +1,399 @@
-hero_text: "Trends"
-all: "All"
-cat: "CATEGORY"
-uncat: "Uncategorized"
-sustainabel: "Sustainable investment"
-dare: "Dare"
-key: "The key elements"
-roots: "Back to the roots"
-touch: "The final touch"
+hero_text: "TENDANCES"
+hero_text1: "LES"
+all: "TOUS"
+cat: "CATÉGORIE"
+uncat: "CATÉGORIE"
+sustainabel: "Investissement durable"
+dare: "Osez"
+key: " Les éléments clés"
+roots: "Retour aux sources"
+touch: "La touche finale"
 key_element: "The key elements"
 land_des: "Making the most of your landscape design"
 dare_land: "A daring new landscape"
 main_land: "Maintaining your landscape"
 garden: "Creating green spaces: gardens and vegetable plots "
 light: "Lighting is crucial in landscaping"
-
+url: "/tendances/"
 pages:
-  - tag: "Making the most of your landscape design"
-    name: "Making the most of your landscape design"
-    sub:  "PRO DESIGN LANDSCAPING"
-    category :  "THE KEY ELEMENTS"
-    link :  "/en/making-the-most-of-your-landscape-design/"
+ 
+  - tag: "Systèmes d’irrigation et d’arrosage automatiques : ça vaut le coût?"
+    name: "Systèmes d’irrigation et d’arrosage automatiques : ça vaut le coût?"
+    category : "LA TOUCHE FINALE"
+    sub: "PRODESIGN AMÉNAGEMENT"
+    link :  "/systemes-dirrigation-et-darrosage-automatiques//"
+    img1 : "/img/blogue_arrosage.jpg"
+    img2 : "/img/blogue_arrosage.jpg"
+    para1:
+        col1: '<<div class="col-md-6 col-lg-7">
+          <p>Un système d’irrigation et d’arrosage automatique permet au jardinier d’arroser son jardin ou son terrain sans intervention humaine directe. Une fois installé, vous pouvez configurer votre système pour lui permettre de se déclencher au moment désiré et ainsi irriguer votre jardin ou votre terrain en fonction de paramètres prédéterminés (temps, débit, durée, etc.). Bien qu’un tel système représente un investissement initial, il propose divers avantages qui peuvent largement compenser son coût initial.</p>
+        </div>'
+        col2: '<div class="col-md-6 col-lg-5 col-right">
+          <h6>
+            Nous sommes créateurs de paysages. Avec la nature comme toile de fond, nous misons sur les attributs de chaque terrain afin de tirer profit des éléments qui sont présents. En harmonie avec l’environnement, nous accordons une attention particulière à l’écosystème et misons sur des techniques de travail écoresponsables.          </h6>
+        </div>'
+        row1: '<div class="col-12 p-2col">
+        	<p>Vous souhaitez économiser temps et argent? Vous vous préoccupez de l’environnement et souhaitez contrôler votre usage d’eau et en diminuer le gaspillage? Le tout en ayant une pelouse et un jardin magnifiques? Adoptez une approche écoresponsable et installez un système d’irrigation et d’arrosage automatisé.</p>
+<p><strong>Les principaux avantages à retirer d’un système d’irrigation et d’arrosage automatisé</strong></p>
+<ol>
+<li>Vous adorez prendre soin de votre jardin, mais souhaitez vous simplifier la vie? Un système d’irrigation et d’arrosage automatique sera votre meilleur allié. Il vous permettra de contrôler l’entretien de votre jardin à l’avance et d’ainsi éviter d’avoir à y penser en tout temps. Vous pourrez d’avance planifier l’heure de l’arrosage de vos différents végétaux, la durée et la fréquence nécessaire. Profitez du meilleur des deux mondes, tout simplement.</li>
+<li>Vous avez mis beaucoup de temps et d’énergie pour créer le jardin de vos rêves et vous en êtes fier? Toutefois, vous souhaitez pouvoir partir en vacances ou en weekend sans risquer de le voir périr à votre retour. L’installation d’un système d’irrigation et d’arrosage automatisé est la solution parfaite pour vous. En programmant d’avance les paramètres de temps, de durée et de fréquence d’arrosage souhaités en fonction des besoins de votre jardin, vous éviterez d’avoir la mauvaise surprise de retrouver vos plantes desséchées à votre retour de voyage.</li>
+<li>Vous êtes un jardinier passionné, fervent défenseur de l’environnement et vous souhaitez que vos valeurs écologiques soient respectées dans la mise en place et l’entretien de votre jardin? Votre système d’irrigation et d’arrosage automatique vous permettra de contrôler le débit et la pression d’eau et d’ainsi être aligné avec vos valeurs environnementales. Saviez-vous qu’un tel système&nbsp;<strong>permet des économies d’eau</strong> pouvant aller jusqu’à 70 %? En planifiant d’avance l’heure, la durée et la fréquence d’arrosage, on évite ainsi les oublis qui pourraient entraîner un gaspillage important d’eau. Entretenir son jardin tout en protégeant l’environnement n’aura jamais été aussi simple!</li>
+</ol>
+        </div>'
+
+        row2: '<div class="col-12 mention">
+        	<p>Il faut savoir que les systèmes d’arrosage automatique sont variés. Vous en trouverez divers modèles sur le marché, chacun d’entre eux répondant à certains besoins spécifiques. Consultez un spécialiste en arrosage automatique qui vous aidera à faire votre choix entre les divers systèmes existants, pour choisir celui le plus approprié à vos besoins et à votre budget.</p>
+<p>Chez Pro-Design, nous sommes créateurs de paysages. Notre expérience nous a appris que l’architecture de paysage requiert un savoir-faire technique, une connaissance des équipements et des végétaux et une vision esthétique. Avec la nature comme toile de fond, nous misons sur les attributs de chaque terrain afin de tirer profit des éléments qui sont présents. En harmonie avec l’environnement, nous accordons une attention particulière à l’écosystème et misons sur des techniques de travail écoresponsables.</p>
+<p>&nbsp;</p>
+<p>Vous avez un projet? <a href="https://pro-design.ca/contact/">Contactez-nous</a> pour en discuter.</p>
+<p>&nbsp;</p>
+        </div>'
+  
+  
+  - tag: "Tendance végétaux 2021 : la nature mise en vedette"
+    name: "Tendance végétaux 2021 : la nature mise en vedette"
+    sub:  "PPRODESIGN AMÉNAGEMENT"
+    category :  "LA TOUCHE FINALE"
+    link :  "/tendance-vegetaux-2021-la-nature-mise-en-vedette/"
+    img1 : "/img/blofue_vegetaux.jpg"
+    img2 : "/img/blofue_vegetaux.jpg"
+    para1:
+      col1: '<div class="col-md-6 col-lg-7">
+          <p>Dans la dernière année, la jardinage et l’art de l’aménagement paysager ont eu la cote. La majorité des gens étant confinés à la maison, le désir d’aménager l’espace extérieur pour être en mesure d’en profiter au maximum, tout en s’assurant confort, convivialité et esthétisme, était très présent. Mais pour savoir par où commencer, il importe d’être bien conseillé.</p>
+<p>En matière d’aménagement paysager, tout est une question de choix personnel. Que l’on préfère une végétation plus sauvage, ou un aménagement planifié où tout est pensé et structuré, l’objectif reste toujours de répondre aux goûts et aux besoins de chaque client.</p>
+        </div>'
+      col2: '<div class="col-md-6 col-lg-5 col-right">
+          <h6>
+            Nous sommes créateurs de paysages.  En harmonie avec l’environnement, nous accordons une attention particulière à l’écosystème et misons sur des techniques de travail écoresponsables.<br>
+          </h6>
+        </div>'
+      row1: '<div class="col-12 p-2col">
+        	<p>Toutefois, un aménagement paysager exige un certain investissement. Celui-ci sera principalement financier au départ. Toutefois, l’entretien qu’il nécessitera représente également un investissement en temps qui peut être important, selon les choix qui auront été faits. De façon à maximiser votre investissement et faire les bons choix, certaines règles sont importantes à connaître.</p>
+<ol>
+<li>Faites un plan d’aménagement. Pour éviter les faux pas et les oublis, votre plan d’aménagement vous permettra de prévoir d’avance tout le matériel nécessaire, mais également les différentes périodes de floraison, l’entretien des différents végétaux, etc.</li>
+<li>Choisissez les bons végétaux en fonction de vos besoins et de votre mode de vie. Un aménagement paysager personnalisé vous permettra de sélectionner les variétés de plantes adaptées à votre réalité, à vos goûts, à vos besoins et à votre disponibilité.</li>
+</ol>
+<p><strong>Tendances végétales 2021<br>
+</strong>Chaque année, les experts de l’industrie diffusent les grandes tendances de l’heure. Nous vous en partageons quelques-unes pour 2021.</p>
+<p><strong>Le slow garden ou le paradis des vivaces<br>
+</strong>Cette tendance nous invite à retourner à l’essentiel, au retour au calme et au moment présent. On souhaite profiter de notre jardin, tout en s’assurant d’un entretien minimaliste. Les plantes vivaces, exigeant peu d’entretien et très résistantes sont donc privilégiées.</p>
+<p><strong>La douceur ou le bien-être naturel<br>
+</strong>Cette tendance met en vedette les textures végétales délicates et soyeuses et les plantes réconfortantes. Les couleurs délicates et apaisantes sont également mises de l’avant.</p>
+<p><strong>L’exubérance ou le voyage sensoriel<br>
+</strong>À ce niveau, les couleurs vivantes, les formes inusités, les textures uniques sortent du lot et viennent habiller votre univers pour lui donner une petite touche personnalisée et surprenante.</p>
+<p><strong>Le jardin “jungle” ou la nature à son état sauvage<br>
+</strong>On privilégie les plantes résistantes aux intempéries, à la chaleur et à la sécheresse. Les plantes désertiques ont la cote! Celles-ci exigent peu d’entretien. Ici, on fait un petit clin d’œil au ‘slow garden”.</p>
+        </div>'
+      row2: '<div class="col-12 mention">
+        	<p><strong>Les coups de coeur de l’équipe</strong></p>
+<p>«Pour ma part, j’ai toujours eu une attirance pour la graminée! Il en existe une grande variété, autant par leur grandeur que par leur couleur. Elles apportent de la densité, de l’ampleur à votre jardin, le tout avec un mouvement de légèreté! Elles sont présentes toute la saison, même l’hiver, où elles peuvent continuer à danser dans le vent! Si on les taille à l’automne, elles peuvent même servir pour les décorations automnales! Ma variété préférée est le<em> Karl Forester.</em>&nbsp; Elle me fait penser au blé dans les champs. Je l’aime particulièrement pour donner un look champêtre. Toutefois, elle se marie merveilleusement bien avec les maisons plus modernes, avec sa couleur beige dorée qui apporte de la douceur.» mentionne Yannick Bigras, co-fondateur de Pro-Design.</p>
+<p>Vous avez un projet? <a href="https://pro-design.ca/contact/">Contactez-nous</a> pour en discuter.</p>
+<p>&nbsp;</p>
+        </div>'
+
+  - tag: "Vivre à la maison, vivre dehors"
+    name: "Vivre à la maison, vivre dehors"
+    sub:  "PRODESIGN AMÉNAGEMENT"
+    category :  "LES ÉLÉMENTS CLÉS"
+    link :  "/vivre-a-la-maison-vivre-dehors/"
+    img1 : "/img/blogue_vivre_maison.jpg"
+    img2 : "/img/blogue_vivre_maison.jpg"
+    para1:
+      col1: '<div class="col-md-6 col-lg-7">
+          <p>La tendance se poursuit encore une fois cette année. L’été 2021 se vivra majoritairement dans le confort de la maison! Le mot d’ordre à retenir : Polyvalence. Pour profiter pleinement de la belle saison, nous vous recommandons de miser sur un espace extérieur aux mille possibilités et où les zones thématiques sont à l’honneur. À chacun sa petite oasis de détente et de plaisir!</p>
+        </div>'
+      col2: '<div class="col-md-6 col-lg-5 col-right">
+          <h6>
+            Cet été, on profite de la vie au maximum! Faites appel à nous pour votre projet.<br>
+<br>
+Nous sommes créateurs de paysages… et de bonheur!<br>
+          </h6>
+        </div>'
+      row1: '<<div class="col-12 p-2col">
+        	<p><strong>Les règles de base pour un effet de grandeur<br>
+</strong>Avant de délimiter vos zones, il faut d’abord créer l’environnement qui pourra les accueillir. Nous avons tous soif de grands espaces et de liberté. Pourquoi ne pas miser sur ce concept lors de la création de votre aménagement extérieur? Optez pour des clôtures de verre ou de barreaux qui laissent pénétrer la lumière et qui ne cloisonnent pas votre cours. Les murs végétalisés ou la classique haie de cèdres sont également de bonnes options pour délimiter votre terrain sans compartimenter. Aussi, les surfaces de dalles très larges et uniformes procurent une belle illusion de grandeur. La clé de cet effet réside aussi dans une pose de type linéaire, soit une dalle à la suite de l’autre.</p>
+<p>Côté design, les couleurs plus pâles et les matières organiques sont à l’honneur. Pour les looks plus contemporains, l’ajout de créations modulaires à l’aide de dalles permet de créer un effet élégant et minimaliste, tout en diminuant l’ajout de mobilier ou de boîtes à fleurs.</p>
+<p><strong>Le divertissement&nbsp;: la zone à privilégier<br>
+</strong>Pour passer un bel été à la maison, il faut pouvoir s’amuser. Pensez à créer une zone extérieure propre au divertissement et permettant de planifier vos loisirs sans quitter la maison. Vous aimez vous entraîner en salle de gym ou vous pratiquez le yoga? Il est plutôt simple d’aménager un espace pavé et ombragé pour installer votre tapis et votre équipement.&nbsp; Une journée plus grise? Pas question de rester à l’intérieur! Les galeries grillagées, les gazebos ou les pergolas avec toit sont de très beaux ajouts à votre zone loisirs. Vous pourrez ainsi jouer à des jeux de société ou même travailler à l’extérieur, peu importe la température. Vous avez des enfants? Pensez à leur réserver un coin de pelouse, de gazon synthétique ou un grand tapis où ils pourront s’amuser à leur guise. Évidemment, la piscine est la reine du divertissement! Cet été, les piscines naturelles et bassins carrés de petite taille ainsi que les colorations plus claires sont à l’honneur.</p>
+<p>&nbsp;</p>
+<p><strong>Déjeuner, dîner, souper<br>
+</strong>La cuisine extérieure ne perd pas en popularité! Si vous pensez à vous équiper d’un coin cuisine, choisissez des matériaux résistants et créez un espace couvert de type pavillon afin de prolonger les repas en nature. Un chauffe-terrasse ou des rideaux coupe-vent sont de bonnes astuces pour manger à l’extérieur jusqu’à l’automne.</p>
+<p>&nbsp;</p>
+<p><strong>La détente avant tout<br>
+</strong>Le secret pour un coin détente digne de ce nom&nbsp;: un mobilier confortable et un décor enveloppant. La tendance est au style bohème, donc n’hésitez pas à habiller votre zone détente de coussins, sofas, tapis et couvertures. Le but est toujours de recréer le confort de la maison dans un espace extérieur. Si vous disposez d’un foyer, pensez à rendre celui-ci accessible et visible de toutes les zones. Ainsi, vous pourrez profiter de la lueur des flammes lors du souper, de votre moment de détente en soirée ou même de votre spa.</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Travailler dehors? Pourquoi pas!<br>
+</strong>L’avènement du télétravail a provoqué un grand besoin de réorganisation des espaces de vie. Vous avez aménagé votre parfait bureau à la maison? Il est maintenant temps de travailler au grand air! À même votre coin repas ou votre coin détente, pensez à conserver un espace confortable pour travailler dans votre cours. Une prise électrique, suffisamment de lumière, un mobilier ergonomique, une source d’ombre, et le tour est joué!</p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong></p>
+        </div>'
+      row2: '<div class="col-12 mention">
+        	<p>Et les végétaux dans tout ça?Pour être en plein contrôle de sa liberté, il faut réduire le temps accordé aux tâches. C’est pourquoi la tendance est aux plantes faciles à entretenir et aux aménagements naturels et luxuriants. Pensez aux plantes grasses en pot (oui oui, celles que vous avez à l’intérieur) et dites adieu aux grandes étendues de pelouse, car elles sont remplacées par des parterres diversifiés. Inspirés des décors européens, certains choisissent même de troquer le gazon pour un espace en pierres de rivière ou même en pavé.</p>
+<p>&nbsp;</p>
+        </div>'
+
+
+
+
+
+
+
+
+  - tag: "Construire sur une fondation solide"
+    name: "Construire sur une fondation solide"
+    sub:  "PPRODESIGN AMÉNAGEMENT"
+    category :  "LES ÉLÉMENTS CLÉS"
+    link :  "/construire-sur-une-fondation-solide/"
+    img1 : "/img/blogue_fondation-1.jpg"
+    img2 : "/img/blogue_fondation-1.jpg"
+    para1:
+      col1: '<div class="col-md-6 col-lg-7">
+          <p>Avec toutes les possibilités maintenant offertes sur le marché, l’aménagement extérieur est devenu une partie importante des coûts reliés au design d’une maison. Vous investissez des sommes substantielles lors de la création de votre espace, mais aussi chaque année afin d’en assurer l’entretien. Lorsqu’il est question d’investissement, le souhait premier est souvent&nbsp;: la durabilité.</p>
+<p>C’est ici que l’importance de la fondation entre en jeu. Comme dans tous les types de projets, la construction d’un plan de match et d’une base solide est la clé du succès. Miser sur une fondation de qualité est une étape cruciale pour la réussite et la pérennité de votre aménagement extérieur. Cette étape permettra au produit final (patio, stationnement, etc.) de rester en bon état pour plusieurs années et d’éviter des dépenses imprévues.</p>
+        </div>'
+      col2: '<div class="col-md-6 col-lg-5 col-right">
+          <h6>
+            Faites confiance à nos conseils de PRO afin de profiter d’un espace extérieur de qualité pendant de nombreuses années. <br>
+<br>
+Nous sommes créateurs de paysages… et de bonheur!<br>
+          </h6>
+        </div>'
+      row1: '<div class="col-12 p-2col">
+        	<p><strong>La fondation en quatre étapes</strong></p>
+<p><strong>Première étape – la classification du type de sol<br>
+</strong>La première chose à regarder avant de débuter un projet d’aménagement extérieur est le type de sol sur lequel ce projet sera érigé. Celui-ci aura un impact sur la profondeur de l’excavation. Si votre sol est argileux, la fondation sous les patios et trottoirs devra être d’une profondeur de 18 pouces, tandis que les stationnements devront profiter d’une excavation de 24 pouces. Si votre sol est plutôt sablonneux, la fondation sera moins profonde&nbsp;: 18 pouces pour les stationnements et 12 pouces pour les patios et trottoirs. La raison? Les sols argileux ont tendance à bouger davantage que les sols sablonneux. C’est pourquoi il est important de prévoir plus de stabilité, donc plus de profondeur.</p>
+<p><strong>Deuxième étape – l’installation du géotextile<br>
+</strong>Les géotextiles sont des tissus généralement fait de matériaux synthétiques, destinés aux travaux de bâtiment, de génie civil et d’agriculture. Cette toile permet de séparer le sol d’infrastructure de la fondation afin d’éviter que cette dernière ne s’affaisse lors de la construction des structures.</p>
+<p><strong>&nbsp;</strong><strong>Troisième étape&nbsp;– le remblaiement<br>
+</strong>Afin d’assurer un terrain plat et de niveau, la troisième étape de la fondation est le remblaiement. En aménagement extérieur, nous utilisons généralement le remblai de pierre concassée de type 0&nbsp;¾&nbsp; ou encore 3/4 net.&nbsp;Cette pierre concassée doit ensuite être compactée afin de demeurer bien solide. Chez Pro Design, nous profitons d’équipements de haute performance tels&nbsp;que le Jumping jack, la plaque réversible (CR7CCD) avec un capteur de compaction&nbsp;et le rouleur compacteur installé surun&nbsp;Skidsteer&nbsp;avec une force de compaction de 9000&nbsp;lb.<br>
+La fondation doit également être munie d’une pente pour le drainage de l’eau de pluie. Il faut donc prévoir celle-ci lors de l’étape de remblaiement.</p>
+<p><strong>Quatrième étape – le pavé<br>
+</strong>Finalement, un lit de pose réalisé à l’aide de sable à béton lavé avec peu de particules fines doit être installé afin d’y accueillir le pavé de votre stationnement, de votre patio ou de vos trottoirs. Cette dernière étape assurera que le pavé demeurera en place malgré les mouvements du terrain.</p>
+<p>&nbsp;</p>
+        </div>'
+      row2: '<div class="col-12 mention">
+        	<p>La fondation représente environ 30 % du montant total d’un projet. Le budget attribué à cette étape dépendra bien sûr de la complexité de celle-ci et de l’accès au terrain. Cela dit, c’est aussi l’étape où certains tenteront de faire des économies, au détriment de la durabilité du projet. La mise en place d’une bonne fondation n’est sans doute pas aussi excitante que la création esthétique du projet, mais elle est capitale!</p>
+<p>&nbsp;</p>
+        </div>'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  - tag: "Réussir son aménagement extérieur"
+    name: "Réussir son aménagement extérieur"
+    sub:  "PPRODESIGN AMÉNAGEMENT"
+    category :  "LES ÉLÉMENTS CLÉS"
+    link :  "/reussir-son-amenagement-exterieur/"
     img1 : "/img/blogueprodesign_zones-e1593790674574.jpg"
     img2 : "/img/blogueprodesign_zones-e1593790674574.jpg"
     para1:
       col1: '<div class="col-md-6 col-lg-7">
-                        <p>In recent years, exterior design has become a vital part of a home&#8217;s identity, with the
-                            notion of a comfortable, thoughtfully designed backyard having become a focal point for
-                            many. A growing number of people want to essentially live outside instead of staying cooped
-                            up indoors! To make the most out of your investment, your outdoor space must offer the same
-                            level of well-being and functionality offered by your interior design.</p>
-                        <p><strong>Different Areas for Different Purposes</strong></p>
-                        <p>Your home benefits from having rooms with distinct atmospheres and functions. Why not give
-                            your outdoor space the same consideration by splitting it into different areas that satisfy
-                            different needs? When planning your layout, don’t forget to take advantage of the natural
-                            elements that are already at your disposal.</p>
-                        <ul>
-                            <li><strong>Relaxation area</strong>: preferably in a shaded section of the grounds, this
-                                area should include comfortable furniture for napping, reading, and chatting. Privacy
-                                barriers may be useful to isolate this portion of the yard.</li>
-                            <li><strong>Sunny area</strong>: often close to the pool, this area is in the sunniest spot
-                                and features loungers for sunbathing. It’s also a perfect area to include exotic plants
-                                or playground equipment for kids.</li>
-                            <li><strong>Evening area</strong>: the outdoor fireplace is the central focus of this area.
-                                Consider elements such as atmospheric ambient lighting, wooden chairs, and music. If
-                                you’re keen on keeping away mosquitoes, the use of natural, paving, or river stone is
-                                ideal.</li>
-                            <li><strong>Dining area</strong>: also located in the shade, this area is the most robust
-                                part of your layout. It must have enough space to include furniture as well as shelter
-                                to protect you from mosquitoes, rain, or harsh sunlight. Your vegetable garden can be
-                                placed nearby, and this area ought to be close to the entrance leading inside.</li>
-                        </ul>
-                    </div>'
+          <p>Depuis quelques années, l’aménagement extérieur est devenu une partie importante du design d’une maison. Le plaisir de profiter d’une cour arrière confortable et bien réfléchie a su gagner en popularité. De plus en plus de gens souhaitent littéralement <em>vivre dehors! </em>Pour tirer profit au maximum de votre investissement, votre espace extérieur doit vous offrir bien-être et utilité, tout comme votre aménagement intérieur.</p>
+<p><strong>Pensez aux zones</strong></p>
+<p>Votre maison profite de pièces à l’ambiance et aux fonctions distinctes. Votre aménagement extérieur doit également compter sur différentes zones et doit pouvoir profiter des éléments naturels déjà offerts par votre terrain.</p>
+<ul>
+<li><strong>Zone détente&nbsp;</strong>: préférablement dans une section ombragée du terrain, cette zone doit inclure un mobilier confortable pour la sieste, la lecture et la jasette. Des barrières d’intimité peuvent être intéressantes pour isoler cette portion de la cour.</li>
+<li><strong>Zone soleil&nbsp;</strong>: souvent prêt de la piscine, cette zone est plein soleil et profite de chaises longues pour le bronzage. Il s’agit aussi d’une portion parfaite pour y mettre des végétaux exotiques ou des installations de jeux pour les enfants.</li>
+<li><strong>Zone soirée&nbsp;</strong>: le foyer extérieur est l’élément central de cette zone. Pensez aux luminaires d’ambiance, aux chaises de bois et à la musique. Si vous tolérez mal la présence de moustiques, un revêtement de sol en pierre naturelle, en pavé ou même en pierre de rivière est idéal.</li>
+<li><strong>Zone repas&nbsp;</strong>: également située plus à l’ombre, cette zone est la plus complète de votre aménagement. Elle doit compter sur une superficie suffisante pour contenir un mobilier et un abri pour les moments pluvieux, plus frais ou pour vous protéger des moustiques ou des rayons du soleil. Votre potager peut être à proximité et cette zone doit se trouver non loin de la porte vers l’intérieur.</li>
+</ul>
+        </div>'
       col2: '<div class="col-md-6 col-lg-5 col-right">
           <h6>
-            Now matter how complex and ambitious your ideas may be, we can make your outdoor space a dream come true!          </h6>
+            Peu importe vos idées, même les plus complexes ou ambitieuses, nous pouvons faire de votre espace extérieur un véritable rêve!           </h6>
         </div>'
       row1: '<div class="col-12 p-2col">
-        	<p><strong>The Outdoor Kitchen</strong></p>
-            <p>Outdoor kitchens are more popular than ever! If you’re interested, it’s important to choose the right section of your space, making sure that it’s close to the house and easily accessible. In this area, no rainwater should be able to accumulate and no large trees should be nearby in order to avoid the need for frequent maintenance. Next, choose equipment suited to your needs and select products and materials that are utilitarian, weather-resistant, and easy to maintain. As for the design itself, there are no limits: countertops, furniture, integrated pizza oven and smoker, storage, appliances, patio heaters, light fixtures, and so much more– anything is possible!</p>
-            <p><strong>Don’t Forget About Maintenance</strong></p>
-            <p>Just like indoors, cleaning and maintenance are necessary to ensure the longevity of your outdoor space. However, you can choose equipment and plants that require very little care and attention so that you can enjoy your weekends to the fullest. Unlike wood, both natural stone and concrete are weather-resistant materials that require only a small degree of maintenance. While they’re more expensive to install, their extreme durability will help them last for years to come. As for plants, if you don’t have a particularly green thumb, we recommend that you opt for perennials, grasses, and small conifers. You should also consider choosing sturdy furniture and adding storage space for rainy days.</p>
-            </div>'
-      row2: '<p>Now matter how complex and ambitious your ideas may be, we can make your outdoor space a dream come true!</p>'
+        	<p><strong>La cuisine extérieure</strong></p>
+<p>Qu’en est-il de la cuisine extérieure? Elle a plus que jamais la cote! Si ce projet vous intéresse, il est important de choisir la bonne section de votre terrain, prêt de la maison et facilement accessible. À cet endroit, l’eau de pluie ne doit pas s’accumuler et de grands arbres ne doivent pas être à proximité pour éviter un entretien de l’espace trop fréquent. Ensuite, il faut choisir vos équipements en fonction de vos réels besoins et sélectionner des produits et matériaux utilitaires, résistants aux intempéries et faciles d’entretien. Ensuite, le design n’a aucune limite&nbsp;: comptoir, mobilier, four à pizza et fumoir intégrés, rangement, électroménagers, chauffe-terrasse, luminaires, tout est possible!</p>
+<p><strong>Ne pas oublier l’entretien</strong></p>
+<p>Tout comme à l’intérieur, le ménage et l’entretien sont nécessaires. Toutefois, vous pouvez choisir de l’équipement et des végétaux qui ne requièrent que très peu de soins et d’attention afin de pouvoir profiter pleinement de vos week-ends. Contrairement au bois, la pierre naturelle et le béton sont des matériaux qui ne nécessitent que très peu d’entretien et qui résistent aux intempéries. Plus coûteux à l’installation, ils traverseront cependant bon nombre d’années. &nbsp;En ce qui concerne les végétaux, si vous n’avez pas particulièrement le pouce vert, nous vous recommandons de choisir des plantes vivaces, des graminées et de petits conifères. Pensez aussi à choisir un mobilier résistant et de vous équiper d’espaces de rangement pour les jours de pluie.</p>
+        </div>'
+      row2: '<div class="col-12 mention">
+        	<p>Peu importe vos idées, même les plus complexes ou ambitieuses, nous pouvons faire de votre espace extérieur un véritable rêve!</p>
+        </div>'
 
 
 
-  - tag: "A DARING NEW LANDSCAPE"
-    name: "A DARING NEW LANDSCAPE"
-    sub:  "PRO DESIGN LANDSCAPING"
-    category: "DARE"
-    link :  "/en/a-daring-new-landscape/"
+  - tag: "Osez un paysagement différent"
+    name: "Osez un paysagement différent"
+    sub:  "PPRODESIGN AMÉNAGEMENT"
+    category: "OSEZ"
+    link :  "/Osez un paysagement différent/"
     
     img1 : "/img/IMG_3245.jpg"
     img2 : "/img/IMG_3245.jpg"
     para1:
         col1: '<div class="col-md-6 col-lg-7">
-            <p>2020 is the year of happiness at home. Current trends in exterior design are clear: it’s time to recreate the indoors in your outdoor space! Bring the comfort of the living room, the warmth of the bedroom, and the functionality of the kitchen right into your backyard.</p>
-            <p>Landscape design has become a genuine art form as well as an integral part of a home’s overall layout and identity. If you’re willing to carefully refine each room of your home by adding interesting colours, decorations, and accessories, why not do the same with your landscaping? This summer, we invite you to be bold and think outside the box!</p>
-            </div>'
+          <p>2020 est l’année du bonheur à la maison. Les tendances en matière d’aménagement extérieur sont claires&nbsp;: recréer l’intérieur à l’extérieur. Transposer le confort du salon, la douceur de la chambre coucher et la fonctionnalité de la cuisine dans la cour arrière est la ligne directrice de la saison!</p>
+<p>La création de paysage est devenue un art, et une partie intégrale de l’aménagement complet d’une résidence. Si vous peaufinez avec soin chaque pièce de votre demeure en y ajoutant des éléments de décoration, de la couleur et des accessoires, pourquoi ne pas faire de même avec votre paysagement? Cet été, nous vous invitons à oser!</p>
+        </div>'
         col2: '<div class="col-md-6 col-lg-5 col-right">
-            <h6>
-            Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.           
-            </h6>
-            </div>'
-        row1: '<div class="row">
-        <div class="col-12 p-2col">
-        	<p><strong>Slabs and Paving Stones</strong></p>
-        <p>It’s always fun to get in touch with your creative side and let your imagination run wild to create a unique outdoor design. One key element that can completely change the look of your space is the addition of natural stone. Whether for flooring or retaining walls, there are tons of amazing colours, textures, and layouts that you can explore. Adding Chinese steps to the 2.0 look, inserting herringbone or honeycomb stones, and mixing colours and materials within the same cladding are just scratching the surface!</p>
-        <p>Although adding natural stone requires a somewhat higher investment, its unmatched beauty will last for years, requiring only minimal maintenance.</p>
-        <p>This season’s trend focuses on contemporary design and large format slabs with a smooth finish. Just as we see in interior design, we aim for a clean look that allows for the juxtaposition of compelling finishing elements. When it comes to quality and aesthetics, Rocvale products are the perfect choice!</p>
-        <p><strong>Mixing Materials</strong></p>
-        <p>To be at the cutting edge, you have to let your creativity shine. Be bold and combine different kinds of materials and styles! If you opt for clean and modern flooring, add some warm wood elements or wicker furniture. You can also set up privacy barriers made of wooden slats and dress them with climbing plants to add a pop of colour. Metal, river stone, wood, rattan, cork, and glass are all materials that can coexist harmoniously within the same space if matched thoughtfully.</p>
-        <p><strong>The Warmth of Home</strong></p>
-        <p>Finally, don’t hesitate to incorporate interior elements into your exterior areas. Small bedside lamps on side tables, cushions, carpets, and potted plants such as succulents or cacti will liven up your landscape design and make you want to enjoy your outdoor space as often as possible. As far as comfort goes, rope chairs and hammocks are popular choices for fostering a cozy, bohemian atmosphere.</p>
-        <p>Another indoor element you can bring outside is your kitchen. No matter your space and budget, it can work wonders to simply dress up your barbecue with a wooden structure while also adding some shelves, herb trays, or a small work surface.</p>
-        </div>
-         </div>'
-        row2: '<div class="row">
-                <div class="col-12 mention">
-        	<p>The idea here is to show you that the only limit is your own imagination. Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.</p>
-             </div>
-            </div>'
+          <h6>
+            Notre équipe de créateurs de paysage peut vous proposer des éléments complètement différents pouvant donner une tout autre allure à votre aménagement conventionnel.           </h6>
+        </div>'
+        row1: '<div class="col-12 p-2col">
+        	<p><strong>Les dalles et pavés </strong></p>
+<p>Il peut être amusant de sortir des sentiers battus et de laisser aller son imagination afin de créer un aménagement extérieur différent. L’un des éléments pouvant changer complètement l’allure de votre espace est l’ajout de pierres naturelles. En revêtement de sol ou en murets, il existe une immense variété de colorations, de textures et d’agencements possibles. L’ajout de pas chinois au look 2.0, l’insertion de pierres en chevron, la pierre en alvéole ou les mélanges de couleurs et de matières dans un même revêtement ne sont que quelques exemples!</p>
+<p>Bien que la pierre requière un investissement quelque peu supérieur, sa beauté traversera les années et son entretien n’est que très minime.</p>
+<p>La tendance de cette saison est au style contemporain proposant des dalles grand format au fini lisse. Tout comme nous le voyons en design d‘intérieur, nous visons un coup d’œil épuré permettant la juxtaposition d’éléments de finition. En matière de qualité et d’esthétisme, les produits<a href="https://rocvale.com/"> Rocvale</a> sont tout indiqués!</p>
+<p><strong>Le mélange des matières<br>
+</strong></p>
+<p>Pour être à l’avant-garde, il faut pouvoir laisser parler sa créativité. Osez mélanger les matières et les styles! Si vous optez pour un revêtement de sol pur et moderne, enrobez celui-ci d’un mobilier chaleureux en bois ou en osier. Ajoutez des barrières d’intimité en lattes de bois et habillez celles-ci avec des plantes grimpantes pour ajouter de la couleur. Le métal, la pierre de rivière, le bois, le rotin, le liège ou le verre sont toutes des matières qui peuvent bien vivre ensemble si elles sont jumelées harmonieusement.</p>
+<p><strong>La chaleur de la maison</strong></p>
+<p>Finalement, n’hésitez pas à incorporer des éléments intérieurs dans vos zones extérieures. Des petites lampes de chevet sur des tables d’appoints, des coussins, des tapis et des plantes en pots telles que des succulentes ou des cactus viendront animer votre paysagement et vous donneront envie de célébrer la belle saison dehors. Côté confort, les chaises en cordes et les hamacs ont vraiment la cote pour un style bohème et douillet.</p>
+<p>Un autre élément de votre maison à transporter à l’extérieur est votre cuisine. Peu importe le budget ou l’espace dont vous disposez, il peut être très intéressant de simplement habiller votre barbecue d’une structure de bois et d’y ajouter des tablettes, des bacs à fines herbes ou un petit plan de travail.</p>
+        </div>'
+        row2: '<div class="col-12 mention">
+        	<p>L’idée ici est de vous démontrer que votre imagination est la seule limite. Notre équipe de créateurs de paysage peut vous proposer des éléments complètement différents pouvant donner une tout autre allure à votre aménagement conventionnel.</p>
+        </div>'
 
 
-  - tag: "MAINTAINING YOUR LANDSCAPE"
-    name: "MAINTAINING YOUR LANDSCAPE"
-    sub:  "PRO DESIGN LANDSCAPING"
-    category :  "SUSTAINABLE INVESTMENT"
-    link :  "/en/maintaining-your-landscape/"
+  - tag: "L’entretien de votre paysage"
+    name: "L’entretien de votre paysage"
+    sub:  "PRODESIGN AMÉNAGEMENT"
+    category :  "INVESTISSEMENT DURABLE"
+    link :  "/lentretien-de-votre-paysage/"
     img1 : "/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"
     img2 : "/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"
     para1:
         col1: '<div class="col-md-6 col-lg-7">
-          <p>Your outdoor layout is everything you’ve ever wanted: a flowering garden, a vegetable plot, strategic lighting, and delineated areas. Now that you’ve invested in plants and paving stones, you might be wondering how to make the most of your beautiful project and ensure its longevity. The simple secret? Maintenance!</p>
-          <p>An outdoor space lives and breathes, which means that it needs to be properly maintained in order to retain its beauty for years to come.</p>
-          </div>'
+          <p>Votre aménagement extérieur est enfin à votre goût&nbsp;: un jardin en fleurs, un portager, de l’éclairage stratégique et des zones délimitées. Vous avez investi une somme importante dans vos végétaux et votre pavé et vous souhaitez rentabiliser tout ce beau projet? Le secret est dans l’entretien!</p>
+<p>Un aménagement extérieur est vivant et doit être bien entretenu afin de conserver sa beauté pendant de nombreuses années.</p>
+        </div>'
         col2: '<div class="col-md-6 col-lg-5 col-right">
           <h6>
-            Our team of landscape designers can offer you a wide range of elements that can transform and enrich your conventional landscaping.          </h6>
-          </div>'
+            Notre équipe de créateurs de paysage peut vous proposer des éléments complètement différents pouvant donner une tout autre allure à votre aménagement conventionnel.           </h6>
+        </div>'
         row1: '<div class="col-12 p-2col">
-        	<p><strong>Maintain Your Pavers and Natural Stone</strong></p>
-            <p>The main benefit of natural stone is its resistance, as it requires little attention and is durable enough to weather the seasons and years. However, there are a few key maintenance tips to keep in mind.</p>
-            <p>First, we recommend treating your surface right upon installation with a product suitable for natural stone. You will be able to choose between different finishes depending on your preferences: natural or satin, for example.</p>
-            <p>Another key tip is cleaning. No matter which type of natural stone you have, wipe off stains and deposits regularly with a brush along with a mixture of water and mild soap (Marseille soap is an excellent option). This will prevent dirt, debris, and other greasy/vegetal stains from accumulating. In the case of rainwater buildup, paver sections can begin to sag. In such a case, quickly readjust any sagging paving stones in order to prevent future problems. Although polymeric sand improves with new technologies, some maintenance is still necessary. Adding polymeric sand wherever it is missing is very important, and thankfully the installation technique is super simple.</p>
-            <p>We recommend cleaning the joints every season with a small soft-bristle brush. Note that the use of a pressure washer is not recommended. It’s also important not to let freshly cut grass clippings or dead leaves accumulate in the fall. The use of a leaf blower is an ideal choice for removing such debris.</p>
-            <p>Over time, plant deposits such as moss can become embedded between the stones, particularly in shaded areas. This phenomenon is typically caused by the accumulation of water and does not indicate that your stone is in poor health. To avoid it, you can treat your surface two to three times a year with a suitable natural product. Another common phenomenon is limestone efflorescence. This is a normal occurrence caused by crystalline deposits of salts resulting from the evaporation of water from the stone’s surface. While these stains eventually disappear on their own, recurring rain or sweeping can hasten the process.</p>
-            <p><strong>As for Winter?</strong></p>
-            <p>The majority of high quality stones and pavers such as Rocvale products are resistant to sand, gravel, and non-slip mixes without salts or chemicals. However, if you must use de-icing products, we recommend that you do so on a surface covered with snow or ice and not directly on the stone. Furthermore, de-icing salts must absolutely be avoided, as salt can cause the concrete to crumble. Another key recommendation is to choose a plastic snow shovel or to equip a metal shovel with a protector in order to avoid damaging the stone or leaving rust marks.</p>
-            <p><strong>Give a Little Love to Your Greenery</strong></p>
-            <p>While maintaining your flower beds is fairly simple, it still requires a bit of time and care. First, make sure to regularly remove unwanted weeds, which will help keep away harmful insects. In the spring, perform any necessary trimming and remove dead leaves, broken branches, and gravel. Before winter, from October to mid-November, make sure to completely remove dead leaves and flowers as well as any other unwanted debris from the ground. We recommend that you install specially designed protective fabrics to protect perennial shrubs from snow and ice.</p>
-            </div>'
-        row2: '<div class="col-12 mention">
-                <p>And don’t forget that the Pro Design team is always here to help! No matter the time of the year or your maintenance needs, our team is happy to offer advice and even do the work for you.</p>
-                </div>'
+        	<p><strong>Entretenir son pavé et sa pierre naturelle</strong></p>
+<p>L’avantage premier de la pierre naturelle est sa résistance. En effet, cette dernière ne requiert que peu d’attention et perdure au-delà des saisons et des années. Par contre, quelques petites règles d’entretien sont importantes à savoir.</p>
+<p>Premièrement, il est recommandé de traiter votre surface dès son installation avec un produit adapté aux pierres naturelles. Vous pourrez choisir entre différents finis selon votre préférence&nbsp;: naturel ou satiné, par exemple.</p>
+<p>Ensuite, l’une des principales astuces est le nettoyage. Peu importe le type de pierre naturelle que vous avez, essuyez les tâches et dépôts régulièrement à l’aide d’une brosse et d’un mélange d’eau et de savon doux (le savon de Marseille est une excellente option). Vous éviterez ainsi de voir les saletés, débris et autres taches de gras et de végétaux s’accumuler en profondeur. Dans le cas d’une accumulation d’eau de pluie, l’affaissement d’une section de pavé uni peut survenir. Il est nécessaire de recourir rapidement à sa remise à niveau afin d’éviter les problématiques futures. Bien que le sable polymère s’améliorer avec les nouvelles technologies, un certain entretien est tout de même nécessaire. Il est important de rajouter du sable polymère aux endroits où il en manque. La technique de pose est très facile.</p>
+<p>Chaque saison, nous vous recommandons de nettoyer les joints avec une petite brosse à poils souples. Notez que l’utilisation d’un nettoyeur à haute pression est déconseillée. Il est aussi très important de ne pas laisser s’accumuler les retailles de pelouse fraichement coupée ou encore les feuilles mortes à l’automne. L’utilisation d’un souffleur à feuille est un outil très efficace pour enlever ces résidus.</p>
+<p>Avec le temps, des dépôts de végétaux comme de la mousse peuvent s’insérer entre les pierres (surtout dans les endroits ombragés). Rassurez-vous, cela ne signifie pas que votre pierre est en mauvaise santé. Justement, l’accumulation d’eau peut engendrer ce phénomène. Pour l’éviter, vous pouvez traiter votre surface deux à trois fois par an avec un produit naturel adapté. Un autre phénomène courant est l’efflorescence calcaire. Il s’agit d’une réaction normale provenant des sels solubles transportés par l’humidité qui se cristallisent en une fine poudre à la suite de l’évaporation de l’eau à la surface de la pierre. Une pluie récurrente ou un balayage peuvent parfois accélérer la disparition des taches, qui se fera éventuellement d’elle-même.</p>
+<p><strong>Et l’hiver? </strong></p>
+<p>La majorité des pierres et pavés de qualité supérieure comme les produits Rocvale résistent sans problème au sable, gravier et mélanges antidérapants sans sels ou produits chimiques. Cependant, si vous devez utiliser des produits déglaçant, nous recommandons de le faire sur une surface recouverte de neige ou de glace et non directement sur la pierre. Par ailleurs, il faut absolument proscrire les sels de déglaçages, car le sel aura pour effet de créer l’effritement du béton. Il est aussi conseillé d’opter pour une pelle à neige faite de plastique ou de munir votre pelle de métal d’un protecteur afin de ne pas abimer la pierre ou y laisser des marques de rouille.</p>
+<p><strong>&nbsp;</strong><strong>Donner un peu d’amour au terrassement </strong></p>
+<p>L’entretien de vos plates-bandes est plutôt simple, mais nécessite du temps et de l’amour. Premièrement, assurez-vous de désherber régulièrement afin de retirer les herbes indésirables et éviter l’apparition d’insectes nuisibles. Au printemps, éliminez les feuilles mortes, les branches cassées durant l’hiver et le gravier et procédez à un taillage d’éclaircissement. Avant l’hiver, soit d’octobre à la mi-novembre, faites un bon ménage afin de retirer complètement les feuilles et fleurs mortes et les débris au sol. Nous vous recommandons d’installer des tissus protecteurs spécialement conçus afin de protéger les arbustes vivaces de la neige et de la glace.</p>
+        </div>'
+        row2: '<<div class="col-12 mention">
+        	<p>N’oubliez pas, les créateurs Pro Design sont là pour vous aider! Peu importe la période de l’année ou vos besoins en entretien, notre équipe pourra vous conseiller ou effectuer les travaux pour vous.</p>
+<p>&nbsp;</p>
+        </div>'
+
 
     
-  - tag: "CREATING GREEN SPACES: GARDENS AND VEGETABLE PLOTS"
-    name: "CREATING GREEN SPACES: GARDENS AND VEGETABLE PLOTS"
-    sub:  "PRO DESIGN LANDSCAPING"
-    category :  "BACK TO THE ROOTS"
-    link :  "/en/creating-green-spaces-gardens-and-vegetable-plots/"
+  - tag: "Lumière sur les potagers et jardins"
+    name: "LUMIÈRE SUR LES POTAGERS ET JARDINS"
+    sub:  "PRODESIGN AMÉNAGEMENT"
+    category :  "RETOUR AUX SOURCES"
+    link :  "/la-creation-despaces-verts-lumiere-sur-les-potagers-et-jardins/"
     img1 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
     img2 : "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
     para1:
         col1: '<div class="col-md-6 col-lg-7">
-          <p><span style="font-weight: 400;">After spending the bulk of spring confined at home, people are itching to take advantage of the summer and enjoy all the wonderful things nature has to offer! Summer 2020 is looking to be the season of beautiful gardens and vegetable plots, with plenty of exciting ways to give life to your outdoor space.</span></p>
-          <p>&nbsp;</p>
-          </div>'
+          <p>Disons-le, l’été 2020 sera celui des jardins et potagers. Ce printemps de confinement nous a tous donné envie de retourner aux sources et de vraiment profiter de ce que la nature nous offre. Quel beau projet que de démarrer son propre potager, ou de créer un jardin de fleurs et de vivaces pour agrémenter son espace extérieur!</p>
+        </div>'
         col2: '<div class="col-md-6 col-lg-5 col-right">
           <h6>
-            Do you have everything you need to invigorate your landscape? Here are a few tips on mastering your plants!          </h6>
-          </div>'
+            Avez-vous en tête tous les éléments pour donner vie à votre terrassement?&nbsp; Voici quelques astuces pour devenir maître des végétaux!          </h6>
+        </div>'
         row1: '<div class="col-12 p-2col">
-        	<p><b>Vegetable Gardens</b></p>
-<p><span style="font-weight: 400;">Fresh, organic vegetables at your fingertips? Now that’s a treat! The first thing to consider is the location of your vegetable garden, which ought to be in direct sunlight in order for it to soak up as much natural light as possible throughout the day. Keep in mind that a vegetable garden requires 6 hours of sunshine per day. It should also be built at least 5 metres from a tree so that vegetable growth doesn’t become hindered by the tree’s roots. Finally, your land must be flat so that water doesn’t run off the sides. A vegetable garden needs plenty of water to stay healthy, so don’t forget to give it a spray every day!</span></p>
-<p><span style="font-weight: 400;">There are a few ways to approach your vegetable garden set-up: squares, rows, and plots. For beginners, we recommend using the square method, which is easy to set up and maintain. On the other hand, the row method allows you to better organize your seedlings and move between batches.</span></p>
-<p><span style="font-weight: 400;">As for the veggies themselves, the easiest ones to grow are tomatoes, carrots, beans, lettuce, zucchini, radishes, cucumbers, and fresh herbs. Be sure to properly separate your vegetables; for example, you should keep tomatoes away from cucumbers and beans.</span></p>
-<p><strong>Gardens</strong></p>
-<p><span style="font-weight: 400;">If you’re more interested in flowers than vegetables, a colourful garden is a great way to beautify your home and help you enjoy a day out in the sun. Getting your hands dirty can be super relaxing, but it definitely requires some knowledge. Firstly, just like a vegetable garden, your flower garden needs a fair amount of sunshine as well as soil that’s rich in nutrients and organic matter.</span></p>
-<p><span style="font-weight: 400;">Next, you have to choose between perennials and annuals. Perennials have a life span of several years, while annuals flower for a single season. Perennials have a slower flowering cycle; they remain in leaf for quite some time, but provide a nice structure to a garden. Some perennials also lack flowers altogether, but have beautiful green leaves. They also require less care compared to annuals, remaining beautiful year after year. Annuals are perfect for those who enjoy a garden in full bloom, though they tend to need more care, with cultivation work required every spring.</span></p>
+        	<p><strong>Les potagers</strong></p>
+<p>Des légumes frais et biologiques à portée de mains… un vrai délice! La première chose à considérer est l’emplacement de votre potager. Celui-ci doit être plein soleil afin de recevoir la luminosité naturelle le plus longtemps possible. Souvenez-vous qu’un potager a besoin de 6h d’ensoleillement par jour. Il doit également être construit à au moins 5 mètres d’un arbre, car les racines de celui-ci pourraient nuire à la croissance de vos légumes. Finalement, votre terrain doit être plat afin que l’eau ne s’écoule pas d’un côté ou de l’autre. &nbsp;Parlons-en de l’eau! Un potager a grandement besoin d’eau et doit être arrosé chaque jour.</p>
+<p>Il existe différentes façons de cultiver vos légumes : potager carré, en rangées ou en parcelles. Pour les débutants en la matière, nous vous recommandons la méthode en carré, car plus simple à démarrer et à entretenir. Cependant, la méthode en rangées vous permet de mieux organiser vos semis et de circuler entre les lots.</p>
+<p>Et les légumes dans tout ça? Les plus faciles à cultiver sont les tomates, les carottes, les haricots, la laitue, les courgettes, les radis, les concombres, ou encore les herbes fraîches. Assurez-vous aussi de garder les légumes par famille&nbsp;: les tomates loin des concombres et des haricots, par exemple.</p>
+<p><strong>Les jardins</strong></p>
+<p>Si vous êtes plus du type fleurs que légumes, un jardin coloré est une magnifique façon d’embellir votre maison et de vous offrir de bons moments de détente au soleil. Mettre les mains à la terre est une activité très relaxante, mais nécessite quelques connaissances. Premièrement, tout comme pour les potagers, votre jardin doit profiter d’une bonne quantité d’ensoleillement. Le secret est aussi dans la qualité du sol&nbsp;: riche en nutriments et en matières organiques.</p>
+<p>Ensuite, il faut faire le choix entre les vivaces et les annuelles. Les premières offrent une vie de plusieurs années tandis que les deuxièmes fleurissent pendant une seule saison. Les vivaces ont un cycle de fleuraison plus lent, donc demeurent en feuille quelque temps, mais procure une belle structure à un jardin. Certaines sont également dépourvues de fleurs, mais offrent de magnifiques feuilles bien vertes. &nbsp;Elles ont également besoin de moins de soins que les annuelles et demeurent en beauté année après année. Les annuelles sont quant à elles parfaites pour les adeptes d’un jardin très en fleurs. Elles requièrent par contre plus d’attention et le travail de culture doit être fait chaque printemps.</p>
         </div>'
 
         row2: '<div class="col-12 mention">
-        	<p><strong>Plant Arrangement</strong></p>
-<p>Ideally, you would go for a combination of both annuals and perennials! They can coexist extremely well, fostering a beautiful balance of shapes and colours. Keep in mind the importance of choosing the right combinations, as certain plants aren’t meant to grow together.</p>
-<p>You can also merge your vegetable and flower gardens, with several mutually beneficial combinations to optimize each garden’s growth. Cucumber and nasturtium, squash and dill, broccoli and marigolds–&nbsp; these are just a few great pairings!</p>
-<p>Need a hand? We’re happy to help design your outdoor space.</p>
+        	<p><strong>L’agencement des végétaux </strong></p>
+<p>L’idéal? Une belle combinaison des deux types! Plantes annuelles et vivaces peuvent très bien cohabiter et cela permet de construire un bel équilibre de formes et de couleurs. Cependant, il est important de choisir les agencements, car certains végétaux ne vivent pas bien ensemble.</p>
+<p>Vous pouvez aussi jumeler votre potager à votre jardin de fleurs, car plusieurs combinaisons sont profitables pour la croissance de chacun. Concombre et capucine, courge et aneth, brocoli et soucis sont quelques exemples de couples réussis!</p>
+<p>Vous avez besoin de coup de main? Nous pouvons vous aider dans la conception de votre espace nature.</p>
         </div>'
 
-  - tag: "LIGHTING IS CRUCIAL IN LANDSCAPING"
-    name: "LIGHTING IS CRUCIAL IN LANDSCAPING"
-    category : "THE FINAL TOUCH"
+  - tag: "L’éclairage, un incontournable de l’aménagement paysager"
+    name: "L’éclairage, un incontournable de l’aménagement paysager"
+    category : "LA TOUCHE FINALE"
     sub: "PRO DESIGN LANDSCAPING"
-    link :  "/en/lighting-is-crucial-in-landscaping/"
+    link :  "/leclairage-un-incontournable-de-lamenagement-paysager/"
     img1 : "/img/IMG_7262.JPG.jpg"
     img2 : "/img/IMG_7262.JPG.jpg"
     para1:
         col1: '<div class="col-md-6 col-lg-7">
-          <p><span style="font-weight: 400;">When night falls, the beauty of your landscape tends to fade into the darkness. As landscape designers, our mission is to create living spaces that allow you to enjoy every moment of your day outdoors, with proper lighting offering a solution that is both functional and aesthetically pleasing!</span></p>
-          <p><span style="font-weight: 400;">Proper lighting places makes it possible to:</span></p>
-          <ul>
-          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Enhance the overall look of your layout</span></li>
-          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Create different zones and atmospheres</span></li>
-          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Add value to your property</span></li>
-          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Highlight the key elements of your outdoor design</span></li>
-          <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Increase security</span></li>
-          </ul>
-          </div>'
+          <p>Lorsque la nuit tombe, toute la beauté de votre aménagement paysager tend à disparaître. Dommage! En tant que créateurs de paysage, notre mission est de construire des espaces de vie permettant de profiter de chaque moment de votre journée à l’extérieur. L’ajout d’éclairage au sein de votre aménagement est une solution à la fois utilitaire et tellement esthétique!</p>
+<p>Des sources de lumière diffusées aux bons endroits permettront de&nbsp;:</p>
+<ul>
+<li>Rehausser l’allure générale de votre aménagement</li>
+<li>Créer différentes zones et ambiances</li>
+<li>Donner de la valeur à votre propriété</li>
+<li>Mettre en lumière les éléments clés de votre extérieur</li>
+<li>Augmenter la sécurité lors des déplacements et pendant votre absence</li>
+</ul>
+        </div>'
         col2: ''
-        row1: '<div class="col-12 p-2col">
-        	<p><b>Enhance Your Outdoor Space</b></p>
-          <p><span style="font-weight: 400;">Lighting fixtures are key decorative elements in interior design, and the same can be true for your home’s exterior. If every room in your home benefits from lighting fixtures that enhance style and décor, there’s no reason for your outdoor space not to enjoy those same benefits. Exterior lighting not only adds value to your investment, but also allows you to top off your project in style. All of your accessories, installations, and plants will be highlighted no matter the time of day.</span></p>
-          <p><b>Think Security</b></p>
-          <p><span style="font-weight: 400;">Exterior lighting also helps to mark out places of passage while maintaining a sophisticated aesthetic. With the right system, your driveway, garden, or swimming pool will benefit from sober and practical lighting. We also advise you to opt for in-ground lighting; this simple, subtle light source will guide your path without detracting from the harmony of your design.</span></p>
-          <p><span style="font-weight: 400;">Your lighting system can also be automated. Your house can light up whenever you want, even if you aren’t home, to help you keep peace of mind.</span></p>
-          <p><b>Every Atmosphere Needs Its Own Lighting</b></p>
-          <p><span style="font-weight: 400;">Looking to highlight a beautiful tree? A light fixture projecting upward is the best solution. On the other hand, rock gardens and flowerbeds benefit from multiple light sources scattered on the ground.</span></p>
-          <p><span style="font-weight: 400;">As for your stone walls, they may require a concealed, specially-designed system. You can choose from a wide range of fixture designs that are able to cultivate your desired ambiance in every corner of your outdoor space, including your terrace, pergola, and more. Whatever the case, the goal is to choose light sources that are decorative at night but discreet during the day.</span></p>
-          <p><span style="font-weight: 400;">We’re also happy to recommend various eco-friendly options using solar energy and LED technology.</span></p>
-          </div>'
+        row1: '<<div class="col-12 p-2col">
+        	<p><strong>Rehaussez votre espace extérieur</strong></p>
+<p>En matière de design intérieur, les luminaires sont devenus de véritables éléments de décoration. Il en va de même pour l’aménagement extérieur. Si chaque pièce de votre maison profite de luminaires pour rehausser le style et le décor, chaque section de votre paysagement devrait en bénéficier aussi. L’éclairage extérieur permet non seulement d’ajouter de la valeur à votre investissement, mais il permet surtout de finaliser en beauté votre projet. Les accessoires, installations et végétaux que vous avez choisis avec parcimonie seront alors bonifiés à toute heure de la journée.</p>
+<p><strong>Pensez sécurité</strong></p>
+<p>L’éclairage extérieur permet aussi de baliser les lieux de passage, tout en conservant une allure sophistiquée. En utilisant le bon système, l’allée menant à la maison, au jardin ou à la piscine profitera d’un éclairage sobre et pratique. Nous vous conseillons aussi d’opter pour un concept de soulignement au sol. Cette petite source de lumière permettra simplement de guider le déplacement sans nuire à l’harmonie du design.</p>
+<p>Votre système d’éclairage peut aussi être automatisé. Ainsi, votre maison s’illuminera à l’heure souhaitée, même en votre absence. Vous pourrez donc partir la tête tranquille, votre aménagement demeurera vivant.</p>
+<p><strong>Chaque ambiance nécessite son éclairage</strong></p>
+<p>Vous voulez mettre en lumière un arbre magnifique qui trône sur votre terrain? Le projecteur vers le haut est la meilleure solution. Par contre, les rocailles et plates-bandes vont profiter davantage de multiples sources d’éclairages dispersées au sol.</p>
+<p>Vos murets de pierre quant à eux peuvent requiert un système dissimulé et spécialement conçu à cet effet. Vous avez également une gamme infinie de luminaires design pour créer les ambiances désirées, que vous soyez sur votre terrasse, sous la pergola ou dans votre coin salle à manger. Dans tous les cas, l’idée est de choisir des sources de lumière décoratives la nuit, mais discrètes le jour.</p>
+<p>Puisque nous sommes de notre temps, nous pouvons bien sûr vous recommander différentes options écoresponsables utilisant l’énergie solaire et la technologie DEL.</p>
+        </div>'
 
         row2: '<div class="col-12 mention">
-        	<p><span style="font-weight: 400;">Tips in a nutshell:</span></p>
-          <ul>
-          <li>Direct lighting according to the needs of the area or object that must be lit</li>
-          <li>Opt for waterproof luminaires</li>
-          <li>Differentiate between utility, mood, or decorative lighting</li>
-          <li>Choose a soft, warm light in the dining and relaxation areas, with a brighter choice for travel areas</li>
-          <li>Consider wireless luminaires</li>
-          <li>Be creative!</li>
-          </ul>
-          <p><span style="font-weight: 400;">Do you have a lighting project in mind? Tell us about your ideas!</span></p>
-          </div>'
-  
-  
+        	<p>Astuces en bref&nbsp;:</p>
+<ul>
+<li>Dirigez l’éclairage en fonction de l’élément à mettre en lumière</li>
+<li>Optez pour des luminaires étanches</li>
+<li>Faites la différence entre l’éclairage utilitaire, d’ambiance ou de décoration</li>
+<li>Choisissez une luminosité tamisée et chaude dans les zones de repas et de détente, et plus claires dans les zones de déplacement</li>
+<li>Pensez aux luminaires sans fil</li>
+<li>Soyez créatifs!</li>
+</ul>
+<p>Vous avez un projet illuminé en tête? Parlez-nous de vos idées!</p>
+        </div>'
+
+
+ 

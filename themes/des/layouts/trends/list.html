@@ -3,15 +3,15 @@
     {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ partial "head.html" .}}
 <body class="blog wp-custom-logo wp-embed-responsive group-blog hfeed">
-
+{{ .Site.Language.Lang }}
 {{ partial "header.html" . }}
     <div id="tendances">
 
         <section id="intro" class="d-flex justify-content-start align-items-center inner">
             <div class="overlayContent">
                 <h1>
-                    <span class="small wow fadeInLeft" data-wow-duration=".5s" data-wow-delay=""> </span>
-                    <span class="big wow fadeInRight" data-wow-duration=".5s" data-wow-delay="">{{ $data.trends.hero_text | safeHTML  }}11</span>
+                    <span class="small wow fadeInLeft" data-wow-duration=".5s" data-wow-delay=""> {{ $data.trends.hero_text1 | safeHTML  }}</span>
+                    <span class="big wow fadeInRight" data-wow-duration=".5s" data-wow-delay="">{{ $data.trends.hero_text | safeHTML  }}</span>
                 </h1>
             </div>
         </section>
@@ -21,14 +21,14 @@
 
                 <div class="col-12">
                     <div class="navpost-container">
-                        <span><a href="/en/trends/">{{ $data.trends.all | safeHTML  }}</a></span>
+                        <span><a href="{{ $data.trends.url | safeHTML  }}">{{ $data.trends.all | safeHTML  }}</a></span>
                         <span>
                             <select name='cat' id='cat' class='postform'>
                                 <option value='0' selected='selected'>{{ $data.trends.cat | safeHTML  }}</option>
                                 <option class="level-0" value="2">{{ $data.trends.uncat | safeHTML  }}</option>
                                 <option class="level-0" value="160">{{ $data.trends.sustainabel | safeHTML  }}</option>
                                 <option class="level-0" value="161">{{ $data.trends.dare | safeHTML  }}</option>
-                                <option class="level-0" value="162">{{ $data.trends.dare | safeHTML  }}</option>
+                                <option class="level-0" value="162">{{ $data.trends.key | safeHTML  }}</option>
                                 <option class="level-0" value="163">{{ $data.trends.roots | safeHTML  }}</option>
                                 <option class="level-0" value="164">{{ $data.trends.touch | safeHTML  }}</option>
                             </select>

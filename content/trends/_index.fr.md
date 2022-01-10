@@ -1,3 +1,3 @@
 +++
-url ="trends"
+url = "/tendances/"
 +++

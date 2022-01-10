@@ -1,8 +1,11 @@
 hero_text1: "Our"
 hero_text2: "Portfolio"
+all_link: "/en/portfolio"
+all: "All"
 portfolio_listings:
   - link: "/en/ct_portfolio/amenagement-exterieur/"
     name: "Aménagement extérieur"
+  
 
   - link: "/en/ct_portfolio/eclairage-paysager/"
     name: "Éclairage paysager"
@@ -12,3 +15,21 @@ portfolio_listings:
 
   - link: "/en/ct_portfolio/travail-de-la-pierre/"
     name: "Travail de la pierre"
+
+portfolios:
+  - name1: "Saint-Jérôme"
+    name2: "White Garden"
+    link1: "/en/portfolio/white-garden-st-jerome/"
+    button: "View project"
+    bg_img1: ""
+    bg_img2: ""
+    bg_img3: ""
+
+  - name1: "Saint-Sauveur"
+    name2: "Nature’s Contrasts"
+    link1: "/en/portfolio/labonte-project-st-sauveur/"
+    button: "View project"
+    bg_img1: ""
+    bg_img2: ""
+    bg_img3: ""
+    

@@ -2,3 +2,69 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme ="des"
+DefaultContentLanguage = "fr"
+
+# Site Menus
+[languages]
+
+[languages.en]
+[[languages.en.menu.main]]
+name = "Home"
+weight = 1
+url = "/en/"
+
+[[languages.en.menu.main]]
+name = "Services"
+weight = 2
+url = "/en/services/"
+
+[[languages.en.menu.main]]
+name = "Transport"
+weight = 3
+url = "/en/transports/"
+
+[[languages.en.menu.main]]
+name = "Company"
+weight = 4
+url = "/en/about/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 5
+url = "/en/projets/"
+
+[[languages.en.menu.main]]
+name = "Contact us"
+weight = 6
+url = "/en/contact/"
+
+[languages.fr]
+[[languages.fr.menu.main]]
+name = "Accueil"
+weight = 1
+url = "/"
+
+[[languages.fr.menu.main]]
+name = "Services"
+weight = 2
+url = "/services/"
+
+[[languages.fr.menu.main]]
+name = "Transport"
+weight = 3
+url = "/transports/"
+
+[[languages.fr.menu.main]]
+name = "À propos"
+weight = 4
+url = "/apropos/"
+
+[[languages.fr.menu.main]]
+name = "Projets"
+weight = 5
+url = "/projets/"
+
+[[languages.fr.menu.main]]
+name = "Nous joindre"
+weight = 6
+url = "/nous-joindre/"

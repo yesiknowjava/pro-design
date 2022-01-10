@@ -5,11 +5,19 @@
 
                 <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
                     <ul>
-                        <li
-                            class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-fr wpml-ls-first-item wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
-                            <a href="https://pro-design.ca" class="wpml-ls-link">
-                                <span class="wpml-ls-native" lang="fr">FR</span></a>
-                        </li>
+                        
+
+                            {{ range .AllTranslations }}
+                            {{ if (ne .Lang $.Site.Language.Lang) }}
+                           
+                            <li
+                                class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-fr wpml-ls-first-item wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+                                <a href="{{ .Permalink }}" class="wpml-ls-link">
+                                    <span class="wpml-ls-native" lang="{{ lower .Language.Lang }}">{{ upper .Language.Lang }}</span></a>
+                            </li>
+                            {{ end }}
+                            {{ end }}
+                            
                     </ul>
                 </div>
                 <a href="tel:+18885167067" class="tel-link header-tel">1 888 516.7067</a>
