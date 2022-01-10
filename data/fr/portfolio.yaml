@@ -1,0 +1,83 @@
+hero_text1: "NOTRE"
+hero_text2: "PORTFOLIO"
+all_link: "/portfolio"
+all: "TOUS"
+portfolio_listings:
+  - link: "/ct_portfolio/amenagement-exterieur/"
+    name: "Aménagement extérieur"
+  
+
+  - link: "/ct_portfolio/eclairage-paysager/"
+    name: "Éclairage paysager"
+
+  - link: "/ct_portfolio/pave-et-muret/"
+    name: "Pavé et muret"
+
+  - link: "/ct_portfolio/travail-de-la-pierre/"
+    name: "Travail de la pierre"
+
+portfolios:
+  - name1: "Saint-Jérôme"
+    name2: "Jardin blanc"
+    link1: "/portfolio/white-garden-st-jerome/"
+    button: "Voir le projet"
+    img:
+    - "/img/projet-blanc-01.jpg"
+    - "/img/projet-blanc-02.jpg"
+    - "/img/projet-blanc-06.jpg"
+    - "/img/projet-blanc-05.jpg"
+    - "/img/projet-blanc-07.jpg" 
+
+  - name1: "Saint-Sauveur"
+    name2: "Projet contraste en nature"
+    link1: "/portfolio/labonte-project-st-sauveur/"
+    button: "Voir le projet"
+    img:
+      - "/img/st-sauveur-01.jpg"
+      - "/img/st-sauveur-02.jpg"
+      - "/img/st-sauveur-05.jpg"
+      - "/img/st-sauveur-04.jpg"
+      - "/img/st-sauveur-03.jpg"
+    
+
+  - name1: "Ste-Adèle"
+    name2: "Projet Le Monarque "
+    link1: "/portfolio/projet-le-monarque/"
+    button: "Voir le projet"
+    img:
+      - "/img/monarque-2.jpg"
+      - "/img/monarque-3.jpg"
+      - "/img/monarque-4.jpg"
+      - "/img/monarque-5.jpg"
+      - "/img/monarque-6.jpg"
+      - "/img/monarque-7.jpg"
+    
+
+  - name1: "Saint-Sauveur"
+    name2: "Projet Zenitude banlieusarde"
+    link1: "/portfolio/projet-zenitude-banlieusarde/"
+    button: "Voir le projet"
+    img:
+    
+      - "/img/zenitude-2.jpg"
+      - "/img/zenitude-3.jpg"
+      - "/img/zenitude-4.1.jpg"
+      - "/img/zenitude-5.jpg"
+      - "/img/zenitude-6.jpg"
+      - "/img/zenitude-7.jpg"
+      - "/img/zenitude-8.jpg"
+      - "/img/zenitude-9.jpg"
+      - "/img/zenitude-10.jpg"
+      - "/img/zenitude-11.jpg"
+      - "/img/zenitude-12.jpg"
+      - "/img/zenitude-13.jpg"
+      - "/img/zenitude-14.jpg"
+      
+
+   
+
+  
+  
+  
+
+  

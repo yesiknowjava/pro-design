@@ -21,7 +21,7 @@
            
             <div class="categories-listing wow fadeIn" data-wow-duration=".5s" data-wow-delay="">
                 <ul>
-                    <li class="current-cat"><a href="{{$data.portfolio.all_link}}">{{$data.portfolio.name}}</a></li>
+                    <li class="current-cat"><a href="{{$data.portfolio.all_link}}">{{$data.portfolio.all}}</a></li>
                     {{ range $data.portfolio.portfolio_listings }}
 
                     <li class="cat-item cat-item-23"><a
@@ -55,20 +55,14 @@
                     <div class="portfolio-actions"><a
                             href="{{ .link1 }}">{{ .button }}</a></div>
                 </div>
-                <div class="overlaySlider">
-                    <div class="aPortfolioSlider"
-                        onclick="location.href='{{ .link}}';"
-                        style="background: url(/img/projet-blanc-01.jpg) center center no-repeat; background-size: cover;">
-                    </div>
-                    <div class="aPortfolioSlider"
-                        onclick="location.href='https://pro-design.ca/en/portfolio/white-garden-st-jerome/';"
-                        style="background: url(/img/projet-blanc-02.jpg) center center no-repeat; background-size: cover;">
-                    </div>
-                    <div class="aPortfolioSlider"
-                        onclick="location.href='https://pro-design.ca/en/portfolio/white-garden-st-jerome/';"
-                        style="background: url(/img/projet-blanc-06.jpg) center center no-repeat; background-size: cover;">
-                    </div>
-
+                    {{ $url_link := .link1 }}
+                    {{ range .img }}
+                    <div class="overlaySlider">
+                        <div class="aPortfolioSlider"
+                            onclick="location.href='{{ $url_link }}';"
+                            style="background: url( '{{ . | safeHTML }}' ) center center no-repeat; background-size: cover;">
+                        </div>
+                    {{ end}}
                 </div>
             </div>
             {{ end }}

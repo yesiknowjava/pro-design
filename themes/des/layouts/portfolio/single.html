@@ -7,6 +7,22 @@
     class="portfolio-template-default single single-portfolio postid-811 wp-custom-logo wp-embed-responsive group-blog">
 
     {{ partial "header.html" .}}
+    {{ $page_title_data := .Params.Title }}
+    {{ $scratch := .Scratch }}
+    {{ range $data.portfolio.portfolios }}
+        {{ if eq $page_title_data .name }}
+            {{ $scratch.Set "col1" .para1.col1 }}
+            {{ $scratch.Set "col2" .para1.col2 }}
+            {{ $scratch.Set "row1" .para1.row1 }}
+            {{ $scratch.Set "row2" .para1.row2 }}
+            {{ $scratch.Set "sub" .sub }}
+            {{ $scratch.Set "img1" .img1 }}
+            {{ $scratch.Set "img2" .img2 }}
+            {{ $scratch.Set "category" .category }}
+            {{ $scratch.Set "name" .name}}
+        {{ end }}
+    {{ end }}
+
     <div id="portfolio-single">
 
         <section class="portfolio-single-slider">

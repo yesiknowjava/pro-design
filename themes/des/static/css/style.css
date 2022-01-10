@@ -586,7 +586,7 @@ div.wpforms-container-full .wpforms-form .wpforms-five-sixths, div.wpforms-conta
 }
 
 #home-portfolio {
-	background: url(/wp-content/uploads/2020/05/roches.jpg) top center no-repeat;
+	background: url(/img/roches.jpg) top center no-repeat;
 	background-size: 100%;
 	padding: 28vw 0 0 0;
 	margin: -16.5vw 0 0 0;
@@ -1245,7 +1245,7 @@ div.wpforms-container-full .wpforms-form button[type=submit]:hover { background:
 /* Portfolio */
 
 body.post-type-archive-portfolio {
-	background: url(/wp-content/uploads/2020/05/roches.jpg) top center no-repeat #000;
+	background: url(/img/roches.jpg) top center no-repeat #000;
 	background-size: 100%;
 }
 
