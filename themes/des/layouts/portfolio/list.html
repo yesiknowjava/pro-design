@@ -45,7 +45,7 @@
 
 
             {{ range $data.portfolio.portfolios }}
-
+            
             <div class="aPortfolio d-flex justify-content-start align-items-center wow fadeIn" data-wow-duration=".5s"
                 data-wow-delay="">
                 <div class="aPortfolio-container">
@@ -56,14 +56,17 @@
                             href="{{ .link1 }}">{{ .button }}</a></div>
                 </div>
                     {{ $url_link := .link1 }}
-                    {{ range .img }}
+                    
                     <div class="overlaySlider">
+                        {{ range .img }}
                         <div class="aPortfolioSlider"
                             onclick="location.href='{{ $url_link }}';"
-                            style="background: url( '{{ . | safeHTML }}' ) center center no-repeat; background-size: cover;">
+                            style="background: url( '{{ . }}' ) center center no-repeat; background-size: cover;">
                         </div>
-                    {{ end}}
-                </div>
+                        {{ end}}
+                    </div>
+                    
+                
             </div>
             {{ end }}
 

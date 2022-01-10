@@ -19,6 +19,7 @@ portfolio_listings:
 portfolios:
   - name1: "Saint-Jérôme"
     name2: "White Garden"
+    title: "White Garden - St-Jérôme - Pro Design Exterior Design"
     link1: "/en/portfolio/white-garden-st-jerome/"
     button: "View project"
     bg_img1: "/img/projet-blanc-01.jpg"
@@ -27,6 +28,7 @@ portfolios:
 
   - name1: "Saint-Sauveur"
     name2: "Nature’s Contrasts"
+    title: "Labonté Project - St-Sauveur - Pro Design Exterior Design"
     link1: "/en/portfolio/labonte-project-st-sauveur/"
     button: "View project"
     bg_img1: "/img/st-sauveur-01.jpg"

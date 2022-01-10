@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+{{partial "head.html" . }}
+
+<body
+    class="portfolio-template-default single single-portfolio postid-811 wp-custom-logo wp-embed-responsive group-blog">
+
+    {{ partial "header.html" .}}
+    {{ $page_title_data := .Params.Title }}
+    {{ $scratch := .Scratch }}
+    {{ range $data.portfolio.portfolios }}
+        {{ if eq $page_title_data .name }}
+            {{ $scratch.Set "col1" .para1.col1 }}
+            {{ $scratch.Set "col2" .para1.col2 }}
+            {{ $scratch.Set "row1" .para1.row1 }}
+            {{ $scratch.Set "row2" .para1.row2 }}
+            {{ $scratch.Set "sub" .sub }}
+            {{ $scratch.Set "img1" .img1 }}
+            {{ $scratch.Set "img2" .img2 }}
+            {{ $scratch.Set "category" .category }}
+            {{ $scratch.Set "name" .name}}
+        {{ end }}
+    {{ end }}
+
+    <div id="portfolio-single">
+
+        <section class="portfolio-single-slider">
+            <div><img
+                    src="{{"/img/projet-blanc-01.jpg" | relURL }}"
+                    width="100%" alt="" /></div>
+            <div><img
+                    src="{{"/img/projet-blanc-02.jpg" | relURL }}"
+                    width="100%" alt="" /></div>
+                    width="100%" alt="" /></div>
+            <div><img
+                    src="{{"/img/projet-blanc-06.jpg"| relURL }}"
+                    width="100%" alt="" /></div>
+                    width="100%" alt="" /></div>
+
+        </section>
+
+        <section class="single-details bg-white">
+
+            <div class="container">
+
+
+                <div class="row">
+                    <div class="col-lg-6">
+
+                        <span class="bg-text">style</span>
+
+                    </div>
+                    <div class="col-lg-6">
+
+                        <div class="slider-textures">
+
+                            <div>
+                                <div class="overlayTitle">
+                                    <h2><span>Rocvale</span>Beacon Hill™ - Steel grey</h2>
+                                </div>
+                                <img src="{{"/img/projet-blanc-gris-acier.jpg"| relURL }}"
+                                width="100%" alt="" /></div>
+                                    width="100%" alt="" />
+                            </div>
+                            <div>
+                                <div class="overlayTitle">
+                                    <h2><span>Rocvale</span>Beacon Hill™ - Opal</h2>
+                                </div>
+                                <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-opale.jpg?fit=614%2C680&#038;ssl=1"
+                                    width="100%" alt="" />
+                            </div>
+                            <div>
+                                <div class="overlayTitle">
+                                    <h2><span>Pebble</span>Slate</h2>
+                                </div>
+                                <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-ardoise.jpg?fit=614%2C680&#038;ssl=1"
+                                    width="100%" alt="" />
+                            </div>
+
+                        </div>
+
+                        <div class="slider-textures-nav">
+                            <div><img
+                                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn02.jpg?fit=84%2C84&#038;ssl=1"
+                                    width="100%" alt="" /></div>
+                            <div><img
+                                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn01.jpg?fit=84%2C84&#038;ssl=1"
+                                    width="100%" alt="" /></div>
+                            <div><img
+                                    src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn03.jpg?fit=84%2C84&#038;ssl=1"
+                                    width="100%" alt="" /></div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="row d-flex align-items-end negative-margin-less">
+                    <div class="col-lg-6">
+
+                        <div class="slider-textures2">
+
+                            <div>
+                                <div class="overlayTitle">
+                                    <h2><span>Retaining wall</span>Cara Rocvale</h2>
+                                </div>
+                                <img src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-muret.jpg?fit=614%2C680&#038;ssl=1"
+                                    width="100%" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="more-padding pb-0 pt-0">
+                            <h6 class="black mb-5">Minimalist materials with pure and contemporary lines. Extreme
+                                versatility for a design with endless possibilities.</h6>
+                            <a href="https://pro-design.ca/en/contact/" class="btn-square" target="">Get a quote</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="cta" class="d-flex justify-content-center align-items-center"
+            onclick="location.href='https://pro-design.ca/en/contact/';" style="cursor:pointer;">
+            <div class="overlayContent">
+                <h3>LET'S HEAD OUTSIDE</h3>
+            </div>
+            <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/portfolio-single-cta-bg.jpg?fit=1656%2C729&#038;ssl=1"
+                width="100%" alt="" />
+        </section>
+
+        <section class="single-details negative-margin">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6">
+                        <div class="slider-textures3">
+                            <div>
+                                <div class="overlayTitle bg-black">
+                                    <h2 class="white"><span>Irrigation and</span>Lighting</h2>
+                                </div>
+                                <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-08.jpg?fit=614%2C680&#038;ssl=1"
+                                    width="100%" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row d-flex align-items-end negative-margin-less">
+                    <div class="col-lg-6">
+                        <div class="slider-textures4">
+                            <div>
+                                <div class="overlayTitle bg-black">
+                                    <h2 class="white"><span>Hemerocallis</span>Ice Carnaval</h2>
+                                </div>
+                                <img src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-emo.jpg?fit=614%2C680&#038;ssl=1"
+                                    width="100%" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <span class="bg-text-black">harmony</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <section id="inner-cta">
+        <div class="row">
+            <div class="col-md-4 p-0">
+                <div class="cta-left-container">
+                    <div class="cta-left" style="cursor: pointer;"
+                        onclick="window.location='https://pro-design.ca/en/contact/';">
+                        <div class="object">
+                            <img src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/rock-blk-shadow-2.png?fit=242%2C201&#038;ssl=1"
+                                alt="" />
+                        </div>
+                        <div>
+                            <span class="small">Discuss my</span>
+                            <span class="big">project</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="cta-center-container">
+                    <div class="cta-center" style="cursor: pointer;"
+                        onclick="window.location='https://pro-design.ca/en/exterior-design/';">
+                        <div class="object">
+                            <img src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/plant.png?fit=227%2C192&#038;ssl=1"
+                                alt="" />
+                        </div>
+                        <div>
+                            <span class="small">Create my nature</span>
+                            <span class="big">space</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="cta-right-container">
+                    <div class="cta-right" style="cursor: pointer;"
+                        onclick="window.location='https://pro-design.ca/en/portfolio/';">
+                        <div class="object">
+                            <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/rocks.png?fit=226%2C114&#038;ssl=1"
+                                alt="" />
+                        </div>
+                        <div>
+                            <span class="small">in inspiration</span>
+                            <span class="big">mode</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{ partial "footerlogo.html" .}}
+    {{ partial "footer.html" . }}
+    {{ partial "last.html" . }}
+</body>
+
+</html>
