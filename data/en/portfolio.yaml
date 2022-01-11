@@ -19,19 +19,70 @@ portfolio_listings:
 portfolios:
   - name1: "Saint-Jérôme"
     name2: "White Garden"
-    title: "White Garden - St-Jérôme - Pro Design Exterior Design"
+    title: "wrong-title"
     link1: "/en/portfolio/white-garden-st-jerome/"
     button: "View project"
-    bg_img1: "/img/projet-blanc-01.jpg"
-    bg_img2: "/img/projet-blanc-02.jpg"
-    bg_img3: "/img/projet-blanc-06.jpg"
+    img:
+      - "/img/projet-blanc-01.jpg"
+      - "/img/projet-blanc-02.jpg"
+      - "/img/projet-blanc-06.jpg"
+    style: "style"
+    style_type:
+    - stn_head: "Rocvale"
+      stn_text: "Beacon Hill™ - Steel grey"
+      img: "/img/projet-blanc-gris-acier.jpg"
+      sm_img: "/img/projet-blanc-icn02.jpg"
+
+    - stn_head: "Rocvale"
+      stn_text: "Beacon Hill™ - Opal"
+      img: "/img/projet-blanc-opale.jpg"
+      sm_img: "/img/projet-blanc-icn01.jpg"
+
+    - stn_head: "Pebble"
+      stn_text: "Slate"
+      img: "/img/projet-blanc-ardoise.jpg"
+      sm_img: "/img/projet-blanc-icn03.jpg"
+
+    
+
+    left_img_head: "Retaining wall"
+    left_img_head1: "Cara Rocvale"
+    left_content: "Minimalist materials with pure and contemporary lines. Extreme versatility for a design with endless possibilities."
+    left_img: "/img/projet-blanc-muret.jpg"
+    contact_link: "/en/contact/"
+    link_txt: "Get a quote"
+
+    bg_img_1: "/img/portfolio-single-cta-bg.jpg"
+    bg_text: "LET'S HEAD OUTSIDE"
+    bg_right_txt: "Irrigation and"
+    bg_right_txt1: "Lighting"
+    bg_right_img: "/img/projet-blanc-08.jpg"
+    bg_left_txt: "Hemerocallis"
+    bg_left_txt1: "Ice Carnaval"
+    bg_leftt_img: "/img/projet-blanc-emo.jpg"
+    bg_text_2: "harmony"
+
+    rock_txt1: "Discuss my"
+    rock_txt2: "project"
+    rock_img: "/img/rock-blk-shadow-2.png"
+
+    plant_txt1: "Create my nature"
+    plant_txt2: "space"
+    plant_img: "/img/plant.png"
+    plant_link: "/en/exterior-design/"
+
+    rock2_txt1: "in inspiration"
+    rock2_txt2: "mode"
+    rock2_img: "/img/rocks.png"
+    rock2_link: "/en/portfolio/"
 
   - name1: "Saint-Sauveur"
     name2: "Nature’s Contrasts"
     title: "Labonté Project - St-Sauveur - Pro Design Exterior Design"
     link1: "/en/portfolio/labonte-project-st-sauveur/"
     button: "View project"
-    bg_img1: "/img/st-sauveur-01.jpg"
-    bg_img2: "/img/st-sauveur-02.jpg"
-    bg_img3: "/img/st-sauveur-05.jpg"
+    img:
+      - "/img/st-sauveur-01.jpg"
+      - "/img/st-sauveur-02.jpg"
+      - "/img/st-sauveur-05.jpg"
     

@@ -1,41 +1,68 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    {{ $data := index .Site.Data .Site.Language.Lang }}
-{{partial "head.html" . }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $page_title_data := .Params.Title }}
+{{ $scratch := .Scratch }}
+{{ range $data.portfolio.portfolios }}
+    {{ if eq $page_title_data .title }}
+        {{ $scratch.Set "name1" .name1 }}
+        {{ $scratch.Set "name2" .name2 }}
+        {{ $scratch.Set "title" .title }}
+        {{ $scratch.Set "link1" .link1 }}
+        {{ $scratch.Set "button" .button }}
+        {{ $scratch.Set "img" .img }}
+        {{ $scratch.Set "link1" .link1 }}
+        {{ $scratch.Set "style_type" .style_type }}
+
+        {{ $scratch.Set "left_img_head" .left_img_head }}
+        {{ $scratch.Set "left_img_head1" .left_img_head1 }}
+        {{ $scratch.Set "left_content" .left_content }}
+        {{ $scratch.Set "left_img" .left_img }}
+        {{ $scratch.Set "contact_link" .contact_link}} 
+        {{ $scratch.Set "link_txt" .link_txt}}
+        {{ $scratch.Set "bg_img_1" .bg_img_1}}
+        {{ $scratch.Set "bg_text" .bg_text}}
+        {{ $scratch.Set "bg_right_txt" .bg_right_txt}}
+        {{ $scratch.Set "bg_right_txt1" .bg_right_txt1}}
+        {{ $scratch.Set "bg_right_img" .bg_right_img}}     
+        {{ $scratch.Set "bg_left_txt" .bg_left_txt}}
+        {{ $scratch.Set "bg_left_txt1" .bg_left_txt1}}
+        {{ $scratch.Set "bg_leftt_img" .bg_leftt_img}}
+        {{ $scratch.Set "bg_text_2" .bg_text_2}}
+        {{ $scratch.Set "rock_txt1" .rock_txt1}}
+        {{ $scratch.Set "rock_txt2" .rock_txt2}}
+        {{ $scratch.Set "rock_img" .rock_img}}
+        {{ $scratch.Set "plant_txt1" .plant_txt1}}
+        {{ $scratch.Set "plant_txt2" .plant_txt2}}
+        {{ $scratch.Set "plant_img" .plant_img}}
+        {{ $scratch.Set "plant_link" .plant_link}}
+        {{ $scratch.Set "rock2_txt2" .rock2_txt2}}
+        {{ $scratch.Set "rock2_img" .rock2_img}}
+        {{ $scratch.Set "rock2_link" .rock2_link}}
+        
+
+        
+
+    {{ end }}
+{{ end }}
+{{ partial "head.html" . }}
 
 <body
     class="portfolio-template-default single single-portfolio postid-811 wp-custom-logo wp-embed-responsive group-blog">
 
-    {{ partial "header.html" .}}
-    {{ $page_title_data := .Params.Title }}
-    {{ $scratch := .Scratch }}
-    {{ range $data.portfolio.portfolios }}
-        {{ if eq $page_title_data .name }}
-            {{ $scratch.Set "col1" .para1.col1 }}
-            {{ $scratch.Set "col2" .para1.col2 }}
-            {{ $scratch.Set "row1" .para1.row1 }}
-            {{ $scratch.Set "row2" .para1.row2 }}
-            {{ $scratch.Set "sub" .sub }}
-            {{ $scratch.Set "img1" .img1 }}
-            {{ $scratch.Set "img2" .img2 }}
-            {{ $scratch.Set "category" .category }}
-            {{ $scratch.Set "name" .name}}
-        {{ end }}
-    {{ end }}
 
+   {{ partial "header.html" . }}
     <div id="portfolio-single">
 
         <section class="portfolio-single-slider">
             <div><img
-                    src="{{"/img/projet-blanc-01.jpg" | relURL }}"
+                    src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-01.jpg?fit=1655%2C731&#038;ssl=1"
                     width="100%" alt="" /></div>
             <div><img
-                    src="{{"/img/projet-blanc-02.jpg" | relURL }}"
-                    width="100%" alt="" /></div>
+                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-02.jpg?fit=1655%2C731&#038;ssl=1"
                     width="100%" alt="" /></div>
             <div><img
-                    src="{{"/img/projet-blanc-06.jpg"| relURL }}"
-                    width="100%" alt="" /></div>
+                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-06.jpg?fit=1655%2C731&#038;ssl=1"
                     width="100%" alt="" /></div>
 
         </section>
@@ -54,42 +81,26 @@
                     <div class="col-lg-6">
 
                         <div class="slider-textures">
-
+                            {{ range .Scratch.Get "style_type" }}
                             <div>
                                 <div class="overlayTitle">
                                     <h2><span>Rocvale</span>Beacon Hill™ - Steel grey</h2>
                                 </div>
-                                <img src="{{"/img/projet-blanc-gris-acier.jpg"| relURL }}"
-                                width="100%" alt="" /></div>
-                                    width="100%" alt="" />
+                                <img src="{{ .img }}" width="100%" alt="" />
                             </div>
-                            <div>
-                                <div class="overlayTitle">
-                                    <h2><span>Rocvale</span>Beacon Hill™ - Opal</h2>
-                                </div>
-                                <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-opale.jpg?fit=614%2C680&#038;ssl=1"
-                                    width="100%" alt="" />
-                            </div>
-                            <div>
-                                <div class="overlayTitle">
-                                    <h2><span>Pebble</span>Slate</h2>
-                                </div>
-                                <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-ardoise.jpg?fit=614%2C680&#038;ssl=1"
-                                    width="100%" alt="" />
-                            </div>
+                            {{ end }}
 
                         </div>
 
                         <div class="slider-textures-nav">
+                            
+                            {{ range .Scratch.Get "style_type" }}
                             <div><img
-                                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn02.jpg?fit=84%2C84&#038;ssl=1"
-                                    width="100%" alt="" /></div>
-                            <div><img
-                                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn01.jpg?fit=84%2C84&#038;ssl=1"
-                                    width="100%" alt="" /></div>
-                            <div><img
-                                    src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn03.jpg?fit=84%2C84&#038;ssl=1"
-                                    width="100%" alt="" /></div>
+                                src="{{ .sm_img }}"
+                                width="100%" alt="" /></div>    
+                            {{ end }}
+                            
+                            
                         </div>
 
                     </div>
@@ -227,9 +238,12 @@
         </div>
     </section>
 
-    {{ partial "footerlogo.html" .}}
+    {{ partial "footerlogo.html" . }}
+
     {{ partial "footer.html" . }}
+
     {{ partial "last.html" . }}
+
 </body>
 
 </html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+{{ partial "head.html" . }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<body
+    class="portfolio-template-default single single-portfolio postid-811 wp-custom-logo wp-embed-responsive group-blog">
+
+
+    {{ partial "header.html" . }}
+
+    {{ $page_title_data := .Params.Title }}
+    {{ $scratch := .Scratch }}
+    {{ range $data.portfolio.portfolios }}
+        {{ if eq $page_title_data .title }}
+            {{ $scratch.Set "name1" .portfolios.name11 }}
+            {{ $scratch.Set "name2" .portfolios.name2 }}
+            {{ $scratch.Set "title" .portfolios.title }}
+            {{ $scratch.Set "link1" .portfolios.link1 }}
+            {{ $scratch.Set "button" .portfolios.button }}
+            {{ $scratch.Set "img" .portfolios.img }}
+            {{ $scratch.Set "link1" .portfolios.link1 }}
+
+            {{ $scratch.Set "left_img_head" .left_img_head }}
+            {{ $scratch.Set "left_img_head1" .left_img_head1 }}
+            {{ $scratch.Set "left_content" .left_content }}
+            {{ $scratch.Set "left_img" .left_img }}
+            {{ $scratch.Set "contact_link" .contact_link}} 
+            {{ $scratch.Set "link_txt" .link_txt}}
+            {{ $scratch.Set "bg_img_1" .bg_img_1}}
+            {{ $scratch.Set "bg_text" .bg_text}}
+            {{ $scratch.Set "bg_right_txt" .bg_right_txt}}
+            {{ $scratch.Set "bg_right_txt1" .bg_right_txt1}}
+            {{ $scratch.Set "bg_right_img" .bg_right_img}}     
+            {{ $scratch.Set "bg_left_txt" .bg_left_txt}}
+            {{ $scratch.Set "bg_left_txt1" .bg_left_txt1}}
+            {{ $scratch.Set "bg_leftt_img" .bg_leftt_img}}
+            {{ $scratch.Set "bg_text_2" .bg_text_2}}
+            {{ $scratch.Set "rock_txt1" .rock_txt1}}
+            {{ $scratch.Set "rock_txt2" .rock_txt2}}
+            {{ $scratch.Set "rock_img" .rock_img}}
+            {{ $scratch.Set "plant_txt1" .plant_txt1}}
+            {{ $scratch.Set "plant_txt2" .plant_txt2}}
+            {{ $scratch.Set "plant_img" .plant_img}}
+            {{ $scratch.Set "plant_link" .plant_link}}
+            {{ $scratch.Set "rock2_txt2" .rock2_txt2}}
+            {{ $scratch.Set "rock2_img" .rock2_img}}
+            {{ $scratch.Set "rock2_link" .rock2_link}}
+           
+
+            
+
+        {{ end }}
+    {{ end }}
+
+    <div id="portfolio-single">
+
+        {{ range $data.portfolio.portfolios }}
+
+        <section class="portfolio-single-slider">
+            {{ range .img }}
+            <div><img
+                    src="{{ . }}"
+                    width="100%" alt="" /></div>
+                    {{ end}}
+            {{/*  <div><img
+                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-02.jpg?fit=1655%2C731&#038;ssl=1"
+                    width="100%" alt="" /></div>
+            <div><img
+                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-06.jpg?fit=1655%2C731&#038;ssl=1"
+                    width="100%" alt="" /></div>  */}}
+
+        </section>
+        {{ end}}
+        <section class="single-details bg-white">
+
+            <div class="container">
+
+
+                <div class="row">
+                    <div class="col-lg-6">
+
+                        <span class="bg-text">{{$data.portfolio.style}}</span>
+
+                    </div>
+                    <div class="col-lg-6">
+
+                        <div class="slider-textures">
+                            
+                            <div>
+                                <div class="overlayTitle">
+                                    <h2><span>Rocvale</span>Beacon Hill™ - Steel grey</h2>
+                                </div>
+                                <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-gris-acier.jpg?fit=614%2C680&#038;ssl=1"
+                                    width="100%" alt="" />
+                            </div>
+                            
+
+                        </div>
+
+                        <div class="slider-textures-nav">
+                            <div><img
+                                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn02.jpg?fit=84%2C84&#038;ssl=1"
+                                    width="100%" alt="" /></div>
+                            <div><img
+                                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn01.jpg?fit=84%2C84&#038;ssl=1"
+                                    width="100%" alt="" /></div>
+                            <div><img
+                                    src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn03.jpg?fit=84%2C84&#038;ssl=1"
+                                    width="100%" alt="" /></div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="row d-flex align-items-end negative-margin-less">
+                    <div class="col-lg-6">
+
+                        <div class="slider-textures2">
+
+                            <div>
+                                <div class="overlayTitle">
+                                    <h2><span>{{$data.portfolio.left_img_head}}</span>{{$data.portfolio.left_img_head1}}</h2>
+                                </div>
+                                <img src="{{$data.portfolio.left_img}}"
+                                    width="100%" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="more-padding pb-0 pt-0">
+                            <h6 class="black mb-5">{{$data.portfolio.left_content}}</h6>
+                            <a href="{{$data.portfolio.contact_link}}" class="btn-square" target="">{{$data.portfolio.link_txt}}</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="cta" class="d-flex justify-content-center align-items-center"
+            onclick="location.href='{{$data.portfolio.contact_link}}';" style="cursor:pointer;">
+            <div class="overlayContent">
+                <h3>{{$data.portfolio.bg_text}}</h3>
+            </div>
+            <img src="{{$data.portfolio.bg_img_1}}"
+                width="100%" alt="" />
+        </section>
+
+        <section class="single-details negative-margin">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6">
+                        <div class="slider-textures3">
+                            <div>
+                                <div class="overlayTitle bg-black">
+                                    <h2 class="white"><span>{{$data.portfolio.bg_right_txt}}<</span>{{$data.portfolio.bg_right_txt1}}</h2>
+                                </div>
+                                <img src="{{$data.portfolio.bg_right_img}}"
+                                    width="100%" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row d-flex align-items-end negative-margin-less">
+                    <div class="col-lg-6">
+                        <div class="slider-textures4">
+                            <div>
+                                <div class="overlayTitle bg-black">
+                                    <h2 class="white"><span>{{$data.portfolio.bg_left_txt}}</span>{{$data.portfolio.bg_left_txt1}}</h2>
+                                </div>
+                                <img src="{{$data.portfolio.bg_left_img}}"
+                                    width="100%" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <span class="bg-text-black">{{$data.portfolio.bg_text_2}}</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <section id="inner-cta">
+        <div class="row">
+            <div class="col-md-4 p-0">
+                <div class="cta-left-container">
+                    <div class="cta-left" style="cursor: pointer;"
+                        onclick="window.location='{{$data.portfolio.contact_link}}';">
+                        <div class="object">
+                            <img src="{{$data.portfolio.rock_img}}"
+                                alt="" />
+                        </div>
+                        <div>
+                            <span class="small">{{$data.portfolio.rock_txt1}}</span>
+                            <span class="big">{{$data.portfolio.rock_txt2}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="cta-center-container">
+                    <div class="cta-center" style="cursor: pointer;"
+                        onclick="window.location='{{$data.portfolio.plant_link}}';">
+                        <div class="object">
+                            <img src="{{$data.portfolio.plant_img}}"
+                                alt="" />
+                        </div>
+                        <div>
+                            <span class="small">{{$data.portfolio.plant_txt1}}</span>
+                            <span class="big">{{$data.portfolio.plant_txt2}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="cta-right-container">
+                    <div class="cta-right" style="cursor: pointer;"
+                        onclick="window.location='{{$data.portfolio.rock2_link}}';">
+                        <div class="object">
+                            <img src="{{$data.portfolio.rock2_img}}"
+                                alt="" />
+                        </div>
+                        <div>
+                            <span class="small">{{$data.portfolio.rock2_txt1}}</span>
+                            <span class="big">{{$data.portfolio.rock2_txt2}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{ partial "footerlogo.html" . }}
+   {{ partial "footer.html"}}
+   {{partial "last.html" . }}
+</body>
+
+</html>
