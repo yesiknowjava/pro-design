@@ -1,0 +1,125 @@
+hero_text: "Exterior"
+hero_text1: "Design"
+exterior_link: ""
+
+landscape_link: "/en/exterior_design/landscaping/"
+landscape_name: "EXTERIOR DESIGN"
+  
+masonry_link: "/en/exterior_design/masonry/"
+masonry_name: "Masonry"
+
+retaining_wall_link: "/en/exterior_design/retaining_wall/"
+retaining_wall_name: "Retaining wall"
+
+pave_uni_link: "/en/exterior_design/pave_uni/"
+pave_uni_name: "Pavé uni"
+
+stone_cutting_link: "/en/exterior_design/stone_cutting/"
+stone_cutting_name: "Stone cutting"
+
+exterior:
+- exterior_tag: "landscaping"
+  exterior_title: "Exterior Design"
+  exterior_hero1: "Exterior"
+  exterior_hero2: "Design"
+  exterior_img: "/img/header.jpg"
+
+  exterior_title1: "Landscaping"
+  exterior_content: "Enjoy a uniquely creative and inviting living space. With our expertise in outdoor design, we can tackle all types of projects, from complete layouts based on an architectural plan to garden corners, terraces, and relaxation areas. With nature as a backdrop, we take every individual space’s attributes and idiosyncrasies into consideration in order to provide the tailor-made service your project deserves. Paying special attention to the ecosystem, we approach our work with an eye toward sustainability and environmental respect. Using our knowledge of proper landscaping maintenance, we offer every tip at our disposal to help ensure an optimal lifespan for your project."
+  landscape_title: "Inspiration"
+  landscape_content1: "Landscape architecture requires technical expertise, equipment experience, plant knowledge, and a strong aesthetic vision."
+  landscape_content2: "Good thing we’re expert landscape designers."
+  maison_img: "/img/maison-eclairee.jpg"
+  maison_title2: "Add Some Light"
+  maison_content: "To add a measure of safety, to keep a happy moment going a little longer, or to offer a bit of flair, our lighting options can make a world of difference."
+  irrigation_img: "/img/irrigation.jpg"
+  irrigation_title: "Think About Irrigation"
+  irrigation_content: "An automatic irrigation system will keep your lawn and plants beautiful while ensuring the efficient use of water."
+
+
+
+
+
+
+- exterior_tag: "masonry"
+  exterior_title: "PRO DESIGN"
+  exterior_title1: "Masonry project"
+  exterior_hero1: "Masonry"
+  exterior_img: "/img/header.jpg"
+
+  exterior_content: "Masonry greatly enhances the aesthetics and functionality of an exterior design project. The construction of walls, columns, and stairs as well as the addition of natural stone offer a finish that is both elegant and utilitarian."
+  landscape_title: "Inspiration"
+  landscape_content1: "A masonry project requires specialized equipment and a qualified team that combines both quality and speed."
+  landscape_content2: "Good thing we’re expert landscape designers."
+  maison_img: "/img/maconnerie-bloc1.jpg"
+  maison_title2: "Durable Construction"
+  maison_content: "By respecting the highest BNQ and APPQ standards, we ensure a professional, unique, and lasting achievement."
+  irrigation_img: "/img/maconnerie-bloc2.jpg"
+  irrigation_title: "Certified Expertise"
+  irrigation_content: "Pro Design is certified by the Interlocking Concrete Pavement Institute (ICPI) and regularly invests in continuous training and the evolution of working techniques."
+
+
+
+
+
+
+- exterior_tag: "retaining_wall"
+  exterior_title: "PRO DESIGN"
+  exterior_title1: "Retaining walls and support"
+  exterior_hero1: "Retaining walls and support"
+  exterior_hero2: "Installation"
+  exterior_img: "/img/header.jpg"
+
+  exterior_content: "Decorative walls and support systems are vital to an eye-catching exterior design project. In addition to enhancing a space’s aesthetics, they also offer a gradual view of the design, delineate areas, and are ideal for providing various levels of inclined terrain. Retention is not only a finishing touch, but also a structural necessity to keep your landscape project in great shape for many years to come."
+  landscape_title: "Inspiration"
+  landscape_content1: "As a foundational element of your design, the construction of retaining walls requires special attention."
+  landscape_content2: "Good thing we’re expert landscape designers."
+  maison_img: "/img/muret-bloc1.jpg"
+  maison_title2: "The Natural Choice"
+  maison_content: "A natural stone wall can support your terrain’s differences in height, offering an authentic look and an ecological approach."
+  irrigation_img: "/img/muret-bloc2.jpg"
+  irrigation_title: "Certified Expertise"
+  irrigation_content: "Pro Design is certified by the Interlocking Concrete Pavement Institute (ICPI) and regularly invests in continuous training and the evolution of working techniques."
+
+
+- exterior_tag: "pave_uni"
+  exterior_title: "PRO DESIGN"
+  exterior_title1: "Pavé uni installation"
+  exterior_hero1: "PAVÉ UNI"
+  exterior_hero2: "Installation"
+  exterior_img: "/img/header-pave-uni.jpg"
+
+  exterior_content: "A thoughtfully-designed pavé uni project can easily boost a property’s value, with refined natural stone having proved to be a sustainable investment. The installation of interlocking paving stones and oversized slabs is a key part of our expertise, and we offer a variety of styles and combinations to create a unique space. We pay close attention to layout, materials, design, quality, and execution, always keeping in mind any potential limitations in order to make the most of your terrace, pool area, or entrance."
+  landscape_title: "Inspiration"
+  landscape_content1: "The installation or repair of paving projects requires specialized equipment and a qualified team that combines both quality and speed."
+  landscape_content2: "Good thing we’re expert landscape designers."
+  maison_img: "/img/pave-uni-bloc1.jpg"
+  maison_title2: "Durable Construction"
+  maison_content: "By respecting the highest BNQ and APPQ standards, we ensure a professional, unique, and lasting achievement."
+  irrigation_img: "/img/pave-uni-bloc2.jpg"
+  irrigation_title: "Certified Expertise"
+  irrigation_content: "Pro Design is certified by the Interlocking Concrete Pavement Institute (ICPI) and regularly invests in continuous training and the evolution of working techniques."
+
+
+
+
+
+
+
+- exterior_tag: "stone_cutting"
+  exterior_title: "PRO DESIGN"
+  exterior_title1: "Stone cutting"
+  exterior_hero1: "STONE"
+  exterior_hero2: "CUTTING"
+  exterior_img: "/img/header-travail-de-la-pierre.jpg"
+
+  exterior_content: "Cutting and shaping natural stone is an art that combines masonry and landscaping. Whether for sidewalks, paved paths, stone staircases, terraces, or swimming pool borders, stone cutting offers a wide range of installation possibilities that can enhance both aesthetics and functionality. We also collaborate with landscape architecture professionals to provide comprehensive design plans."
+  landscape_title: "Inspiration"
+  landscape_content1: "For optimal results and a flawless finish, natural stone must be cut to size with the utmost precision."
+  landscape_content2: "Good thing we’re expert landscape designers."
+  maison_img: "/img/travaille-de-la-pierre-bloc1.jpg"
+  maison_title2: "Landscape Architecture"
+  maison_content: "We call upon the industry’s best natural stone suppliers to accomplish large-scale projects that combine masonry and the art of stone cutting."
+  irrigation_img: "/img/travaille-de-la-pierre-bloc2.jpg"
+  irrigation_title: "Certified Expertise"
+  irrigation_content: "Pro Design is certified by the Interlocking Concrete Pavement Institute (ICPI) and regularly invests in continuous training and the evolution of working techniques."

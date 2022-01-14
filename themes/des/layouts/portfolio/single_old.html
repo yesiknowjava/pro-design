@@ -1,77 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-{{ partial "head.html" . }}
-{{ $data := index .Site.Data .Site.Language.Lang }}
 <body
-    class="portfolio-template-default single single-portfolio postid-811 wp-custom-logo wp-embed-responsive group-blog">
+    class="portfolio-template-default single single-portfolio postid-709 wp-custom-logo wp-embed-responsive group-blog">
 
-
-    {{ partial "header.html" . }}
-
-    {{ $page_title_data := .Params.Title }}
-    {{ $scratch := .Scratch }}
-    {{ range $data.portfolio.portfolios }}
-        {{ if eq $page_title_data .title }}
-            {{ $scratch.Set "name1" .portfolios.name11 }}
-            {{ $scratch.Set "name2" .portfolios.name2 }}
-            {{ $scratch.Set "title" .portfolios.title }}
-            {{ $scratch.Set "link1" .portfolios.link1 }}
-            {{ $scratch.Set "button" .portfolios.button }}
-            {{ $scratch.Set "img" .portfolios.img }}
-            {{ $scratch.Set "link1" .portfolios.link1 }}
-
-            {{ $scratch.Set "left_img_head" .left_img_head }}
-            {{ $scratch.Set "left_img_head1" .left_img_head1 }}
-            {{ $scratch.Set "left_content" .left_content }}
-            {{ $scratch.Set "left_img" .left_img }}
-            {{ $scratch.Set "contact_link" .contact_link}} 
-            {{ $scratch.Set "link_txt" .link_txt}}
-            {{ $scratch.Set "bg_img_1" .bg_img_1}}
-            {{ $scratch.Set "bg_text" .bg_text}}
-            {{ $scratch.Set "bg_right_txt" .bg_right_txt}}
-            {{ $scratch.Set "bg_right_txt1" .bg_right_txt1}}
-            {{ $scratch.Set "bg_right_img" .bg_right_img}}     
-            {{ $scratch.Set "bg_left_txt" .bg_left_txt}}
-            {{ $scratch.Set "bg_left_txt1" .bg_left_txt1}}
-            {{ $scratch.Set "bg_leftt_img" .bg_leftt_img}}
-            {{ $scratch.Set "bg_text_2" .bg_text_2}}
-            {{ $scratch.Set "rock_txt1" .rock_txt1}}
-            {{ $scratch.Set "rock_txt2" .rock_txt2}}
-            {{ $scratch.Set "rock_img" .rock_img}}
-            {{ $scratch.Set "plant_txt1" .plant_txt1}}
-            {{ $scratch.Set "plant_txt2" .plant_txt2}}
-            {{ $scratch.Set "plant_img" .plant_img}}
-            {{ $scratch.Set "plant_link" .plant_link}}
-            {{ $scratch.Set "rock2_txt2" .rock2_txt2}}
-            {{ $scratch.Set "rock2_img" .rock2_img}}
-            {{ $scratch.Set "rock2_link" .rock2_link}}
-           
-
-            
-
-        {{ end }}
-    {{ end }}
 
     <div id="portfolio-single">
 
-        {{ range $data.portfolio.portfolios }}
-
         <section class="portfolio-single-slider">
-            {{ range .img }}
             <div><img
-                    src="{{ . }}"
-                    width="100%" alt="" /></div>
-                    {{ end}}
-            {{/*  <div><img
-                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-02.jpg?fit=1655%2C731&#038;ssl=1"
+                    src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/06/st-sauveur-01.jpg?fit=1655%2C731&#038;ssl=1"
                     width="100%" alt="" /></div>
             <div><img
-                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-06.jpg?fit=1655%2C731&#038;ssl=1"
-                    width="100%" alt="" /></div>  */}}
+                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/06/st-sauveur-02.jpg?fit=1655%2C731&#038;ssl=1"
+                    width="100%" alt="" /></div>
+            <div><img
+                    src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/06/st-sauveur-05.jpg?fit=1655%2C731&#038;ssl=1"
+                    width="100%" alt="" /></div>
 
         </section>
-        {{ end}}
+
         <section class="single-details bg-white">
 
             <div class="container">
@@ -80,33 +28,46 @@
                 <div class="row">
                     <div class="col-lg-6">
 
-                        <span class="bg-text">{{$data.portfolio.style}}</span>
+                        <span class="bg-text">Texture</span>
 
                     </div>
                     <div class="col-lg-6">
 
                         <div class="slider-textures">
-                            
+
                             <div>
                                 <div class="overlayTitle">
-                                    <h2><span>Rocvale</span>Beacon Hill™ - Steel grey</h2>
+                                    <h2><span>Techno Bloc</span>Blu Limestone</h2>
                                 </div>
-                                <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-gris-acier.jpg?fit=614%2C680&#038;ssl=1"
+                                <img src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/06/st-sauveur-blu-calcaire.jpg?fit=614%2C680&#038;ssl=1"
                                     width="100%" alt="" />
                             </div>
-                            
+                            <div>
+                                <div class="overlayTitle">
+                                    <h2><span>Techno Bloc</span>Onyx Black</h2>
+                                </div>
+                                <img src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/06/st-sauveur-noir-onyx.jpg?fit=614%2C680&#038;ssl=1"
+                                    width="100%" alt="" />
+                            </div>
+                            <div>
+                                <div class="overlayTitle">
+                                    <h2><span>River</span>Pebble</h2>
+                                </div>
+                                <img src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/06/st-sauveur-galet-riviere.jpg?fit=614%2C680&#038;ssl=1"
+                                    width="100%" alt="" />
+                            </div>
 
                         </div>
 
                         <div class="slider-textures-nav">
                             <div><img
-                                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn02.jpg?fit=84%2C84&#038;ssl=1"
+                                    src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/06/projet-st-sauveur-icn-01.jpg?fit=84%2C84&#038;ssl=1"
                                     width="100%" alt="" /></div>
                             <div><img
-                                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn01.jpg?fit=84%2C84&#038;ssl=1"
+                                    src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/06/projet-st-sauveur-icn-02.jpg?fit=84%2C84&#038;ssl=1"
                                     width="100%" alt="" /></div>
                             <div><img
-                                    src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/projet-blanc-icn03.jpg?fit=84%2C84&#038;ssl=1"
+                                    src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/06/projet-st-sauveur-icn-04.jpg?fit=84%2C84&#038;ssl=1"
                                     width="100%" alt="" /></div>
                         </div>
 
@@ -121,9 +82,9 @@
 
                             <div>
                                 <div class="overlayTitle">
-                                    <h2><span>{{$data.portfolio.left_img_head}}</span>{{$data.portfolio.left_img_head1}}</h2>
+                                    <h2><span>Plants</span>Spiraea japonica</h2>
                                 </div>
-                                <img src="{{$data.portfolio.left_img}}"
+                                <img src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/06/st-sauveur-deco-01.jpg?fit=614%2C680&#038;ssl=1"
                                     width="100%" alt="" />
                             </div>
                         </div>
@@ -131,8 +92,9 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="more-padding pb-0 pt-0">
-                            <h6 class="black mb-5">{{$data.portfolio.left_content}}</h6>
-                            <a href="{{$data.portfolio.contact_link}}" class="btn-square" target="">{{$data.portfolio.link_txt}}</a>
+                            <h6 class="black mb-5">Refined materials with warm and complementary textures. A classic and
+                                timeless look.</h6>
+                            <a href="/en/contact/" class="btn-square" target="">Get a quote</a>
                         </div>
                     </div>
                 </div>
@@ -141,12 +103,12 @@
 
         </section>
 
-        <section id="cta" class="d-flex justify-content-center align-items-center"
-            onclick="location.href='{{$data.portfolio.contact_link}}';" style="cursor:pointer;">
+        <section id="cta" class="d-flex justify-content-center align-items-center" onclick="location.href='/contact/';"
+            style="cursor:pointer;">
             <div class="overlayContent">
-                <h3>{{$data.portfolio.bg_text}}</h3>
+                <h3>LET'S GO OUTSIDE</h3>
             </div>
-            <img src="{{$data.portfolio.bg_img_1}}"
+            <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/06/saint-sauveur-bg-cta.jpg?fit=1656%2C729&#038;ssl=1"
                 width="100%" alt="" />
         </section>
 
@@ -160,9 +122,9 @@
                         <div class="slider-textures3">
                             <div>
                                 <div class="overlayTitle bg-black">
-                                    <h2 class="white"><span>{{$data.portfolio.bg_right_txt}}<</span>{{$data.portfolio.bg_right_txt1}}</h2>
+                                    <h2 class="white"><span>Exterior</span>Design</h2>
                                 </div>
-                                <img src="{{$data.portfolio.bg_right_img}}"
+                                <img src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/06/st-sauveur-deco-02.jpg?fit=614%2C680&#038;ssl=1"
                                     width="100%" alt="" />
                             </div>
                         </div>
@@ -175,15 +137,15 @@
                         <div class="slider-textures4">
                             <div>
                                 <div class="overlayTitle bg-black">
-                                    <h2 class="white"><span>{{$data.portfolio.bg_left_txt}}</span>{{$data.portfolio.bg_left_txt1}}</h2>
+                                    <h2 class="white"><span>Paving stone and</span>Stairs</h2>
                                 </div>
-                                <img src="{{$data.portfolio.bg_left_img}}"
+                                <img src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/06/st-sauveur-deco-03.jpg?fit=614%2C680&#038;ssl=1"
                                     width="100%" alt="" />
                             </div>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <span class="bg-text-black">{{$data.portfolio.bg_text_2}}</span>
+                        <span class="bg-text-black">harmony</span>
                     </div>
                 </div>
 
@@ -199,14 +161,14 @@
             <div class="col-md-4 p-0">
                 <div class="cta-left-container">
                     <div class="cta-left" style="cursor: pointer;"
-                        onclick="window.location='{{$data.portfolio.contact_link}}';">
+                        onclick="window.location='https://pro-design.ca/en/contact/';">
                         <div class="object">
-                            <img src="{{$data.portfolio.rock_img}}"
+                            <img src="https://i1.wp.com/pro-design.ca/wp-content/uploads/2020/05/rock-blk-shadow-2.png?fit=242%2C201&#038;ssl=1"
                                 alt="" />
                         </div>
                         <div>
-                            <span class="small">{{$data.portfolio.rock_txt1}}</span>
-                            <span class="big">{{$data.portfolio.rock_txt2}}</span>
+                            <span class="small">Discuss my</span>
+                            <span class="big">project</span>
                         </div>
                     </div>
                 </div>
@@ -214,14 +176,14 @@
             <div class="col-md-4 p-0">
                 <div class="cta-center-container">
                     <div class="cta-center" style="cursor: pointer;"
-                        onclick="window.location='{{$data.portfolio.plant_link}}';">
+                        onclick="window.location='https://pro-design.ca/en/exterior-design/';">
                         <div class="object">
-                            <img src="{{$data.portfolio.plant_img}}"
+                            <img src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/plant.png?fit=227%2C192&#038;ssl=1"
                                 alt="" />
                         </div>
                         <div>
-                            <span class="small">{{$data.portfolio.plant_txt1}}</span>
-                            <span class="big">{{$data.portfolio.plant_txt2}}</span>
+                            <span class="small">Create my nature</span>
+                            <span class="big">space</span>
                         </div>
                     </div>
                 </div>
@@ -229,14 +191,14 @@
             <div class="col-md-4 p-0">
                 <div class="cta-right-container">
                     <div class="cta-right" style="cursor: pointer;"
-                        onclick="window.location='{{$data.portfolio.rock2_link}}';">
+                        onclick="window.location='https://pro-design.ca/en/portfolio/';">
                         <div class="object">
-                            <img src="{{$data.portfolio.rock2_img}}"
+                            <img src="https://i2.wp.com/pro-design.ca/wp-content/uploads/2020/05/rocks.png?fit=226%2C114&#038;ssl=1"
                                 alt="" />
                         </div>
                         <div>
-                            <span class="small">{{$data.portfolio.rock2_txt1}}</span>
-                            <span class="big">{{$data.portfolio.rock2_txt2}}</span>
+                            <span class="small">in inspiration</span>
+                            <span class="big">mode</span>
                         </div>
                     </div>
                 </div>
@@ -244,9 +206,7 @@
         </div>
     </section>
 
-    {{ partial "footerlogo.html" . }}
-   {{ partial "footer.html"}}
-   {{partial "last.html" . }}
+
 </body>
 
 </html>

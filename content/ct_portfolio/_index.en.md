@@ -1,4 +1,4 @@
 +++
-layout= "ct_portfolio"
-url= "en/ct_portfolio"
+layout= "portfolio"
+
 +++

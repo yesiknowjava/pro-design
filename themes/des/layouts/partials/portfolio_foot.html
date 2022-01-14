@@ -1,0 +1,49 @@
+<section id="inner-cta">
+    <div class="row">
+        <div class="col-md-4 p-0">
+            <div class="cta-left-container">
+                <div class="cta-left" style="cursor: pointer;"
+                    onclick="window.location='{{ .Scratch.Get "contact_link" | safeHTML }}';">
+                    <div class="object">
+                        <img src="{{ .Scratch.Get "rock_img" | safeHTML }}"
+                            alt="" />
+                    </div>
+                    <div>
+                        <span class="small">{{ .Scratch.Get "rock_txt1" | safeHTML }}</span>
+                        <span class="big">{{ .Scratch.Get "rock_txt2" | safeHTML }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 p-0">
+            <div class="cta-center-container">
+                <div class="cta-center" style="cursor: pointer;"
+                    onclick="window.location='{{ .Scratch.Get "plant_link" | safeHTML }}';">
+                    <div class="object">
+                        <img src="{{ .Scratch.Get "plant_img" | safeHTML }}"
+                            alt="" />
+                    </div>
+                    <div>
+                        <span class="small">{{ .Scratch.Get "plant_txt1" | safeHTML }}</span>
+                        <span class="big">{{ .Scratch.Get "plant_txt2" | safeHTML }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 p-0">
+            <div class="cta-right-container">
+                <div class="cta-right" style="cursor: pointer;"
+                    onclick="window.location='{{ .Scratch.Get "rock2_link" | safeHTML }}';">
+                    <div class="object">
+                        <img src="{{ .Scratch.Get "rock2_img" | safeHTML }}"
+                            alt="" />
+                    </div>
+                    <div>
+                        <span class="small">{{ .Scratch.Get "rock2_txt1" | safeHTML }}</span>
+                        <span class="big">{{ .Scratch.Get "rock2_txt2" | safeHTML }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+{{ partial "head.html" . }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ $page_title_data := .Params.exterior_tag }}
+{{ $scratch := .Scratch }}
+
+{{ $scratch.Set "hero_text" $data.exterior_design.hero_text }}
+{{ $scratch.Set "hero_text1" $data.exterior_design.hero_text1 }}
+
+{{ $scratch.Set "landscape_link" $data.exterior_design.landscape_link }}
+{{ $scratch.Set "landscape_name" $data.exterior_design.landscape_name }}
+{{ $scratch.Set "masonry_name" $data.exterior_design.masonry_name }}
+{{ $scratch.Set "masonry_link" $data.exterior_design.masonry_link }}
+{{ $scratch.Set "retaining_wall_link" $data.exterior_design.retaining_wall_link }}
+{{ $scratch.Set "retaining_wall_name" $data.exterior_design.retaining_wall_name }}
+{{ $scratch.Set "pave_uni_link" $data.exterior_design.pave_uni_link }}
+{{ $scratch.Set "pave_uni_name" $data.exterior_design.pave_uni_name}}
+{{ $scratch.Set "stone_cutting_link" $data.exterior_design.stone_cutting_link}}
+{{ $scratch.Set "stone_cutting_name" $data.exterior_design.stone_cutting_name}}
+{{ range $data.exterior_design.exterior }}
+    {{ if eq $page_title_data .exterior_tag }}
+        {{ $scratch.Set "exterior_tag" .exterior_tag }}
+        {{ $scratch.Set "exterior_title" .exterior_title}}
+        {{ $scratch.Set "exterior_title1" .exterior_title1}}
+        {{ $scratch.Set "exterior_content" .exterior_content}}
+        {{ $scratch.Set "landscape_title" .landscape_title}}
+        {{ $scratch.Set "landscape_content1" .landscape_content1}}
+        {{ $scratch.Set "landscape_content2" .landscape_content2}}
+        {{ $scratch.Set "maison_img" .maison_img}}
+        {{ $scratch.Set "maison_title2" .maison_title2}}
+        {{ $scratch.Set "maison_content" .maison_content}}
+        {{ $scratch.Set "irrigation_img" .irrigation_img}}
+        {{ $scratch.Set "irrigation_title" .irrigation_title}}
+        {{ $scratch.Set "irrigation_content" .irrigation_content}}
+        {{ $scratch.Set "exterior_hero1" .exterior_hero1}} 
+        {{ $scratch.Set "exterior_hero2" .exterior_hero2}}
+       {{ $scratch.Set "exterior_img" .exterior_img }}
+    {{ end }}
+{{ end }}
+
+<body
+    class="page-template page-template-page-templates page-template-template-amenagement_ext page-template-page-templatestemplate-amenagement_ext-php page page-id-492 page-child parent-pageid-490 wp-custom-logo wp-embed-responsive group-blog">
+
+
+    {{ partial "header.html" . }}
+    
+    <div id="amenagement">
+
+        <section id="intro" class="d-flex justify-content-start align-items-center inner">
+            <div class="overlayContent">
+                <h1>
+                    <span class="small wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="">{{ .Scratch.Get "exterior_hero1" | safeHTML }}</span>
+                    <span class="big wow fadeInRight" data-wow-duration=".5s" data-wow-delay="">{{ .Scratch.Get "exterior_hero2" | safeHTML }}</span>
+                </h1>
+            </div>
+            <img src="{{ .Scratch.Get "exterior_img" | safeHTML }}"
+                class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0" width="100%" alt="" />
+            <div class="home-services">
+                <ul id="menu-amenagement-exterieur-en" class="row d-flex">
+                    <li id="menu-item-520"
+                        class="col menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-492 current_page_item menu-item-520">
+                        <a href="{{ .Scratch.Get "landscape_link" | safeHTML }}"
+                            aria-current="page">{{ .Scratch.Get "landscape_name" | safeHTML }}</a></li>
+                    <li id="menu-item-519"
+                        class="col menu-item menu-item-type-post_type menu-item-object-page menu-item-519"><a
+                            href="{{ .Scratch.Get "masonry_link" | safeHTML }}">{{ .Scratch.Get "masonry_name" | safeHTML }}</a></li>
+                    <li id="menu-item-518"
+                        class="col menu-item menu-item-type-post_type menu-item-object-page menu-item-518"><a
+                            href="{{ .Scratch.Get "retaining_wall_link" | safeHTML }}">{{ .Scratch.Get "retaining_wall_name" | safeHTML }}</a></li>
+                    <li id="menu-item-517"
+                        class="col menu-item menu-item-type-post_type menu-item-object-page menu-item-517"><a
+                            href="{{ .Scratch.Get "pave_uni_link" | safeHTML }}">{{ .Scratch.Get "pave_uni_name" | safeHTML }}</a></li>
+                    <li id="menu-item-516"
+                        class="col menu-item menu-item-type-post_type menu-item-object-page menu-item-516"><a
+                            href="{{ .Scratch.Get "stone_cutting_link" | safeHTML }}}">{{ .Scratch.Get "stone_cutting_name" | safeHTML }}</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="main-content" style="background-color: #f2f2ee;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>
+                            <span>{{ .Scratch.Get "exterior_title" | safeHTML }}</span>
+                            {{ .Scratch.Get "exterior_title1" | safeHTML }}
+                        </h2>
+                    </div>
+                    <div class="col-md-6 col-lg-7">
+                        <p>{{ .Scratch.Get "exterior_content" | safeHTML }}</p>
+                        <a href="{{ .Scratch.Get "portfolio_link" | safeHTML }}" class="btn-square mt-4" target="">{{ .Scratch.Get "landscape_title" | safeHTML }}</a>
+                    </div>
+                    <div class="col-md-6 col-lg-5 col-right">
+                        <h6>
+                            {{ .Scratch.Get "landscape_content1" | safeHTML }}<br />
+                            <br />
+                            {{ .Scratch.Get "landscape_content2" | safeHTML }} </h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services-infos">
+
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-6 p-0">
+                    <img src="{{ .Scratch.Get "maison_img" | safeHTML }}"
+                        class="negative-margin" alt="" />
+
+                </div>
+                <div class="col-md-6 p-0">
+                    <div class="more-padding">
+                        <h2>
+                            <span>{{ .Scratch.Get "exterior_title1" | safeHTML }}</span>
+                            {{ .Scratch.Get "maison_title2" | safeHTML }} </h2>
+                        <p>{{ .Scratch.Get "maison_content" | safeHTML }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center align-items-center flex-md-row-reverse more-margin-top">
+                <div class="col-md-6 p-0">
+                    <img src="{{ .Scratch.Get "irrigation_img" | safeHTML }}"
+                        alt="" />
+                </div>
+                <div class="col-md-6 p-0">
+                    <div class="more-padding">
+                        <h2>
+                            <span>{{ .Scratch.Get "exterior_title1" | safeHTML }}</span>
+                            {{ .Scratch.Get "irrigation_title" | safeHTML }} </h2>
+                        <p>{{ .Scratch.Get "irrigation_content" | safeHTML }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row services-bottom-nav">
+                <div class="col-md-6 text-right">
+                    <a href="/en/exterior-design/stone-cutting/" target="">
+                        <i class="fas fa-arrow-left arrowLeft"></i>
+                        Stone Cutting </a>
+                </div>
+                <div class="col-md-6 text-left">
+                    <a href="/en/exterior-design/masonry/" target="">
+                        Masonry <i class="fas fa-arrow-right arrowRight"></i>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+   {{ partial "portfolio_foot.html" . }}
+    {{ partial "footerlogo.html" . }}
+    {{partial "footer.html" .}}
+    {{partial "last.html" .}}
+</body>
+
+</html>

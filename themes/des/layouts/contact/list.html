@@ -1,172 +1,382 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{partial "head.html" .}}
-<body class="page-template page-template-page-templates page-template-template-contact page-template-page-templatestemplate-contact-php page page-id-502 wp-custom-logo wp-embed-responsive group-blog">
 
-{{ partial "header.html" .}}
-<div id="contact">
+<body
+	class="page-template page-template-page-templates page-template-template-contact page-template-page-templatestemplate-contact-php page page-id-502 wp-custom-logo wp-embed-responsive group-blog">
 
-  <section id="intro" class="inner">
-    <div class="row m-0">
-      <div class="col-lg-4 p-0 d-flex justify-content-center align-items-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0" style="background: url('/img/bg-contact.jpg') center center no-repeat; background-size: cover;">
-        <div class="contact-info">
-          <h6>{{ $data.contact.hero_text1 | safeHTML  }}</h6>
-<p><a class="tel-link" href="tel:+18885167067">{{ $data.contact.phone | safeHTML  }}</a><br />
-<a class="email" href="mailto:info@aprodesign.ca">{{ $data.contact.mail | safeHTML  }}</a></p>
-<p>{{ $data.contact.address1 | safeHTML  }}<br />
-    {{ $data.contact.address3 | safeHTML  }}<br />
-Qc, J0R 1R2</p>
-<p><a href="/contact/#">{{ $data.contact.subscribe | safeHTML  }}</a></p>
-        </div>
-      </div>
-      <div class="col-lg-8 p-0">
-        <div class="contact-form-container wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+	{{ partial "header.html" .}}
+	<div id="contact">
 
-          <div class="wpforms-container wpforms-container-full" id="wpforms-791"><form id="wpforms-form-791" class="wpforms-validate wpforms-form" data-formid="791" method="post" enctype="multipart/form-data" action="/en/contact/" data-token="837f359d944a92e4475be053cf1711b5"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div class="wpforms-field-container"><div id="wpforms-791-field_2-container" class="wpforms-field wpforms-field-text wpforms-one-half wpforms-first" data-field-id="2"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-791-field_2">First name <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-791-field_2" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][2]" placeholder="First name" required></div><div id="wpforms-791-field_3-container" class="wpforms-field wpforms-field-text wpforms-one-half" data-field-id="3"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-791-field_3">Name <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-791-field_3" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][3]" placeholder="Name" required></div><div id="wpforms-791-field_5-container" class="wpforms-field wpforms-field-phone wpforms-one-half wpforms-first" data-field-id="5"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-791-field_5">Telephone</label><input type="tel" id="wpforms-791-field_5" class="wpforms-field-large wpforms-masked-input" data-inputmask="&#039;mask&#039;: &#039;(999) 999-9999&#039;" data-rule-us-phone-field="true" data-inputmask-inputmode="tel" name="wpforms[fields][5]" placeholder="Telephone" ></div><div id="wpforms-791-field_6-container" class="wpforms-field wpforms-field-email wpforms-one-half" data-field-id="6"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-791-field_6">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-791-field_6" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][6]" placeholder="Email" required></div><div id="wpforms-791-field_7-container" class="wpforms-field wpforms-field-textarea" data-field-id="7"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-791-field_7">Message <span class="wpforms-required-label">*</span></label><textarea id="wpforms-791-field_7" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][7]" placeholder="Message ..." required></textarea></div></div><div class="wpforms-field wpforms-field-hp"><label for="wpforms-791-field-hp" class="wpforms-field-label">Message</label><input type="text" name="wpforms[hp]" id="wpforms-791-field-hp" class="wpforms-field-medium"></div><input type="hidden" name="wpforms[recaptcha]" value=""><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="791"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="502"><button type="submit" name="wpforms[submit]" class="wpforms-submit btn-plane" id="wpforms-submit-791" value="wpforms-submit" aria-live="assertive" data-alt-text="Send" data-submit-text=""></button></div></form></div>  <!-- .wpforms-container -->
-          <div class="career-form">
-            <div class="btn-career">
-              <span>{{ $data.contact.hero_text1 | safeHTML  }}</span>
-              {{ $data.contact.hero_text2 | safeHTML  }}            <i class="fas fa-plus plus-icon"></i>
-            </div>
-            <div class="form-career">
-              <p class="white">{{ $data.contact.text1 | safeHTML  }}</p>
-              <div class="wpforms-container wpforms-container-full" id="wpforms-789"><form id="wpforms-form-789" class="wpforms-validate wpforms-form" data-formid="789" method="post" enctype="multipart/form-data" action="/en/contact/?wpforms_form_id=789" data-token="837f359d944a92e4475be053cf1711b5"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div class="wpforms-field-container"><div id="wpforms-789-field_11-container" class="wpforms-field wpforms-field-text" data-field-id="11"><label class="wpforms-field-label" for="wpforms-789-field_11">Full name</label><input type="text" id="wpforms-789-field_11" class="wpforms-field-large" name="wpforms[fields][11]" ></div><div id="wpforms-789-field_2-container" class="wpforms-field wpforms-field-email" data-field-id="2"><label class="wpforms-field-label" for="wpforms-789-field_2">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-789-field_2" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][2]" required></div><div id="wpforms-789-field_4-container" class="wpforms-field wpforms-field-phone" data-field-id="4"><label class="wpforms-field-label" for="wpforms-789-field_4">Telephone <span class="wpforms-required-label">*</span></label><input type="tel" id="wpforms-789-field_4" class="wpforms-field-large wpforms-field-required" data-rule-int-phone-field="true" name="wpforms[fields][4]" required></div><div id="wpforms-789-field_13-container" class="wpforms-field wpforms-field-text" data-field-id="13"><label class="wpforms-field-label" for="wpforms-789-field_13">Which position are you applying for?</label><input type="text" id="wpforms-789-field_13" class="wpforms-field-large" name="wpforms[fields][13]" ></div><div id="wpforms-789-field_8-container" class="wpforms-field wpforms-field-file-upload wpforms-one-half wpforms-first" data-field-id="8"><label class="wpforms-field-label" for="wpforms-789-field_8">Curriculum vitae <span class="wpforms-required-label">*</span></label><div class="wpforms-uploader"
-	data-field-id="8"
-	data-form-id="789"
-	data-input-name="wpforms_789_8"
-	data-extensions="jpg,jpeg,jpe,gif,png,bmp,tiff,tif,webp,ico,heic,asf,asx,wmv,wmx,wm,avi,divx,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,vtt,mp3,m4a,m4b,aac,ra,ram,wav,ogg,oga,flac,mid,midi,wma,wax,mka,rtf,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages,svg,svgz"
-	data-max-size="134217728"
-	data-max-file-number="1"
-	data-post-max-size="134217728"
-    data-max-parallel-uploads="4"
-    data-parallel-uploads="true"
-	data-file-chunk-size="2097152">
-	<div class="dz-message">
-		<svg viewBox="0 0 1024 1024" focusable="false" class="" data-icon="inbox" width="50px" height="50px" fill="#B1B1B1" aria-hidden="true"><path d="M885.2 446.3l-.2-.8-112.2-285.1c-5-16.1-19.9-27.2-36.8-27.2H281.2c-17 0-32.1 11.3-36.9 27.6L139.4 443l-.3.7-.2.8c-1.3 4.9-1.7 9.9-1 14.8-.1 1.6-.2 3.2-.2 4.8V830a60.9 60.9 0 0 0 60.8 60.8h627.2c33.5 0 60.8-27.3 60.9-60.8V464.1c0-1.3 0-2.6-.1-3.7.4-4.9 0-9.6-1.3-14.1zm-295.8-43l-.3 15.7c-.8 44.9-31.8 75.1-77.1 75.1-22.1 0-41.1-7.1-54.8-20.6S436 441.2 435.6 419l-.3-15.7H229.5L309 210h399.2l81.7 193.3H589.4zm-375 76.8h157.3c24.3 57.1 76 90.8 140.4 90.8 33.7 0 65-9.4 90.3-27.2 22.2-15.6 39.5-37.4 50.7-63.6h156.5V814H214.4V480.1z"></path></svg>
-		<span class="modern-title">
-			{{ $data.contact.upload_text | safeHTML  }}		</span>
+		<section id="intro" class="inner">
+			<div class="row m-0">
+				<div class="col-lg-4 p-0 d-flex justify-content-center align-items-center wow fadeIn"
+					data-wow-duration="1s" data-wow-delay="0"
+					style="background: url('/img/bg-contact.jpg') center center no-repeat; background-size: cover;">
+					<div class="contact-info">
+						<h6>{{ $data.contact.hero_text | safeHTML  }}</h6>
+						<p><a class="tel-link" href="tel:+18885167067">{{ $data.contact.phone | safeHTML  }}</a><br />
+							<a class="email" href="mailto:info@aprodesign.ca">{{ $data.contact.mail | safeHTML  }}</a>
+						</p>
+						<p>{{ $data.contact.address1 | safeHTML  }}<br />
+							{{ $data.contact.address2 | safeHTML  }}<br />
+							{{ $data.contact.address3 | safeHTML  }}</p>
+						<p><a
+								href="{{ $data.contact.contact_link | safeHTML  }}">{{ $data.contact.subscribe | safeHTML  }}</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-8 p-0">
+					<div class="contact-form-container wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 
+						<div class="wpforms-container wpforms-container-full" id="wpforms-791">
+							<form id="wpforms-form-791" class="wpforms-validate wpforms-form" data-formid="791"
+								method="post" enctype="multipart/form-data" action="/en/contact/"
+								data-token="837f359d944a92e4475be053cf1711b5"><noscript
+									class="wpforms-error-noscript">Please enable JavaScript in your browser to complete
+									this form.</noscript>
+								<div class="wpforms-field-container">
+									<div id="wpforms-791-field_2-container"
+										class="wpforms-field wpforms-field-text wpforms-one-half wpforms-first"
+										data-field-id="2"><label class="wpforms-field-label wpforms-label-hide"
+											for="wpforms-791-field_2">First name <span
+												class="wpforms-required-label">*</span></label><input type="text"
+											id="wpforms-791-field_2" class="wpforms-field-large wpforms-field-required"
+											name="wpforms[fields][2]" placeholder="First name" required></div>
+									<div id="wpforms-791-field_3-container"
+										class="wpforms-field wpforms-field-text wpforms-one-half" data-field-id="3">
+										<label class="wpforms-field-label wpforms-label-hide"
+											for="wpforms-791-field_3">Name <span
+												class="wpforms-required-label">*</span></label><input type="text"
+											id="wpforms-791-field_3" class="wpforms-field-large wpforms-field-required"
+											name="wpforms[fields][3]" placeholder="Name" required></div>
+									<div id="wpforms-791-field_5-container"
+										class="wpforms-field wpforms-field-phone wpforms-one-half wpforms-first"
+										data-field-id="5"><label class="wpforms-field-label wpforms-label-hide"
+											for="wpforms-791-field_5">Telephone</label><input type="tel"
+											id="wpforms-791-field_5" class="wpforms-field-large wpforms-masked-input"
+											data-inputmask="&#039;mask&#039;: &#039;(999) 999-9999&#039;"
+											data-rule-us-phone-field="true" data-inputmask-inputmode="tel"
+											name="wpforms[fields][5]" placeholder="Telephone"></div>
+									<div id="wpforms-791-field_6-container"
+										class="wpforms-field wpforms-field-email wpforms-one-half" data-field-id="6">
+										<label class="wpforms-field-label wpforms-label-hide"
+											for="wpforms-791-field_6">Email <span
+												class="wpforms-required-label">*</span></label><input type="email"
+											id="wpforms-791-field_6" class="wpforms-field-large wpforms-field-required"
+											name="wpforms[fields][6]" placeholder="Email" required></div>
+									<div id="wpforms-791-field_7-container" class="wpforms-field wpforms-field-textarea"
+										data-field-id="7"><label class="wpforms-field-label wpforms-label-hide"
+											for="wpforms-791-field_7">Message <span
+												class="wpforms-required-label">*</span></label><textarea
+											id="wpforms-791-field_7" class="wpforms-field-large wpforms-field-required"
+											name="wpforms[fields][7]" placeholder="Message ..." required></textarea>
+									</div>
+								</div>
+								<div class="wpforms-field wpforms-field-hp"><label for="wpforms-791-field-hp"
+										class="wpforms-field-label">Message</label><input type="text" name="wpforms[hp]"
+										id="wpforms-791-field-hp" class="wpforms-field-medium"></div><input
+									type="hidden" name="wpforms[recaptcha]" value="">
+								<div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]"
+										value="791"><input type="hidden" name="wpforms[author]" value="1"><input
+										type="hidden" name="wpforms[post_id]" value="502"><button type="submit"
+										name="wpforms[submit]" class="wpforms-submit btn-plane" id="wpforms-submit-791"
+										value="wpforms-submit" aria-live="assertive" data-alt-text="Send"
+										data-submit-text=""></button></div>
+							</form>
+						</div> <!-- .wpforms-container -->
+						<div class="career-form">
+							<div class="btn-career">
+								<span>{{ $data.contact.hero_text1 | safeHTML  }}</span>
+								{{ $data.contact.hero_text2 | safeHTML  }} <i class="fas fa-plus plus-icon"></i>
+							</div>
+							<div class="form-career">
+								<p class="white">{{ $data.contact.text1 | safeHTML  }}</p>
+								<div class="wpforms-container wpforms-container-full" id="wpforms-789">
+									<form id="wpforms-form-789" class="wpforms-validate wpforms-form" data-formid="789"
+										method="post" enctype="multipart/form-data"
+										action="/en/contact/?wpforms_form_id=789"
+										data-token="837f359d944a92e4475be053cf1711b5"><noscript
+											class="wpforms-error-noscript">Please enable JavaScript in your browser to
+											complete this form.</noscript>
+										<div class="wpforms-field-container">
+											<div id="wpforms-789-field_11-container"
+												class="wpforms-field wpforms-field-text" data-field-id="11"><label
+													class="wpforms-field-label" for="wpforms-789-field_11">Full
+													name</label><input type="text" id="wpforms-789-field_11"
+													class="wpforms-field-large" name="wpforms[fields][11]"></div>
+											<div id="wpforms-789-field_2-container"
+												class="wpforms-field wpforms-field-email" data-field-id="2"><label
+													class="wpforms-field-label" for="wpforms-789-field_2">Email <span
+														class="wpforms-required-label">*</span></label><input
+													type="email" id="wpforms-789-field_2"
+													class="wpforms-field-large wpforms-field-required"
+													name="wpforms[fields][2]" required></div>
+											<div id="wpforms-789-field_4-container"
+												class="wpforms-field wpforms-field-phone" data-field-id="4"><label
+													class="wpforms-field-label" for="wpforms-789-field_4">Telephone
+													<span class="wpforms-required-label">*</span></label><input
+													type="tel" id="wpforms-789-field_4"
+													class="wpforms-field-large wpforms-field-required"
+													data-rule-int-phone-field="true" name="wpforms[fields][4]" required>
+											</div>
+											<div id="wpforms-789-field_13-container"
+												class="wpforms-field wpforms-field-text" data-field-id="13"><label
+													class="wpforms-field-label" for="wpforms-789-field_13">Which
+													position are you applying for?</label><input type="text"
+													id="wpforms-789-field_13" class="wpforms-field-large"
+													name="wpforms[fields][13]"></div>
+											<div id="wpforms-789-field_8-container"
+												class="wpforms-field wpforms-field-file-upload wpforms-one-half wpforms-first"
+												data-field-id="8"><label class="wpforms-field-label"
+													for="wpforms-789-field_8">Curriculum vitae <span
+														class="wpforms-required-label">*</span></label>
+												<div class="wpforms-uploader" data-field-id="8" data-form-id="789"
+													data-input-name="wpforms_789_8"
+													data-extensions="jpg,jpeg,jpe,gif,png,bmp,tiff,tif,webp,ico,heic,asf,asx,wmv,wmx,wm,avi,divx,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,vtt,mp3,m4a,m4b,aac,ra,ram,wav,ogg,oga,flac,mid,midi,wma,wax,mka,rtf,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages,svg,svgz"
+													data-max-size="134217728" data-max-file-number="1"
+													data-post-max-size="134217728" data-max-parallel-uploads="4"
+													data-parallel-uploads="true" data-file-chunk-size="2097152">
+													<div class="dz-message">
+														<svg viewBox="0 0 1024 1024" focusable="false" class=""
+															data-icon="inbox" width="50px" height="50px" fill="#B1B1B1"
+															aria-hidden="true">
+															<path
+																d="M885.2 446.3l-.2-.8-112.2-285.1c-5-16.1-19.9-27.2-36.8-27.2H281.2c-17 0-32.1 11.3-36.9 27.6L139.4 443l-.3.7-.2.8c-1.3 4.9-1.7 9.9-1 14.8-.1 1.6-.2 3.2-.2 4.8V830a60.9 60.9 0 0 0 60.8 60.8h627.2c33.5 0 60.8-27.3 60.9-60.8V464.1c0-1.3 0-2.6-.1-3.7.4-4.9 0-9.6-1.3-14.1zm-295.8-43l-.3 15.7c-.8 44.9-31.8 75.1-77.1 75.1-22.1 0-41.1-7.1-54.8-20.6S436 441.2 435.6 419l-.3-15.7H229.5L309 210h399.2l81.7 193.3H589.4zm-375 76.8h157.3c24.3 57.1 76 90.8 140.4 90.8 33.7 0 65-9.4 90.3-27.2 22.2-15.6 39.5-37.4 50.7-63.6h156.5V814H214.4V480.1z">
+															</path>
+														</svg>
+														<span class="modern-title">
+															{{ $data.contact.upload_text | safeHTML  }} </span>
+
+													</div>
+												</div>
+												<input type="text" class="dropzone-input"
+													style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;"
+													id="wpforms-789-field_8" name="wpforms_789_8" required>
+											</div>
+											<div id="wpforms-789-field_9-container"
+												class="wpforms-field wpforms-field-file-upload wpforms-one-half"
+												data-field-id="9"><label class="wpforms-field-label"
+													for="wpforms-789-field_9">Cover Letter</label>
+												<div class="wpforms-uploader" data-field-id="9" data-form-id="789"
+													data-input-name="wpforms_789_9"
+													data-extensions="jpg,jpeg,jpe,gif,png,bmp,tiff,tif,webp,ico,heic,asf,asx,wmv,wmx,wm,avi,divx,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,vtt,mp3,m4a,m4b,aac,ra,ram,wav,ogg,oga,flac,mid,midi,wma,wax,mka,rtf,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages,svg,svgz"
+													data-max-size="134217728" data-max-file-number="1"
+													data-post-max-size="134217728" data-max-parallel-uploads="4"
+													data-parallel-uploads="true" data-file-chunk-size="2097152">
+													<div class="dz-message">
+														<svg viewBox="0 0 1024 1024" focusable="false" class=""
+															data-icon="inbox" width="50px" height="50px" fill="#B1B1B1"
+															aria-hidden="true">
+															<path
+																d="M885.2 446.3l-.2-.8-112.2-285.1c-5-16.1-19.9-27.2-36.8-27.2H281.2c-17 0-32.1 11.3-36.9 27.6L139.4 443l-.3.7-.2.8c-1.3 4.9-1.7 9.9-1 14.8-.1 1.6-.2 3.2-.2 4.8V830a60.9 60.9 0 0 0 60.8 60.8h627.2c33.5 0 60.8-27.3 60.9-60.8V464.1c0-1.3 0-2.6-.1-3.7.4-4.9 0-9.6-1.3-14.1zm-295.8-43l-.3 15.7c-.8 44.9-31.8 75.1-77.1 75.1-22.1 0-41.1-7.1-54.8-20.6S436 441.2 435.6 419l-.3-15.7H229.5L309 210h399.2l81.7 193.3H589.4zm-375 76.8h157.3c24.3 57.1 76 90.8 140.4 90.8 33.7 0 65-9.4 90.3-27.2 22.2-15.6 39.5-37.4 50.7-63.6h156.5V814H214.4V480.1z">
+															</path>
+														</svg>
+														<span class="modern-title">
+															{{ $data.contact.upload_text | safeHTML  }} </span>
+
+													</div>
+												</div>
+												<input type="text" class="dropzone-input"
+													style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;"
+													id="wpforms-789-field_9" name="wpforms_789_9">
+											</div>
+											<div id="wpforms-789-field_10-container"
+												class="wpforms-field wpforms-field-textarea" data-field-id="10"><label
+													class="wpforms-field-label" for="wpforms-789-field_10">Additional
+													Information</label><textarea id="wpforms-789-field_10"
+													class="wpforms-field-medium" name="wpforms[fields][10]"></textarea>
+											</div>
+										</div>
+										<div class="wpforms-field wpforms-field-hp"><label for="wpforms-789-field-hp"
+												class="wpforms-field-label">Website</label><input type="text"
+												name="wpforms[hp]" id="wpforms-789-field-hp"
+												class="wpforms-field-medium"></div><input type="hidden"
+											name="wpforms[recaptcha]" value="">
+										<div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]"
+												value="789"><input type="hidden" name="wpforms[author]" value="1"><input
+												type="hidden" name="wpforms[post_id]" value="502"><button type="submit"
+												name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-789"
+												value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..."
+												data-submit-text="Send">Send</button></div>
+									</form>
+								</div> <!-- .wpforms-container -->
+							</div>
+						</div>
+
+					</div>
+				</div>
 			</div>
-</div>
-<input type="text" class="dropzone-input"
-	style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;"
-	id="wpforms-789-field_8"
-	name="wpforms_789_8" required>
-</div><div id="wpforms-789-field_9-container" class="wpforms-field wpforms-field-file-upload wpforms-one-half" data-field-id="9"><label class="wpforms-field-label" for="wpforms-789-field_9">Cover Letter</label><div class="wpforms-uploader"
-	data-field-id="9"
-	data-form-id="789"
-	data-input-name="wpforms_789_9"
-	data-extensions="jpg,jpeg,jpe,gif,png,bmp,tiff,tif,webp,ico,heic,asf,asx,wmv,wmx,wm,avi,divx,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,vtt,mp3,m4a,m4b,aac,ra,ram,wav,ogg,oga,flac,mid,midi,wma,wax,mka,rtf,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages,svg,svgz"
-	data-max-size="134217728"
-	data-max-file-number="1"
-	data-post-max-size="134217728"
-    data-max-parallel-uploads="4"
-    data-parallel-uploads="true"
-	data-file-chunk-size="2097152">
-	<div class="dz-message">
-		<svg viewBox="0 0 1024 1024" focusable="false" class="" data-icon="inbox" width="50px" height="50px" fill="#B1B1B1" aria-hidden="true"><path d="M885.2 446.3l-.2-.8-112.2-285.1c-5-16.1-19.9-27.2-36.8-27.2H281.2c-17 0-32.1 11.3-36.9 27.6L139.4 443l-.3.7-.2.8c-1.3 4.9-1.7 9.9-1 14.8-.1 1.6-.2 3.2-.2 4.8V830a60.9 60.9 0 0 0 60.8 60.8h627.2c33.5 0 60.8-27.3 60.9-60.8V464.1c0-1.3 0-2.6-.1-3.7.4-4.9 0-9.6-1.3-14.1zm-295.8-43l-.3 15.7c-.8 44.9-31.8 75.1-77.1 75.1-22.1 0-41.1-7.1-54.8-20.6S436 441.2 435.6 419l-.3-15.7H229.5L309 210h399.2l81.7 193.3H589.4zm-375 76.8h157.3c24.3 57.1 76 90.8 140.4 90.8 33.7 0 65-9.4 90.3-27.2 22.2-15.6 39.5-37.4 50.7-63.6h156.5V814H214.4V480.1z"></path></svg>
-		<span class="modern-title">
-			{{ $data.contact.upload_text | safeHTML  }}		</span>
 
+			<div class="social">
+				<a href="https://www.facebook.com/createurdepaysage"
+					target="_blank">{{ $data.contact.fb | safeHTML  }}</a>
+				<a href="https://www.instagram.com/prodesign.ca/"
+					target="_blank">{{ $data.contact.insta | safeHTML  }}</a>
 			</div>
-</div>
-<input type="text" class="dropzone-input"
-	style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;"
-	id="wpforms-789-field_9"
-	name="wpforms_789_9" >
-</div><div id="wpforms-789-field_10-container" class="wpforms-field wpforms-field-textarea" data-field-id="10"><label class="wpforms-field-label" for="wpforms-789-field_10">Additional Information</label><textarea id="wpforms-789-field_10" class="wpforms-field-medium" name="wpforms[fields][10]" ></textarea></div></div><div class="wpforms-field wpforms-field-hp"><label for="wpforms-789-field-hp" class="wpforms-field-label">Website</label><input type="text" name="wpforms[hp]" id="wpforms-789-field-hp" class="wpforms-field-medium"></div><input type="hidden" name="wpforms[recaptcha]" value=""><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="789"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="502"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-789" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Send">Send</button></div></form></div>  <!-- .wpforms-container -->            </div>
-          </div> 
-
-        </div>
-      </div>
-    </div>
-
-    <div class="social">
-                                    <a href="https://www.facebook.com/createurdepaysage" target="_blank">{{ $data.contact.fb | safeHTML  }}</a>
-                                        <a href="https://www.instagram.com/prodesign.ca/" target="_blank">{{ $data.contact.insta | safeHTML  }}</a>
-                      </div>      
-  </section>
+		</section>
 
 
-</div>
+	</div>
 
 
-<link rel='stylesheet' id='wpforms-dropzone-css'  href='{{"/css/dropzone.min.css" | relURL}}' type='text/css' media='all' />
-<link rel='stylesheet' id='wpforms-full-css'  href='{{"/css/wpforms-full.min.css" | relURL }}' type='text/css' media='all' />
-<script type='text/javascript' src='{{"/js/photon.min.js" | relURL }}' id='jetpack-photon-js'></script>
-<script type='text/javascript' src='{{"/js/theme.min.js" | relURL }}' id='understrap-scripts-js'></script>
-<script type='text/javascript' src='{{"/js/intersection-observer.js" | relURL }}' id='jetpack-lazy-images-polyfill-intersectionobserver-js'></script>
-<script type='text/javascript' id='jetpack-lazy-images-js-extra'>
-/* <![CDATA[ */
-var jetpackLazyImagesL10n = {"loading_warning":"Images are still loading. Please cancel your print and try again."};
-/* ]]> */
-</script>
-<script type='text/javascript' src='{{"/js/lazy-images.js" | relURL }}' id='jetpack-lazy-images-js'></script>
-<script type='text/javascript' src='{{"/js/wp-embed.min.js" | relURL }}' id='wp-embed-js'></script>
-<script type='text/javascript' id='wpforms-dropzone-js-extra'>
-/* <![CDATA[ */
-var wpforms_file_upload = {"url":"https:\/\/pro-design.ca\/wp-admin\/admin-ajax.php","errors":{"default_error":"Something went wrong, please try again.","file_not_uploaded":"This file was not uploaded.","file_limit":"File limit has been reached ({fileLimit}).","file_extension":"File type is not allowed.","file_size":"File exceeds the max size allowed.","post_max_size":"File exceeds the upload limit allowed (128 MB)."},"loading_message":"File upload is in progress. Please submit the form once uploading is completed."};
-/* ]]> */
-</script>
-<script type='text/javascript' src='{{"/js/dropzone.min.js" | relURL }}' id='wpforms-dropzone-js'></script>
-<script type='text/javascript' src='{{"/js/wpforms.js" | relURL }}' id='wpforms-js'></script>
-<script type='text/javascript' src='{{"/js/underscore.min.js" | relURL }}' id='underscore-js'></script>
-<script type='text/javascript' id='wp-util-js-extra'>
-/* <![CDATA[ */
-var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
-/* ]]> */
-</script>
-<script type='text/javascript' src='{{"/js/wp-util.min.js" | relURL }}' id='wp-util-js'></script>
-<script type='text/javascript' src='{{"/js/wpforms-file-upload.min.js" | relURL }}' id='wpforms-file-upload-js'></script>
-<script type='text/javascript' src='{{"/js/jquery.validate.min.js" | relURL }}' id='wpforms-validation-js'></script>
-<script type='text/javascript' src='{{"/js/jquery.inputmask.min.js" | relURL }}' id='wpforms-maskedinput-js'></script>
-<script type='text/javascript' src='{{"/js/mailcheck.min.js" | relURL}}' id='wpforms-mailcheck-js'></script>
-<script type='text/javascript' src='{{"/js/punycode.min.js" | relURL }}' id='wpforms-punycode-js'></script>
-<script type='text/javascript' src='{{"/js/api.js" | relURL}}' id='wpforms-recaptcha-js'></script>
-<script type='text/javascript' id='wpforms-recaptcha-js-after'>
-var wpformsDispatchEvent = function (el, ev, custom) {
-			    var e = document.createEvent(custom ? "CustomEvent" : "HTMLEvents");
-			    custom ? e.initCustomEvent(ev, true, true, false) : e.initEvent(ev, true, true);
-			    el.dispatchEvent(e);
-			};
+	<link rel='stylesheet' id='wpforms-dropzone-css' href='{{"/css/dropzone.min.css" | relURL}}' type='text/css'
+		media='all' />
+	<link rel='stylesheet' id='wpforms-full-css' href='{{"/css/wpforms-full.min.css" | relURL }}' type='text/css'
+		media='all' />
+	<script type='text/javascript' src='{{"/js/photon.min.js" | relURL }}' id='jetpack-photon-js'></script>
+	<script type='text/javascript' src='{{"/js/theme.min.js" | relURL }}' id='understrap-scripts-js'></script>
+	<script type='text/javascript' src='{{"/js/intersection-observer.js" | relURL }}'
+		id='jetpack-lazy-images-polyfill-intersectionobserver-js'></script>
+	<script type='text/javascript' id='jetpack-lazy-images-js-extra'>
+		/* <![CDATA[ */
+		var jetpackLazyImagesL10n = {
+			"loading_warning": "Images are still loading. Please cancel your print and try again."
+		};
+		/* ]]> */
+	</script>
+	<script type='text/javascript' src='{{"/js/lazy-images.js" | relURL }}' id='jetpack-lazy-images-js'></script>
+	<script type='text/javascript' src='{{"/js/wp-embed.min.js" | relURL }}' id='wp-embed-js'></script>
+	<script type='text/javascript' id='wpforms-dropzone-js-extra'>
+		/* <![CDATA[ */
+		var wpforms_file_upload = {
+			"url": "https:\/\/pro-design.ca\/wp-admin\/admin-ajax.php",
+			"errors": {
+				"default_error": "Something went wrong, please try again.",
+				"file_not_uploaded": "This file was not uploaded.",
+				"file_limit": "File limit has been reached ({fileLimit}).",
+				"file_extension": "File type is not allowed.",
+				"file_size": "File exceeds the max size allowed.",
+				"post_max_size": "File exceeds the upload limit allowed (128 MB)."
+			},
+			"loading_message": "File upload is in progress. Please submit the form once uploading is completed."
+		};
+		/* ]]> */
+	</script>
+	<script type='text/javascript' src='{{"/js/dropzone.min.js" | relURL }}' id='wpforms-dropzone-js'></script>
+	<script type='text/javascript' src='{{"/js/wpforms.js" | relURL }}' id='wpforms-js'></script>
+	<script type='text/javascript' src='{{"/js/underscore.min.js" | relURL }}' id='underscore-js'></script>
+	<script type='text/javascript' id='wp-util-js-extra'>
+		/* <![CDATA[ */
+		var _wpUtilSettings = {
+			"ajax": {
+				"url": "\/wp-admin\/admin-ajax.php"
+			}
+		};
+		/* ]]> */
+	</script>
+	<script type='text/javascript' src='{{"/js/wp-util.min.js" | relURL }}' id='wp-util-js'></script>
+	<script type='text/javascript' src='{{"/js/wpforms-file-upload.min.js" | relURL }}' id='wpforms-file-upload-js'>
+	</script>
+	<script type='text/javascript' src='{{"/js/jquery.validate.min.js" | relURL }}' id='wpforms-validation-js'></script>
+	<script type='text/javascript' src='{{"/js/jquery.inputmask.min.js" | relURL }}' id='wpforms-maskedinput-js'>
+	</script>
+	<script type='text/javascript' src='{{"/js/mailcheck.min.js" | relURL}}' id='wpforms-mailcheck-js'></script>
+	<script type='text/javascript' src='{{"/js/punycode.min.js" | relURL }}' id='wpforms-punycode-js'></script>
+	<script type='text/javascript' src='{{"/js/api.js" | relURL}}' id='wpforms-recaptcha-js'></script>
+	<script type='text/javascript' id='wpforms-recaptcha-js-after'>
+		var wpformsDispatchEvent = function (el, ev, custom) {
+			var e = document.createEvent(custom ? "CustomEvent" : "HTMLEvents");
+			custom ? e.initCustomEvent(ev, true, true, false) : e.initEvent(ev, true, true);
+			el.dispatchEvent(e);
+		};
 		var wpformsRecaptchaLoad = function () {
-				    grecaptcha.execute("6Lf4q_8UAAAAAJHnVEqmusAvSZl_dHhOhchzgRrv", {action: "wpforms"}).then(function (token) {
-				        Array.prototype.forEach.call(document.getElementsByName("wpforms[recaptcha]"), function (el) {
-				            el.value = token;
-				        });
-				    });
-				    wpformsDispatchEvent(document, "wpformsRecaptchaLoaded", true);
-				};
-				grecaptcha.ready(wpformsRecaptchaLoad);
-    		
-</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wpforms_settings = {"val_required":"This field is required.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_email_restricted":"This email address is not allowed.","val_number":"Please enter a valid number.","val_number_positive":"Please enter a valid positive number.","val_confirm":"Field values do not match.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","val_recaptcha_fail_msg":"La v\u00e9rification Google reCAPTCHA a \u00e9chou\u00e9, veuillez r\u00e9essayer ult\u00e9rieurement.","val_empty_blanks":"Please fill out all blanks.","uuid_cookie":"1","locale":"en","wpforms_plugin_url":"https:\/\/pro-design.ca\/wp-content\/plugins\/wpforms\/","gdpr":"","ajaxurl":"https:\/\/pro-design.ca\/wp-admin\/admin-ajax.php","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"],"is_ssl":"1","currency_code":"USD","currency_thousands":",","currency_decimals":"2","currency_decimal":".","currency_symbol":"$","currency_symbol_pos":"left","val_requiredpayment":"Payment is required.","val_creditcard":"Please enter a valid credit card number.","val_post_max_size":"The total size of the selected files {totalSize} Mb exceeds the allowed limit {maxSize} Mb.","val_time12h":"Please enter time in 12-hour AM\/PM format (eg 8:45 AM).","val_time24h":"Please enter time in 24-hour format (eg 22:45).","val_url":"Please enter a valid URL.","val_fileextension":"File type is not allowed.","val_filesize":"File exceeds max size allowed. File was not uploaded.","post_max_size":"134217728","val_password_strength":"A stronger password is required. Consider using upper and lower case letters, numbers, and symbols.","val_phone":"Please enter a valid phone number.","richtext_add_media_button":"","entry_preview_iframe_styles":["/css/content.min.css" ,"/css/dashicons.min.css","/css/wp-content.css"]}
-/* ]]> */
-</script>
-<script src='{{"js/e-202152.js" | relURL }}' defer></script>
-<script>
-	_stq = window._stq || [];
-	_stq.push([ 'view', {v:'ext',j:'1:10.2',blog:'198672254',post:'502',tz:'-5',srv:'pro-design.ca'} ]);
-	_stq.push([ 'clickTrackerInit', '198672254', '502' ]);
-</script>
+			grecaptcha.execute("6Lf4q_8UAAAAAJHnVEqmusAvSZl_dHhOhchzgRrv", {
+				action: "wpforms"
+			}).then(function (token) {
+				Array.prototype.forEach.call(document.getElementsByName("wpforms[recaptcha]"), function (el) {
+					el.value = token;
+				});
+			});
+			wpformsDispatchEvent(document, "wpformsRecaptchaLoaded", true);
+		};
+		grecaptcha.ready(wpformsRecaptchaLoad);
+	</script>
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var wpforms_settings = {
+			"val_required": "This field is required.",
+			"val_email": "Please enter a valid email address.",
+			"val_email_suggestion": "Did you mean {suggestion}?",
+			"val_email_suggestion_title": "Click to accept this suggestion.",
+			"val_email_restricted": "This email address is not allowed.",
+			"val_number": "Please enter a valid number.",
+			"val_number_positive": "Please enter a valid positive number.",
+			"val_confirm": "Field values do not match.",
+			"val_checklimit": "You have exceeded the number of allowed selections: {#}.",
+			"val_limit_characters": "{count} of {limit} max characters.",
+			"val_limit_words": "{count} of {limit} max words.",
+			"val_recaptcha_fail_msg": "La v\u00e9rification Google reCAPTCHA a \u00e9chou\u00e9, veuillez r\u00e9essayer ult\u00e9rieurement.",
+			"val_empty_blanks": "Please fill out all blanks.",
+			"uuid_cookie": "1",
+			"locale": "en",
+			"wpforms_plugin_url": "https:\/\/pro-design.ca\/wp-content\/plugins\/wpforms\/",
+			"gdpr": "",
+			"ajaxurl": "https:\/\/pro-design.ca\/wp-admin\/admin-ajax.php",
+			"mailcheck_enabled": "1",
+			"mailcheck_domains": [],
+			"mailcheck_toplevel_domains": ["dev"],
+			"is_ssl": "1",
+			"currency_code": "USD",
+			"currency_thousands": ",",
+			"currency_decimals": "2",
+			"currency_decimal": ".",
+			"currency_symbol": "$",
+			"currency_symbol_pos": "left",
+			"val_requiredpayment": "Payment is required.",
+			"val_creditcard": "Please enter a valid credit card number.",
+			"val_post_max_size": "The total size of the selected files {totalSize} Mb exceeds the allowed limit {maxSize} Mb.",
+			"val_time12h": "Please enter time in 12-hour AM\/PM format (eg 8:45 AM).",
+			"val_time24h": "Please enter time in 24-hour format (eg 22:45).",
+			"val_url": "Please enter a valid URL.",
+			"val_fileextension": "File type is not allowed.",
+			"val_filesize": "File exceeds max size allowed. File was not uploaded.",
+			"post_max_size": "134217728",
+			"val_password_strength": "A stronger password is required. Consider using upper and lower case letters, numbers, and symbols.",
+			"val_phone": "Please enter a valid phone number.",
+			"richtext_add_media_button": "",
+			"entry_preview_iframe_styles": ["/css/content.min.css", "/css/dashicons.min.css", "/css/wp-content.css"]
+		}
+		/* ]]> */
+	</script>
+	<script src='{{"js/e-202152.js" | relURL }}' defer></script>
+	<script>
+		_stq = window._stq || [];
+		_stq.push(['view', {
+			v: 'ext',
+			j: '1:10.2',
+			blog: '198672254',
+			post: '502',
+			tz: '-5',
+			srv: 'pro-design.ca'
+		}]);
+		_stq.push(['clickTrackerInit', '198672254', '502']);
+	</script>
 
-<!-- Slick Slider -->
-<link rel="stylesheet" type="text/css" href="{{"/css/slick.css" | relURL }}"/>
-<script type="text/javascript" src="{{"/js/slick.min.js" | relURL }}"></script>
+	<!-- Slick Slider -->
+	<link rel="stylesheet" type="text/css" href="{{"/css/slick.css" | relURL }}" />
+	<script type="text/javascript" src="{{"/js/slick.min.js" | relURL }}"></script>
 
-<!-- WOW JS -->
-<script src="{{"/js/wow.min.js" | relURL }}"></script>
-<script> function afterReveal( el ) { el.addEventListener('animationend', function( event ) { $('.wow').each(function(){ $(this).css('opacity',1); }); }); } new WOW({ callback: afterReveal }).init() </script>
+	<!-- WOW JS -->
+	<script src="{{"/js/wow.min.js" | relURL }}"></script>
+	<script>
+		function afterReveal(el) {
+			el.addEventListener('animationend', function (event) {
+				$('.wow').each(function () {
+					$(this).css('opacity', 1);
+				});
+			});
+		}
+		new WOW({
+			callback: afterReveal
+		}).init()
+	</script>
 
-<!-- Custom JS -->
-<script type="text/javascript" src="{{"/js/custom.js" | relURL }}"></script>  
+	<!-- Custom JS -->
+	<script type="text/javascript" src="{{"/js/custom.js" | relURL }}"></script>
 
 </body>
 
 </html>
-
