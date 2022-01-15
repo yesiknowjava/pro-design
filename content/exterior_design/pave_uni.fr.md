@@ -1,6 +1,6 @@
 +++
-url = "exterior_design/pave_uni"
+url = "/amenagement-exterieur/pave-uni/"
 type = "exterior_design"
 
-exterior_tag = "pave_uni"
+exterior_tag = "pave-uni"
 +++

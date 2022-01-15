@@ -1,6 +1,6 @@
 +++
-url = "exterior_design/retaining_wall"
+url = "/amenagement-exterieur/muret"
 type = "exterior_design"
 
-exterior_tag = "retaining_wall"
+exterior_tag = "muret"
 +++

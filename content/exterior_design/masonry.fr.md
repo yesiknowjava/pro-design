@@ -1,6 +1,6 @@
 +++
-url = "exterior_design/masonry"
+url = "/amenagement-exterieur/maconnerie"
 type = "exterior_design"
-title = "Labonté Project - St-Sauveur - Pro Design Exterior Design"
+exterior_tag = "maconnerie"
 category = ["DARE"]
 +++

@@ -1,0 +1,122 @@
+hero_text: "Exterior"
+hero_text1: "Design"
+exterior_link: ""
+
+landscape_link: "/amenagement-exterieur/amenagement-despace-nature/"
+landscape_name: "Aménagement d’espace nature"
+  
+masonry_link: "/amenagement-exterieur/maconnerie/"
+masonry_name: "Maçonnerie"
+
+retaining_wall_link: "/amenagement-exterieur/muret/"
+retaining_wall_name: "Muret"
+
+pave_uni_link: "/amenagement-exterieur/pave-uni/"
+pave_uni_name: "Pavé uni"
+
+stone_cutting_link: "/amenagement-exterieur/taille-de-pierreg/"
+stone_cutting_name: "Taille de pierre"
+
+exterior:
+- exterior_tag: "amenagement-despace-nature"
+  exterior_title: "PRO DESIGN AMÉNAGEMENT"
+  exterior_hero1: "AMÉNAGEMENT"
+  exterior_hero2: "EXTÉRIEUR"
+  exterior_img: "/img/header.jpg"
+  exterior_title1: "Aménagement d’espace nature"
+  exterior_content: "Profitez d’un espace de vie unique, créatif et convivial. Experts de la création extérieure, nous pouvons réaliser tous les types de projets, de l’aménagement complet selon un plan architectural, au coin jardin en passant par la construction d’une terrasse ou de zones de détente et de jeu. La nature comme toile de fond, nous misons sur les attributs de chaque terrain afin de tirer profit des éléments qui nous sont offerts. En harmonie avec l’environnement, nous accordons une attention particulière à l’écosystème et misons sur des techniques de travail écoresponsables. Conscients de l’entretien que nécessite un aménagement extérieur, nous vous partagerons nos astuces pour assurer une durée de vie optimale à votre projet."
+  landscape_title: "Inspiration"
+  landscape_content1: "L’architecture de paysage requiert un savoir-faire technique, une connaissance des équipements et végétaux ainsi qu’une vision esthétique."
+  landscape_content2: "Heureusement, nous sommes créateurs de paysages."
+  maison_img: "/img/maison-eclairee.jpg"
+  maison_title2: "Ajoutez-y de la lumière"
+  maison_content: "Pour sécuriser vos déplacements en soirée, pour prolonger le moment ou simplement pour ajouter des jeux d’ombre et de lumière, l’éclairage saura créer toute la différence."
+  irrigation_img: "/img/irrigation.jpg"
+  irrigation_title: "Avez-vous pensé à l'irrigation?"
+  irrigation_content: "Un système d’irrigation automatique permettra à votre pelouse et à vos végétaux de conserver leur beauté, tout en assurant une utilisation contrôlée et efficace de l’eau"
+
+
+
+
+
+
+- exterior_tag: "maconnerie"
+  exterior_title: "PRO DESIGN AMÉNAGEMENT"
+  exterior_title1: "Projet de maçonnerie"
+  exterior_hero1: "PROJET DE"
+  exterior_hero2: "MAÇONNERIE"
+  exterior_img: "/img/header.jpg"
+  exterior_content: "La maçonnerie est une technique pouvant bonifier grandement le coup d’œil et la fonctionnalité d’un aménagement extérieur. La construction de murets de soutien, de colonnes, d’escaliers et l’ajout de pierres naturelles parmi les éléments organiques offrent une finition à la fois soignée et utilitaire."
+  landscape_title: "Inspiration"
+  landscape_content1: "Un projet de maçonnerie requiert de l’équipement spécialisé et une équipe qualifiée pouvant jumeler la rapidité et la qualité de la finition."
+  landscape_content2: "Heureusement, nous sommes créateurs de paysages."
+  maison_img: "/img/maconnerie-bloc1.jpg"
+  maison_title2: "Une construction durable"
+  maison_content: "Respectant les plus hauts standards de qualité de l’APPQ, nous assurons une réalisation durable et intemporelle afin de tirer le maximum de votre investissement."
+  irrigation_img: "/img/maconnerie-bloc2.jpg"
+  irrigation_title: "Une expertise certifiée"
+  irrigation_content: "Pro Design est certifiée par l'Interlocking Concrete Pavement Institute (ICPI) et investie régulièrement dans la formation continue et l'évolution des techniques de travail."
+
+
+
+
+- exterior_tag: "muret"
+  exterior_title: "PRO DESIGN AMÉNAGEMENT"
+  exterior_title1: "Murets et soutènement"
+  exterior_hero1: "INSTALLATION DE"
+  exterior_hero2: "MURETS ET SOUTÈNEMENT"
+  exterior_img: "/img/header-muret.jpg"
+
+  exterior_content: "Les murets décoratifs et les murs de soutènement sont à la base de tout design extérieur intéressant. En plus de rehausser l’apparence de l’espace, ils permettent une vue graduelle des aménagements, une délimitation des zones et sont idéaux pour offrir divers niveaux aux terrains inclinés. Le soutènement répond à un besoin de finition, mais aussi à une nécessité structurelle pour que votre aménagement paysager demeure sain pendant de nombreuses années."
+  landscape_title: "Inspiration"
+  landscape_content1: a construction de murs de soutènement doit profiter d'une attention particulière, car il s’agit de la fondation de votre aménagement."
+  landscape_content2: "Heureusement, nous sommes créateurs de paysages."
+  maison_img: "/img/muret-bloc1.jpg"
+  maison_title2: "L’option naturelle"
+  maison_content: "Un muret de pierre naturelle permet de soutenir les variations de votre terrain, tout en offrant un aspect plus authentique et un environnement écologique."
+  irrigation_img: "/img/muret-bloc2.jpg"
+  irrigation_title: "Une expertise certifiée"
+  irrigation_content: "Pro Design est certifiée par l'Interlocking Concrete Pavement Institute (ICPI) et investie régulièrement dans la formation continue et l'évolution des techniques de travail."
+
+
+
+
+- exterior_tag: "pave-uni"
+  exterior_title: "PRO DESIGN AMÉNAGEMENT"
+  exterior_title1: "Installation de pavé uni"
+  exterior_hero1: "INSTALLATION DE"
+  exterior_hero2: "PAVÉ UNI"
+  exterior_img: "/img/header-pave-uni.jpg"
+
+  exterior_content: "L’ajout de pavé uni permet d’augmenter la valeur d’une propriété. En plus d’être raffinée, la pierre naturelle est un investissement durable. L’installation de pavé uni, de dalles surdimensionnées ou de pierre n’a pas de secret pour nous et nous saurons vous proposer une variété de styles et de combinaisons pour créer un espace unique. Nous accordons une attention particulière à l’agencement des matériaux, au design, à la qualité de l’exécution et au respect des contraintes afin que vous puissiez tirer profit au maximum de votre terrasse, votre coin piscine ou votre entrée."
+  landscape_title: "Inspiration"
+  landscape_content1: "L’installation ou la réparation de pavé uni requiert de l’équipement spécialisé et une équipe qualifiée pouvant jumeler la rapidité et la qualité de la finition."
+  landscape_content2: "Heureusement, nous sommes experts maçons."
+  maison_img: "/img/pave-uni-bloc1.jpg"
+  maison_title2: "Une construction durable"
+  maison_content: "Par le respect des plus hauts standards de l’industrie BNQ et les normes de l’APPQ, nous assurons une réalisation professionnelle, unique et durable."
+  irrigation_img: "/img/pave-uni-bloc2.jpg"
+  irrigation_title: "Une expertise certifiée"
+  irrigation_content: "Pro Design est certifiée par l'Interlocking Concrete Pavement Institute (ICPI) et investie régulièrement dans la formation continue et l'évolution des techniques de travail."
+
+
+
+
+
+- exterior_tag: "taille-de-pierre"
+  exterior_title: "PRO DESIGN AMÉNAGEMENT"
+  exterior_title1: "Taille de pierre"
+  exterior_hero1: "TAILLE DE"
+  exterior_hero2: "PIERRE"
+  exterior_img: "/img/header-travail-de-la-pierre.jpg"
+
+  exterior_content: "La taille de pierre naturelle est un art jumelant la maçonnerie et l’aménagement extérieur. Que ce soit pour la création d’un trottoir, d’un chemin pavé, d’un escalier de pierre, d’une terrasse ou pour border une piscine, la pierre taillée permet la construction d’une multitude d’installations pouvant rehausser l’aspect visuel et fonctionnel d’un aménagement. Nous travaillons également de pair avec des professionnels en architecture de paysage afin de proposer des plans de conception exhaustifs."
+  landscape_title: "Inspiration"
+  landscape_content1: "Pour un résultat optimal, la pierre naturelle doit être taillée sur mesure afin de s’agencer parfaitement au plan ainsi qu’à l'environnement déjà en place."
+  landscape_content2: "Heureusement, nous sommes créateurs de paysage."
+  maison_img: "/img/travaille-de-la-pierre-bloc1.jpg"
+  maison_title2: "Architecture de paysage"
+  maison_content: "Nous faisons appel aux meilleurs fournisseurs de pierre naturelle de l'industrie afin de réaliser des projets d'envergure qui allient la maçonnerie et l'art de pierre taillée."
+  irrigation_img: "/img/travaille-de-la-pierre-bloc2.jpg"
+  irrigation_title: "Une expertise certifiée"
+  irrigation_content: "Pro Design est certifiée par l'Interlocking Concrete Pavement Institute (ICPI) et investie régulièrement dans la formation continue et l'évolution des techniques de travail."
