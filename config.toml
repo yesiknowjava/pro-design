@@ -9,62 +9,155 @@ DefaultContentLanguage = "fr"
 
 [languages.en]
 [[languages.en.menu.main]]
-name = "Home"
+name = "EXTERIOR DESIGN"
 weight = 1
-url = "/en/"
+url ="/exterior_design/"
+[languages.en.menu.main.params]
+    class = 'highlight-menu-item'
+    item=525
 
 [[languages.en.menu.main]]
-name = "Services"
+name = "landscaping"
+weight = 1
+url = "/en/exterior_design/landscaping"
+parent = "EXTERIOR DESIGN"
+[languages.en.menu.main.params]
+    item=530
+
+[[languages.en.menu.main]]
+name = "masonry"
 weight = 2
-url = "/en/services/"
+url = "/en/exterior_design/masonry"
+parent = "EXTERIOR DESIGN"
+[languages.en.menu.main.params]
+    item=529
 
 [[languages.en.menu.main]]
-name = "Transport"
+name = "Retaining walls"
 weight = 3
-url = "/en/transports/"
+url = "/en/exterior_design/retaining_wall"
+parent = "EXTERIOR DESIGN"
+[languages.en.menu.main.params]
+    item=528
+
 
 [[languages.en.menu.main]]
-name = "Company"
+name = "pave-uni"
 weight = 4
-url = "/en/about/"
+url = "/en/exterior_design/pave_uni"
+parent = "EXTERIOR DESIGN"
+[languages.en.menu.main.params]
+    item=527
+
 
 [[languages.en.menu.main]]
-name = "Projects"
+name = "Stone cutting"
 weight = 5
-url = "/en/projets/"
+url = "/en/exterior_design/stone_cutting"
+parent = "EXTERIOR DESIGN"
+[languages.en.menu.main.params]
+    item=526
 
 [[languages.en.menu.main]]
-name = "Contact us"
+name = "EXPERTISE"
+weight = 2
+url = "/en/expertise"
+[languages.en.menu.main.params]
+    item=121
+
+[[languages.en.menu.main]]
+name = "PORTFOLIO"
+weight = 3
+url = "/en/portfolio/"
+[languages.en.menu.main.params]
+    item=374
+
+[[languages.en.menu.main]]
+name = "TRENDS"
+weight = 4
+url = "/en/trends/"
+[languages.en.menu.main.params]
+    item=142
+
+[[languages.en.menu.main]]
+name = "CAREERS"
+weight = 5
+url = "/en/careers/"
+[languages.en.menu.main.params]
+    item=904
+
+[[languages.en.menu.main]]
+name = "CONTACT"
 weight = 6
 url = "/en/contact/"
+[languages.en.menu.main.params]
+    item=188
+
+
+
+
+
+
 
 [languages.fr]
 [[languages.fr.menu.main]]
-name = "Accueil"
+name = "AMÉNAGEMENT EXTÉRIEUR"
 weight = 1
-url = "/"
+
 
 [[languages.fr.menu.main]]
-name = "Services"
+name = "Aménagement d’espace nature"
+weight = 1
+url = "/amenagement-exterieur/amenagement-despace-nature/"
+parent = "amenagement-exterieur"
+
+
+[[languages.fr.menu.main]]
+name = "Maçonnerie"
 weight = 2
-url = "/services/"
+url = "/amenagement-exterieur/Maçonnerie /"
+parent = "amenagement-exterieur"
 
 [[languages.fr.menu.main]]
-name = "Transport"
+name = "Muret"
 weight = 3
-url = "/transports/"
+url = "/amenagement-exterieur/Muret/"
+parent = "amenagement-exterieur"
 
 [[languages.fr.menu.main]]
-name = "À propos"
+name = "Pavé uni"
 weight = 4
-url = "/apropos/"
+url = "/amenagement-exterieur/Pavé uni/"
+parent = "amenagement-exterieur"
+
 
 [[languages.fr.menu.main]]
-name = "Projets"
+name = "Taille de pierre"
 weight = 5
-url = "/projets/"
+url = "/amenagement-exterieur/Taille de pierre/"
+parent = "amenagement-exterieur"
 
 [[languages.fr.menu.main]]
-name = "Nous joindre"
+name = "EXPERTISE"
+weight = 2
+url = "/expertise/"
+
+[[languages.fr.menu.main]]
+name = "PORTFOLIO"
+weight = 3
+url = "/portfolio/"
+
+[[languages.fr.menu.main]]
+name = "TENDANCES"
+weight = 4
+url = "/tendances/"
+
+[[languages.fr.menu.main]]
+name = "CARRIÈRES"
+weight = 5
+url = "/carrieres/"
+
+[[languages.fr.menu.main]]
+name = "CONTACT"
 weight = 6
-url = "/nous-joindre/"
+url = "/contact/"

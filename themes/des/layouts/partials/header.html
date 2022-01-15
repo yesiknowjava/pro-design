@@ -45,68 +45,32 @@
 
                     <div id="navbarNavDropdown" class="collapse navbar-collapse">
                         <ul id="main-menu" class="navbar-nav ml-auto">
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                id="menu-item-531"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-531 nav-item">
-                                <a title="Exterior Design" href="#" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false" class="dropdown-toggle nav-link"
-                                    id="menu-item-dropdown-531">Exterior Design</a>
-                                <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-531" role="menu">
-                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                        id="menu-item-536"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-536 nav-item">
-                                        <a title="Landscaping"
-                                            href="https://pro-design.ca/en/exterior-design/landscaping/"
-                                            class="dropdown-item">Landscaping</a></li>
-                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                        id="menu-item-535"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-535 nav-item">
-                                        <a title="Masonry" href="https://pro-design.ca/en/exterior-design/masonry/"
-                                            class="dropdown-item">Masonry</a></li>
-                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                        id="menu-item-534"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-534 nav-item">
-                                        <a title="Retaining wall"
-                                            href="https://pro-design.ca/en/exterior-design/retaining-wall/"
-                                            class="dropdown-item">Retaining wall</a></li>
-                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                        id="menu-item-533"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-533 nav-item">
-                                        <a title="Pavé uni" href="https://pro-design.ca/en/exterior-design/pave-uni/"
-                                            class="dropdown-item">Pavé uni</a></li>
-                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                        id="menu-item-532"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-532 nav-item">
-                                        <a title="Stone cutting"
-                                            href="https://pro-design.ca/en/exterior-design/stone-cutting/"
-                                            class="dropdown-item">Stone cutting</a></li>
-                                </ul>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                id="menu-item-514"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514 nav-item">
-                                <a title="Expertise" href="https://pro-design.ca/en/expertise/"
-                                    class="nav-link">Expertise</a></li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                id="menu-item-515"
-                                class="menu-item menu-item-type-post_type_archive menu-item-object-portfolio menu-item-515 nav-item">
-                                <a title="Portfolio" href="https://pro-design.ca/en/portfolio/"
-                                    class="nav-link">Portfolio</a></li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                id="menu-item-511"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-511 nav-item">
-                                <a title="Trends" href="https://pro-design.ca/en/trends/" class="nav-link">Trends</a>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                id="menu-item-908"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-908 nav-item">
-                                <a title="Careers" href="https://pro-design.ca/en/careers/" class="nav-link">Careers</a>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                                id="menu-item-513"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-513 nav-item">
-                                <a title="Contact" href="https://pro-design.ca/en/contact/" class="nav-link">Contact</a>
-                            </li>
+                            {{ $currentPage := . }}
+                            {{ range .Site.Menus.main }}
+                                {{ if .HasChildren }}
+                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-{{ .Params.item }}"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children dropdown {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} menu-item-{{ .Params.item }} nav-item">
+                                    <a title="Aménagement extérieur" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        class="dropdown-toggle nav-link" id="menu-item-dropdown-{{ .Params.item }}">{{ .Name }}</a>
+                                    <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-{{ .Params.item }}" role="menu">
+                                        {{ range .Children }}
+                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-530"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-73 current_page_item {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} menu-item-{{ .Params.item }} nav-item">
+                                            <a title="Aménagement d’espace nature"
+                                                href="{{ .URL }}"
+                                                class="dropdown-item">{{ .Name }}</a></li>
+                                        {{ end }}
+                                    </ul>
+                                </li>
+                                {{ else }}
+                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-{{ .Params.item }}"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-{{ .Params.item }} nav-item"><a title="Expertise"
+                                        href="{{ .URL }}" class="nav-link">{{ .Name }}</a></li>
+                                
+                                {{ end }}
+                            {{ end }}
+
+
                         </ul>
                     </div>
                 </nav>
