@@ -1,18 +1,17 @@
-
 {{ $data := index .Site.Data .Site.Language.Lang }}
     <section id="inner-cta">
         <div class="row">
             <div class="col-md-4 p-0">
                 <div class="cta-left-container">
                     <div class="cta-left" style="cursor: pointer;"
-                        onclick="window.location='/en/contact/';">
+                        onclick="window.location=' {{ $data.innercta.link1 | safeHTML  }}';">
                         <div class="object">
-                            <img src="{{"/img/rock-blk-shadow-2.png" | relURL }}"
+                            <img src="{{ $data.innercta.img1 | safeHTML  }}"
                                 alt="" />
                         </div>
                         <div>
-                            <span class="small">{{ $data.expertise.proj_text | safeHTML  }} </span>
-                            <span class="big">{{ $data.expertise.proj_text2 | safeHTML  }} </span>
+                            <span class="small">{{ $data.innercta.projet_title | safeHTML  }}</span>
+                            <span class="big">{{ $data.innercta.projet_title2 | safeHTML  }}</span>
                         </div>
                     </div>
                 </div>
@@ -20,14 +19,14 @@
             <div class="col-md-4 p-0">
                 <div class="cta-center-container">
                     <div class="cta-center" style="cursor: pointer;"
-                        onclick="window.location='/en/exterior-design/';">
+                        onclick="window.location='{{ $data.innercta.link2 | safeHTML  }}';">
                         <div class="object">
-                            <img src="{{"/img/plant.png" | relURL }}"
+                            <img src="{{ $data.innercta.img2 | safeHTML  }}"
                                 alt="" />
                         </div>
                         <div>
-                            <span class="small">{{ $data.expertise.space_head | safeHTML  }} </span>
-                            <span class="big">{{ $data.expertise.space_text | safeHTML  }} </span>
+                            <span class="small">{{ $data.innercta.plant_title | safeHTML  }}</span>
+                            <span class="big">{{ $data.innercta.plant_title2 | safeHTML  }}</span>
                         </div>
                     </div>
                 </div>
@@ -35,14 +34,14 @@
             <div class="col-md-4 p-0">
                 <div class="cta-right-container">
                     <div class="cta-right" style="cursor: pointer;"
-                        onclick="window.location='https://pro-design.ca/en/portfolio/';">
+                        onclick="window.location='{{ $data.innercta.link3 | safeHTML  }}';">
                         <div class="object">
-                            <img src="{{"/img/rocks.png" | relURL }}"
+                            <img src="{{ $data.innercta.link3 | safeHTML  }}"
                                 alt="" />
                         </div>
                         <div>
-                            <span class="small">{{ $data.expertise.mode_head | safeHTML  }} </span>
-                            <span class="big">{{ $data.expertise.mode_text | safeHTML  }} </span>
+                            <span class="small">{{ $data.innercta.inspiration_title | safeHTML  }}</span>
+                            <span class="big">{{ $data.innercta.inspiration_title2 | safeHTML  }}</span>
                         </div>
                     </div>
                 </div>

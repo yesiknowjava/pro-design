@@ -1,0 +1,131 @@
+hero_text: "Créateur"
+hero_text1: "de"
+hero_text21: "PAYSAGE"
+video: "/img/hero-prodesign.mp4"
+heading: "PRO DESIGN AMÉNAGEMENT EXTÉRIEUR"
+text: "Pro Design rassemble le meilleur de l’expertise, de l’innovation et du service en matière d’aménagement extérieur."
+text1: "Misant sur une approche personnalisée où le design et le savoir-faire se rencontrent, nous assurons un déroulement sans failles et un travail de grande qualité afin que vous puissiez reconnecter avec la nature.
+"
+link: "/contact/"
+link_text: "Obtenir une soumission"
+
+hero_text2: "PASSONS À L’EXTÉRIEUR"
+land_text: "Aménagement "
+land_text21: "d'espace nature"
+land_link: "amenagement-exterieur/amenagement-despace-nature"
+masonry: "maconnerie"
+masonry_link: "/amenagement-exterieur/maconnerie"
+retaining: "muret"
+retaining_link: "amenagement-exterieur/muret"
+pave: "PAVÉ-UNI"
+pave_link: "/amenagement-exterieur/pave-uni/"
+stone: "taille-de-pierre"
+stone_link: "amenagement-exterieur/taille-de-pierre"
+
+
+tendances: 
+- blog_no: "01/04"
+  sub_head: "Ste-Adèle"
+  sub_text: "Projet Le Monarque "
+  find_text: "En savoir plus"
+  find_link: "/portfolio/projet-le-monarque/"
+  img: "/img/monarque-1.jpg"
+  no: "01/02"
+
+- blog_no: "02/04"
+  sub_head: "St-Sauveur "
+  sub_text: "Projet Zenitude banlieusarde                              "
+  find_text: "En savoir plus"
+  find_link: "/portfolio/projet-zenitude-banlieusarde/"
+  img: "/img/zenitude-1.jpg"
+
+- blog_no: "03/04"
+  sub_head: "Saint-Sauveur"
+  sub_text: "	Projet contraste en nature                              "
+  find_text: "En savoir plus"
+  find_link: "portfolio/projet-labonte-st-sauveur-2/"
+  img: "/img/st-sauveur-01.jpg"
+  no: "01/02"
+
+- blog_no: "04/04"
+  sub_head: "Saint-Jérôme"
+  sub_text: "	Jardin blanc "
+  find_text: "En savoir plus"
+  find_link: "/portfolio/jardin-blanc-st-jerome-2/"
+  img: "/img/projet-blanc-01.jpg"
+  no: "01/02"
+
+images:
+  - "/img/monarque-1.jpg"
+  - "/img/zenitude-1.jpg"
+  - "/img/st-sauveur-01.jpg"
+  - "/img/projet-blanc-01.jpg"
+
+trends_link: "/tendances/"
+trends: "Les tendances nature"
+article: "VOIR TOUS LES ARTICLES"
+
+
+
+blog: 
+
+- landscape_link: "/systemes-dirrigation-et-darrosage-automatiques/"
+  land_text1: "Systèmes d’irrigation et d’arrosage automatiques : ça vaut le coût?"
+  land_text2: "Depuis quelques années, l’aménagement extérieur est devenu une partie importante du design d’une maison. "
+  land_text3: "Lire la suite…"
+  img: "/img/blogue_arrosage.jpg"
+
+
+- landscape_link: "/tendance-vegetaux-2021-la-nature-mise-en-vedette/"
+  land_text1: "Tendance végétaux 2021 : la nature mise en vedette"
+  land_text2: "Depuis quelques années, l’aménagement extérieur est devenu une partie importante du design d’une maison. "
+  land_text3: "Lire la suite…"
+  img: "/img/blofue_vegetaux.jpg"
+
+- landscape_link: "/vivre-a-la-maison-vivre-dehors/"
+  land_text1: "Vivre à la maison, vivre dehors"
+  land_text2: "Depuis quelques années, l’aménagement extérieur est devenu une partie importante du design d’une maison."
+  img: "/img/blogue_vivre_maison.jpg"
+  land_text3: "Lire la suite…"
+
+- landscape_link: "/construire-sur-une-fondation-solide/"
+  land_text1: "Construire sur une fondation solide"
+  land_text2: "Depuis quelques années, l’aménagement extérieur est devenu une partie importante du design d’une maison."
+  img: "/img/blogue_fondation-1.jpg"
+  land_text3: "Lire la suite…"
+
+
+- landscape_link: "Osez un paysagement différent"
+  land_text1: "Osez un paysagement différent"
+  land_text2: "Depuis quelques années, l’aménagement extérieur est devenu une partie importante du design d’une maison." 
+  land_text3: "Lire la suite…"
+  img: "/img/IMG_3245.jpg"
+
+- landscape_link: "/lentretien-de-votre-paysage/"
+  land_text1: "L’entretien de votre paysage"
+  land_text2: "Depuis quelques années, l’aménagement extérieur est devenu une partie importante du design d’une maison."
+  land_text3: "Lire la suite…"
+  img: "/img/308050_10150331172586681_523016680_8469649_661628271_n.jpg"
+
+- landscape_linkk: "/en/creating-green-spaces-gardens-and-vegetable-plots/"
+  land_text1: "Creating green spaces: gardens and vegetable plots"
+  land_text2: "Summer 2020 is looking to be the season of beautiful gardens and vegetable plots"
+  img: "/img/La-creation-espaces-verts-lumiere-sur-les-potagers-et-jardins-e1593790774241.png"
+  land_text3: "Lire la suite…"
+
+- landscape_link: "/en/lighting-is-crucial-in-landscaping/"
+  land_text1: "Lighting is crucial in landscaping"
+  land_text2: "When night falls, the beauty of your landscape tends to fade into the darkness."
+  img: "/img/IMG_7262.JPG.jpg"
+  land_text3: "Lire la suite…"
+
+
+- landscape_link: "/construire-sur-une-fondation-solide/"
+  land_text1: "A daring new landscape"
+  land_text2: "Depuis quelques années, l’aménagement extérieur est devenu une partie importante du design d’une maison." 
+  land_text3: "Lire la suite…"
+  img: "/img/IMG_3245.jpg"
+
+
+  
+  

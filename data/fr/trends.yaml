@@ -25,12 +25,13 @@ pages:
     img1 : "/img/blogue_arrosage.jpg"
     img2 : "/img/blogue_arrosage.jpg"
     para1:
-        col1: '<<div class="col-md-6 col-lg-7">
+        col1: '<div class="col-md-6 col-lg-7">
           <p>Un système d’irrigation et d’arrosage automatique permet au jardinier d’arroser son jardin ou son terrain sans intervention humaine directe. Une fois installé, vous pouvez configurer votre système pour lui permettre de se déclencher au moment désiré et ainsi irriguer votre jardin ou votre terrain en fonction de paramètres prédéterminés (temps, débit, durée, etc.). Bien qu’un tel système représente un investissement initial, il propose divers avantages qui peuvent largement compenser son coût initial.</p>
         </div>'
         col2: '<div class="col-md-6 col-lg-5 col-right">
           <h6>
-            Nous sommes créateurs de paysages. Avec la nature comme toile de fond, nous misons sur les attributs de chaque terrain afin de tirer profit des éléments qui sont présents. En harmonie avec l’environnement, nous accordons une attention particulière à l’écosystème et misons sur des techniques de travail écoresponsables.          </h6>
+            Nous sommes créateurs de paysages. Avec la nature comme toile de fond, nous misons sur les attributs de chaque terrain afin de tirer profit des éléments qui sont présents. En harmonie avec l’environnement, nous accordons une attention particulière à l’écosystème et misons sur des techniques de travail écoresponsables.     
+         </h6>
         </div>'
         row1: '<div class="col-12 p-2col">
         	<p>Vous souhaitez économiser temps et argent? Vous vous préoccupez de l’environnement et souhaitez contrôler votre usage d’eau et en diminuer le gaspillage? Le tout en ayant une pelouse et un jardin magnifiques? Adoptez une approche écoresponsable et installez un système d’irrigation et d’arrosage automatisé.</p>
@@ -46,7 +47,7 @@ pages:
         	<p>Il faut savoir que les systèmes d’arrosage automatique sont variés. Vous en trouverez divers modèles sur le marché, chacun d’entre eux répondant à certains besoins spécifiques. Consultez un spécialiste en arrosage automatique qui vous aidera à faire votre choix entre les divers systèmes existants, pour choisir celui le plus approprié à vos besoins et à votre budget.</p>
 <p>Chez Pro-Design, nous sommes créateurs de paysages. Notre expérience nous a appris que l’architecture de paysage requiert un savoir-faire technique, une connaissance des équipements et des végétaux et une vision esthétique. Avec la nature comme toile de fond, nous misons sur les attributs de chaque terrain afin de tirer profit des éléments qui sont présents. En harmonie avec l’environnement, nous accordons une attention particulière à l’écosystème et misons sur des techniques de travail écoresponsables.</p>
 <p>&nbsp;</p>
-<p>Vous avez un projet? <a href="https://pro-design.ca/contact/">Contactez-nous</a> pour en discuter.</p>
+<p>Vous avez un projet? <a href="/contact/">Contactez-nous</a> pour en discuter.</p>
 <p>&nbsp;</p>
         </div>'
   
@@ -88,7 +89,7 @@ pages:
       row2: '<div class="col-12 mention">
         	<p><strong>Les coups de coeur de l’équipe</strong></p>
 <p>«Pour ma part, j’ai toujours eu une attirance pour la graminée! Il en existe une grande variété, autant par leur grandeur que par leur couleur. Elles apportent de la densité, de l’ampleur à votre jardin, le tout avec un mouvement de légèreté! Elles sont présentes toute la saison, même l’hiver, où elles peuvent continuer à danser dans le vent! Si on les taille à l’automne, elles peuvent même servir pour les décorations automnales! Ma variété préférée est le<em> Karl Forester.</em>&nbsp; Elle me fait penser au blé dans les champs. Je l’aime particulièrement pour donner un look champêtre. Toutefois, elle se marie merveilleusement bien avec les maisons plus modernes, avec sa couleur beige dorée qui apporte de la douceur.» mentionne Yannick Bigras, co-fondateur de Pro-Design.</p>
-<p>Vous avez un projet? <a href="https://pro-design.ca/contact/">Contactez-nous</a> pour en discuter.</p>
+<p>Vous avez un projet? <a href="/contact/">Contactez-nous</a> pour en discuter.</p>
 <p>&nbsp;</p>
         </div>'
 

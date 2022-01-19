@@ -19,7 +19,7 @@ url ="/exterior_design/"
 [[languages.en.menu.main]]
 name = "landscaping"
 weight = 1
-url = "/en/exterior_design/landscaping"
+url = "/en/exterior_design/landscaping/"
 parent = "EXTERIOR DESIGN"
 [languages.en.menu.main.params]
     item=530
@@ -27,7 +27,7 @@ parent = "EXTERIOR DESIGN"
 [[languages.en.menu.main]]
 name = "masonry"
 weight = 2
-url = "/en/exterior_design/masonry"
+url = "/en/exterior_design/masonry/"
 parent = "EXTERIOR DESIGN"
 [languages.en.menu.main.params]
     item=529
@@ -35,7 +35,7 @@ parent = "EXTERIOR DESIGN"
 [[languages.en.menu.main]]
 name = "Retaining walls"
 weight = 3
-url = "/en/exterior_design/retaining_wall"
+url = "/en/exterior_design/retaining_wall/"
 parent = "EXTERIOR DESIGN"
 [languages.en.menu.main.params]
     item=528
@@ -44,7 +44,7 @@ parent = "EXTERIOR DESIGN"
 [[languages.en.menu.main]]
 name = "pave-uni"
 weight = 4
-url = "/en/exterior_design/pave_uni"
+url = "/en/exterior_design/pave_uni/"
 parent = "EXTERIOR DESIGN"
 [languages.en.menu.main.params]
     item=527
@@ -53,7 +53,7 @@ parent = "EXTERIOR DESIGN"
 [[languages.en.menu.main]]
 name = "Stone cutting"
 weight = 5
-url = "/en/exterior_design/stone_cutting"
+url = "/en/exterior_design/stone_cutting/"
 parent = "EXTERIOR DESIGN"
 [languages.en.menu.main.params]
     item=526
@@ -61,7 +61,7 @@ parent = "EXTERIOR DESIGN"
 [[languages.en.menu.main]]
 name = "EXPERTISE"
 weight = 2
-url = "/en/expertise"
+url = "/en/expertise/"
 [languages.en.menu.main.params]
     item=121
 
@@ -109,33 +109,33 @@ weight = 1
 name = "Aménagement d’espace nature"
 weight = 1
 url = "/amenagement-exterieur/amenagement-despace-nature/"
-parent = "amenagement-exterieur"
+parent = "AMÉNAGEMENT EXTÉRIEUR"
 
 
 [[languages.fr.menu.main]]
 name = "Maçonnerie"
 weight = 2
-url = "/amenagement-exterieur/Maçonnerie /"
-parent = "amenagement-exterieur"
+url = "/amenagement-exterieur/maconnerie/"
+parent = "AMÉNAGEMENT EXTÉRIEUR"
 
 [[languages.fr.menu.main]]
 name = "Muret"
 weight = 3
 url = "/amenagement-exterieur/Muret/"
-parent = "amenagement-exterieur"
+parent = "AMÉNAGEMENT EXTÉRIEUR"
 
 [[languages.fr.menu.main]]
 name = "Pavé uni"
 weight = 4
-url = "/amenagement-exterieur/Pavé uni/"
-parent = "amenagement-exterieur"
+url = "/amenagement-exterieur/pave-uni/"
+parent = "AMÉNAGEMENT EXTÉRIEUR"
 
 
 [[languages.fr.menu.main]]
 name = "Taille de pierre"
 weight = 5
 url = "/amenagement-exterieur/Taille de pierre/"
-parent = "amenagement-exterieur"
+parent = "AMÉNAGEMENT EXTÉRIEUR"
 
 [[languages.fr.menu.main]]
 name = "EXPERTISE"
@@ -155,7 +155,7 @@ url = "/tendances/"
 [[languages.fr.menu.main]]
 name = "CARRIÈRES"
 weight = 5
-url = "/carrieres/"
+url = "/careers/"
 
 [[languages.fr.menu.main]]
 name = "CONTACT"

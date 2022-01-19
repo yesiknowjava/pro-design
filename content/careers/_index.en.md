@@ -1,3 +1,4 @@
 +++
-url= "careers"
+
+layout="careers"
 +++

@@ -1,0 +1,314 @@
+< <!DOCTYPE html>
+    <html lang="fr-FR">
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "head.html" . }}
+    <body
+        class="page-template page-template-page-templates page-template-template-carrieres-interne page-template-page-templatestemplate-carrieres-interne-php page page-id-961 page-child parent-pageid-902 wp-custom-logo wp-embed-responsive group-blog">
+
+
+        {{ partial "header.html" . }}
+        <div id="careers">
+
+            <section id="intro" class="d-flex justify-content-start align-items-center inner">
+                <div class="overlayContent">
+                    <h1>
+                        <span class="small wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="">{{ $data.careers.first_head | safeHTML  }}</span>
+                        <span class="big wow fadeInRight" data-wow-duration=".5s" data-wow-delay="">{{ $data.careers.first_head1 | safeHTML  }}</span>
+                    </h1>
+                </div>
+                <img src="{{"/img/header_careers.png" | relURL }}" class="wow fadeIn"
+                    data-wow-duration="1s" data-wow-delay="0" width="100%" alt />
+            </section>
+
+            <section id="main-content" style="background: #fff top center no-repeat;">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column">
+                        <h2>
+                            <span>{{ $data.careers.first_head | safeHTML  }}</span>
+                            {{ $data.careers.first_head1 | safeHTML  }} </h2>
+                        <p>{{ $data.careers.sub_text2 | safeHTML  }}</p>
+                        <p>{{ $data.careers.sub_text_2 | safeHTML  }}</p>
+                        <p>{{ $data.careers.sub_text_3 | safeHTML  }}</p>
+                        <p>{{ $data.careers.sub_text_4 | safeHTML  }}</p>
+                        <p><strong>{{ $data.careers.first_sub_head2 | safeHTML  }}</strong></p>
+                        {{ range $data.careers.competence}}
+
+                        <ul>
+                            <li>{{.}}</li>
+                            <!-- <li>Compétences de communication efficaces (verbales et écrites)</li>
+                            <li>Intelligence opérationnelle</li>
+                            <li>Travail en équipe</li>
+                            <li>Leadership</li>
+                            <li>Excellentes capacités de résolution de problèmes</li>
+                            <li>Responsabilité et fiabilité</li>
+                            <li>Éthique et intégrité</li> -->
+                        </ul>
+                        {{end}}
+                        <p><strong>{{ $data.careers.first_sub_head3 | safeHTML  }}</strong>:</p>
+                        {{ range $data.careers.taches}}
+                        <ul>
+                            <li>{{.}}</li>
+                            <!-- <li>Gérer la sécurité, la qualité et la productivité du travail sur les sites et / ou
+                                atelier / cour</li>
+                            <li>Aider à la préparation des chantiers avant le début d&rsquo;un projet</li>
+                            <li>Superviser, coordonner et planifier les activités de travail quotidiennes d&rsquo;une
+                                équipe de construction de _<u>2</u>_ à _<u>5</u>_ employés</li>
+                            <li>Déléguer les tâches aux membres d&rsquo;équipage appropriés pour aider à
+                                l&rsquo;achèvement des projets de constructions du paysage</li>
+                            <li>Participer aux activités de recrutement en menant des entretiens secondaires avec des
+                                candidats potentiels</li>
+                            <li>Conduire des orientations sur site avec les nouveaux employés et les employés occupant
+                                de nouveaux postes, qui couvrent toutes les politiques, pratiques et procédures de
+                                l&rsquo;entreprise en matière de santé et de sécurité</li>
+                            <li>Faire fonctionner divers outils et équipements, y compris: équipement lourd,
+                                tronçonneuses, marteaux-piqueurs, niveaux laser, équipement de mesure, pelles, marteaux,
+                                perceuses, etc.</li>
+                            <li>Effectuer un entretien préventif sur les outils et l&rsquo;équipement en effectuant des
+                                inspections, la lubrification et le nettoyage sur une base quotidienne</li>
+                            <li>Lire et interpréter des plans, des dessins structurels et des spécifications pour
+                                déléguer / terminer les activités de travail</li>
+                            <li>Rencontrer les sous-traitants et superviser la qualité, l&rsquo;efficacité et les délais
+                            </li>
+                            <li>Remplissez et soumettez tous les documents requis quotidiennement, y compris: les
+                                journaux de réunion quotidiens du site, les formulaires quotidiens de l&rsquo;équipage,
+                                les formulaires d&rsquo;inspection quotidienne de l&rsquo;équipement, le suivi des
+                                présences, les résumés de facturation du temps et des matériaux, les demandes de congé,
+                                etc.</li>
+                            <li>Se conformez-à toutes les politiques et réglementations de l&rsquo;entreprise</li>
+                            <li>Maintenir et appliquer les normes de propreté et d&rsquo;organisation dans les camions,
+                                remorques, équipements, chantiers et zones d&rsquo;atelier / cour assignés</li>
+                            <li>S&rsquo;assurer que toutes les activités de travail sont effectuées de manière sûre et
+                                efficace et que tous les membres de l&rsquo;équipage sont en conformité avec les normes
+                                du gouvernement et de l&rsquo;entreprise</li>
+                            <li>Appliquer et travailler conformément à toutes les lois et réglementations locales en
+                                matière de santé et de sécurité dans l&rsquo;atelier / la cour et sur les chantiers</li>
+                            <li>Formation des employés</li>
+                            <li>Communiquez avec les clients de manière polie et courtoise</li> -->
+                        </ul>
+                        {{end}}
+                        <p><strong>{{ $data.careers.first_sub_head4 | safeHTML  }}</strong></p>
+                        {{ range $data.careers.exigences}}
+                        <ul>
+                            <li>{{.}}</li>
+                            <!-- <li>Minimum de 2 ans d’expérience dans l’industrie du paysage / de la construction</li>
+                            <li>Capable d&rsquo;utiliser l&rsquo;équipement et les outils requis de manière sûre et
+                                responsable</li>
+                            <li>Compétences de communication efficaces (verbales et écrites)</li>
+                            <li>Capacité à travailler sous pression et dans des délais serrés</li>
+                            <li>Compétences de gestion du temps</li>
+                            <li>Capacité de lire et d&rsquo;interpréter les plans et les spécifications</li>
+                            <li>Doit posséder un permis de conduire valide</li>
+                            <li>Connaissance des matériaux, méthodes, outils et équipements spécifiques nécessaires pour
+                                mener à bien diverses pratiques de paysage / construction</li>
+                            <li>Parler, lire et écrire le français</li>
+                            <li>Transportez et utilisez un téléphone intelligent ou un appareil compatible avec les
+                                données pour la communication et les rapports</li> -->
+                        </ul>
+                        {{end}}
+                        <p><strong>{{ $data.careers.first_sub_head5 | safeHTML  }}</strong></p>
+                        {{ range $data.careers.conditions}}
+                        <ul>
+                            <li>{{.}}</li>
+                            <!-- <li>Heures de travail flexibles</li>
+                            <li>Aucun travail le week-end</li>
+                            <li>2 semaines de congé pour les vacances de la construction</li>
+                            <li>Possibilité d’avancement dans l’entreprise</li>
+                            <li>Capacité à travailler avec des outils à main, des outils électriques, de
+                                l&rsquo;équipement de petit moteur, de l&rsquo;équipement lourd et des matériaux</li>
+                            <li>Capacité de soulever un minimum de 50 livres. à plusieurs reprises tout au long
+                                d&rsquo;un quart de travail</li>
+                            <li>Capacité à travailler dans un environnement au rythme rapide</li>
+                            <li>Une excellente endurance est requise</li>
+                            <li>Travaillez régulièrement à proximité d&rsquo;équipements lourds et d&rsquo;autres
+                                véhicules</li>
+                            <li>Travaillez à l&rsquo;extérieur dans diverses conditions, y compris la chaleur et
+                                l&rsquo;humidité, la pluie, la poussière, le bruit et le froid</li> -->
+                        </ul>
+                        {{end}}
+                        <div class="career-form">
+                            <div class="btn-career">
+                                <span>{{ $data.careers.employee | safeHTML  }}</span>
+                                {{ $data.careers.emp_text | safeHTML  }} <i class="fas fa-plus plus-icon"></i>
+                            </div>
+                            <div class="form-career">
+                                <p class="white">Nous sommes régulièrement à la recherche de talents pour compléter
+                                    notre équipe. Faites nous parvenir votre CV et nous communiquerons avec vous.</p>
+                                <div class="wpforms-container wpforms-container-full" id="wpforms-189">
+                                    <form id="wpforms-form-189" class="wpforms-validate wpforms-form" data-formid="189"
+                                        method="post" enctype="multipart/form-data"
+                                        action="/carrieres/chef-dequipe-construction-damenagement-paysager/?wpforms_form_id=189"
+                                        data-token="98082ccf50c7e13afff4158fa69556af"><noscript
+                                            class="wpforms-error-noscript">Veuillez activer JavaScript dans votre
+                                            navigateur pour remplir ce formulaire.</noscript>
+                                        <div class="wpforms-field-container">
+                                            <div id="wpforms-189-field_11-container"
+                                                class="wpforms-field wpforms-field-text" data-field-id="11"><label
+                                                    class="wpforms-field-label" for="wpforms-189-field_11">Nom
+                                                    complet</label><input type="text" id="wpforms-189-field_11"
+                                                    class="wpforms-field-large" name="wpforms[fields][11]"></div>
+                                            <div id="wpforms-189-field_2-container"
+                                                class="wpforms-field wpforms-field-email" data-field-id="2"><label
+                                                    class="wpforms-field-label" for="wpforms-189-field_2">Courriel <span
+                                                        class="wpforms-required-label">*</span></label><input
+                                                    type="email" id="wpforms-189-field_2"
+                                                    class="wpforms-field-large wpforms-field-required"
+                                                    name="wpforms[fields][2]" required></div>
+                                            <div id="wpforms-189-field_4-container"
+                                                class="wpforms-field wpforms-field-phone" data-field-id="4"><label
+                                                    class="wpforms-field-label" for="wpforms-189-field_4">Téléphone
+                                                    <span class="wpforms-required-label">*</span></label><input
+                                                    type="tel" id="wpforms-189-field_4"
+                                                    class="wpforms-field-large wpforms-field-required"
+                                                    data-rule-int-phone-field="true" name="wpforms[fields][4]" required>
+                                            </div>
+                                            <div id="wpforms-189-field_13-container"
+                                                class="wpforms-field wpforms-field-text" data-field-id="13"><label
+                                                    class="wpforms-field-label" for="wpforms-189-field_13">Pour quel
+                                                    poste appliquez-vous?</label><input type="text"
+                                                    id="wpforms-189-field_13" class="wpforms-field-large"
+                                                    name="wpforms[fields][13]"></div>
+                                            <div id="wpforms-189-field_8-container"
+                                                class="wpforms-field wpforms-field-file-upload wpforms-one-half wpforms-first"
+                                                data-field-id="8"><label class="wpforms-field-label"
+                                                    for="wpforms-189-field_8">Curriculum vitae <span
+                                                        class="wpforms-required-label">*</span></label>
+                                                <div class="wpforms-uploader" data-field-id="8" data-form-id="189"
+                                                    data-input-name="wpforms_189_8"
+                                                    data-extensions="jpg,jpeg,jpe,gif,png,bmp,tiff,tif,webp,ico,heic,asf,asx,wmv,wmx,wm,avi,divx,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,vtt,mp3,m4a,m4b,aac,ra,ram,wav,ogg,oga,flac,mid,midi,wma,wax,mka,rtf,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages,svg,svgz"
+                                                    data-max-size="134217728" data-max-file-number="1"
+                                                    data-post-max-size="134217728" data-max-parallel-uploads="4"
+                                                    data-parallel-uploads="true" data-file-chunk-size="2097152">
+                                                    <div class="dz-message">
+                                                        <svg viewBox="0 0 1024 1024" focusable="false" data-icon="inbox"
+                                                            width="50px" height="50px" fill="#b1b1b1"
+                                                            aria-hidden="true">
+                                                            <path
+                                                                d="M885.2 446.3l-.2-.8-112.2-285.1c-5-16.1-19.9-27.2-36.8-27.2H281.2c-17 0-32.1 11.3-36.9 27.6L139.4 443l-.3.7-.2.8c-1.3 4.9-1.7 9.9-1 14.8-.1 1.6-.2 3.2-.2 4.8V830a60.9 60.9 0 0 0 60.8 60.8h627.2c33.5 0 60.8-27.3 60.9-60.8V464.1c0-1.3 0-2.6-.1-3.7.4-4.9 0-9.6-1.3-14.1zm-295.8-43l-.3 15.7c-.8 44.9-31.8 75.1-77.1 75.1-22.1 0-41.1-7.1-54.8-20.6S436 441.2 435.6 419l-.3-15.7H229.5L309 210h399.2l81.7 193.3H589.4zm-375 76.8h157.3c24.3 57.1 76 90.8 140.4 90.8 33.7 0 65-9.4 90.3-27.2 22.2-15.6 39.5-37.4 50.7-63.6h156.5V814H214.4V480.1z">
+                                                            </path>
+                                                        </svg>
+                                                        <span class="modern-title">Cliquez ou déplacez un fichier dans
+                                                            cette zone pour le téléverser.</span>
+
+                                                    </div>
+                                                </div>
+                                                <input type="text" autocomplete="off" class="dropzone-input"
+                                                    style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;"
+                                                    id="wpforms-189-field_8" name="wpforms_189_8" required value="">
+                                            </div>
+                                            <div id="wpforms-189-field_9-container"
+                                                class="wpforms-field wpforms-field-file-upload wpforms-one-half"
+                                                data-field-id="9"><label class="wpforms-field-label"
+                                                    for="wpforms-189-field_9">Lettre de présentation</label>
+                                                <div class="wpforms-uploader" data-field-id="9" data-form-id="189"
+                                                    data-input-name="wpforms_189_9"
+                                                    data-extensions="jpg,jpeg,jpe,gif,png,bmp,tiff,tif,webp,ico,heic,asf,asx,wmv,wmx,wm,avi,divx,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,vtt,mp3,m4a,m4b,aac,ra,ram,wav,ogg,oga,flac,mid,midi,wma,wax,mka,rtf,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages,svg,svgz"
+                                                    data-max-size="134217728" data-max-file-number="1"
+                                                    data-post-max-size="134217728" data-max-parallel-uploads="4"
+                                                    data-parallel-uploads="true" data-file-chunk-size="2097152">
+                                                    <div class="dz-message">
+                                                        <svg viewBox="0 0 1024 1024" focusable="false" data-icon="inbox"
+                                                            width="50px" height="50px" fill="#b1b1b1"
+                                                            aria-hidden="true">
+                                                            <path
+                                                                d="M885.2 446.3l-.2-.8-112.2-285.1c-5-16.1-19.9-27.2-36.8-27.2H281.2c-17 0-32.1 11.3-36.9 27.6L139.4 443l-.3.7-.2.8c-1.3 4.9-1.7 9.9-1 14.8-.1 1.6-.2 3.2-.2 4.8V830a60.9 60.9 0 0 0 60.8 60.8h627.2c33.5 0 60.8-27.3 60.9-60.8V464.1c0-1.3 0-2.6-.1-3.7.4-4.9 0-9.6-1.3-14.1zm-295.8-43l-.3 15.7c-.8 44.9-31.8 75.1-77.1 75.1-22.1 0-41.1-7.1-54.8-20.6S436 441.2 435.6 419l-.3-15.7H229.5L309 210h399.2l81.7 193.3H589.4zm-375 76.8h157.3c24.3 57.1 76 90.8 140.4 90.8 33.7 0 65-9.4 90.3-27.2 22.2-15.6 39.5-37.4 50.7-63.6h156.5V814H214.4V480.1z">
+                                                            </path>
+                                                        </svg>
+                                                        <span class="modern-title">Cliquez ou déplacez un fichier dans
+                                                            cette zone pour le téléverser.</span>
+
+                                                    </div>
+                                                </div>
+                                                <input type="text" autocomplete="off" class="dropzone-input"
+                                                    style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;"
+                                                    id="wpforms-189-field_9" name="wpforms_189_9" value="">
+                                            </div>
+                                            <div id="wpforms-189-field_10-container"
+                                                class="wpforms-field wpforms-field-textarea" data-field-id="10"><label
+                                                    class="wpforms-field-label" for="wpforms-189-field_10">Information
+                                                    supplémentaire</label><textarea id="wpforms-189-field_10"
+                                                    class="wpforms-field-medium" name="wpforms[fields][10]"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="wpforms-field wpforms-field-hp"><label for="wpforms-189-field-hp"
+                                                class="wpforms-field-label">Message</label><input type="text"
+                                                name="wpforms[hp]" id="wpforms-189-field-hp"
+                                                class="wpforms-field-medium"></div><input type="hidden"
+                                            name="wpforms[recaptcha]" value="">
+                                        <div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]"
+                                                value="189"><input type="hidden" name="wpforms[author]" value="1"><input
+                                                type="hidden" name="wpforms[post_id]" value="961"><button type="submit"
+                                                name="wpforms[submit]" id="wpforms-submit-189" class="wpforms-submit"
+                                                data-alt-text="Sending..." data-submit-text="Envoyer"
+                                                aria-live="assertive" value="wpforms-submit">Envoyer</button></div>
+                                    </form>
+                                </div> <!-- .wpforms-container -->
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <a href="javascript:history.go(-1)" class="btn-square mt-4">{{ $data.careers.retour | safeHTML  }}</a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+
+        <section id="inner-cta">
+            <div class="row">
+                <div class="col-md-4 p-0">
+                    <div class="cta-left-container">
+                        <div class="cta-left" style="cursor: pointer;"
+                            onclick="window.location='{{ $data.careers.retour_link | safeHTML  }}';">
+                            <div class="object">
+                                <img src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/rock-blk-shadow-2.png?fit=242%2C201&#038;ssl=1"
+                                    alt="" />
+                            </div>
+                            <div>
+                                <span class="small">discuter de mon</span>
+                                <span class="big">projet</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-0">
+                    <div class="cta-center-container">
+                        <div class="cta-center" style="cursor: pointer;"
+                            onclick="window.location='https://pro-design.ca/amenagement-exterieur/';">
+                            <div class="object">
+                                <img src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/plant.png?fit=227%2C192&#038;ssl=1"
+                                    alt="" />
+                            </div>
+                            <div>
+                                <span class="small">Créer mon espace</span>
+                                <span class="big">nature</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-0">
+                    <div class="cta-right-container">
+                        <div class="cta-right" style="cursor: pointer;"
+                            onclick="window.location='https://pro-design.ca/portfolio/';">
+                            <div class="object">
+                                <img src="https://i0.wp.com/pro-design.ca/wp-content/uploads/2020/05/rocks.png?fit=226%2C114&#038;ssl=1"
+                                    alt="" />
+                            </div>
+                            <div>
+                                <span class="small">en mode</span>
+                                <span class="big">Inspiration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{partial "footerlogo.html" . }}
+        {{ partial "footer.html" . }}
+        {{ partial "last.html" . }}
+    </body>
+
+    </html>

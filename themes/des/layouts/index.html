@@ -21,7 +21,8 @@
                         <h1>
                             <span class="big wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="">{{ $data.home.hero_text | safeHTML  }}</span>
                             <span class="small wow fadeInRight" data-wow-duration=".5s"
-                                data-wow-delay="">{{ $data.home.hero_text1 | safeHTML  }}</span>
+                                data-wow-delay="">{{ $data.home.hero_text1 | safeHTML  }}<br> 
+                                {{ $data.home.hero_text21 | safeHTML  }}</span>
                         </h1>
                     </div>
                     <video playsinline autoplay muted loop id="bgvid">
@@ -66,7 +67,7 @@
 
             <div class="home-services">
                 <ul class="row d-flex">
-                    <li class="col"><a href="{{ $data.home.land_link | safeHTML  }}">{{ $data.home.land_text | safeHTML  }}</a></li>
+                    <li class="col"><a href="{{ $data.home.land_link | safeHTML  }}">{{ $data.home.land_text | safeHTML  }}<br>{{ $data.home.land_text21 | safeHTML  }} </a></li>
                     <li class="col"><a href="{{ $data.home.masonry_link | safeHTML  }}">{{ $data.home.masonry | safeHTML  }}</a></li>
                     <li class="col"><a href="{{ $data.home.retaining_link | safeHTML  }}">{{ $data.home.retaining | safeHTML  }}</a></li>
                     <li class="col"><a href="{{ $data.home.pave_link | safeHTML  }}">{{ $data.home.pave | safeHTML  }}</a></li>
@@ -85,35 +86,35 @@
                     <div id="product__slider">
                         <div class="product__slider-main">
 
+ 
 
 
-
-
+                            {{ range $data.home.tendances }}
                             <div class="slide">
                                 <div class="row">
                                     <div class="col-md-6 d-flex justify-content-center">
                                         <div class="slide-infos">
                                             <span class="slide-id">
-                                                01 /
-                                                02 </span>
+                                                {{ .blog_no | safeHTML   }}<br></span>
                                             <span class="slide-title">
-                                                <span>{{ $data.home.sub_head | safeHTML  }}</span>
-                                                {{ $data.home.sub_text | safeHTML  }} </span>
+                                                
+                                                <span>{{ .sub_head | safeHTML  }}</span>
+                                                {{ .sub_text | safeHTML  }} </span>
                                             <span class="slide-btn"><a
-                                                    href="{{ $data.home.find_link | safeHTML  }}">{{ $data.home.find_text | safeHTML  }}</a></span>
+                                                    href="{{ .find_link | relURL  }}">{{ .find_text | safeHTML  }}</a></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6 homeRealImg"
-                                        style="background: url(/img/projet-blanc-01.jpg) no-repeat center center; background-size: cover;">
+                                        style="background: url('{{ .img | relURL }}') no-repeat center center; background-size: cover;">
                                         <div class="sliderFilter"></div>
-                                        <img src="{{"/img/projet-blanc-01.jpg" | relURL }}"
+                                        <img src="{{ .img | relURL }}"
                                             width="100%" style="display: none;" />
                                     </div>
                                 </div>
                             </div>
 
-
-
+                            {{end }}
+<!-- 
                             <div class="slide">
                                 <div class="row">
                                     <div class="col-md-6 d-flex justify-content-center">
@@ -136,34 +137,36 @@
                                     </div>
                                 </div>
                             </div>
-
+ -->
 
 
                         </div>
 
                     </div>
                 </div>
+                
                 <div class="col-12">
-
+                    
                     <div class="product__slider-thmb" dir="rtl">
 
 
-
+                        {{ range $data.home.images}}
                         <div class="slide"
-                            style="background:url(/img/projet-blanc-01.jpg) center center no-repeat; background-repeat: cover;">
+                            style="background:url( '{{.}}' ) center center no-repeat; background-repeat: cover;">
                         </div>
-
-
-
+                        {{end}}
+                       
+<!-- 
                         <div class="slide"
                             style="background:url(/img/st-sauveur-01.jpg) center center no-repeat; background-repeat: cover;">
                         </div>
-
+ -->
 
 
                     </div>
-
+                   
                 </div>
+               
             </div>
 
         </section>
@@ -171,36 +174,39 @@
         <section id="home-blog">
             <div class="row">
                 <div class="col-md-6 p-0">
-                    <h2 class="white">{{ $data.home.trend | safeHTML  }}</h2>
+                    <h2 class="white">{{ $data.home.trends | safeHTML  }}</h2>
                 </div>
                 <div class="col-md-6 url-blog-container">
-                    <a href="{{ $data.home.trend_link | safeHTML  }}" class="btn-text">{{ $data.home.article | safeHTML  }}</a>
+                    <a href="{{ $data.home.trends_link | safeHTML  }}" class="btn-text">{{ $data.home.article | safeHTML  }}</a>
                 </div>
             </div>
             <div class="row aBlogRow">
 
+                {{ range $data.home.blog }}
 
                 <div class="col-md-4 aBlogContainer">
                     <div class="aBlog">
                         <div class="blog-img"><a
-                                href="{{ $data.home.landscape_design | safeHTML  }}"><img
+                                href="{{.landscape_link | relURL }}"><img
                                     width="2154" height="1424"
-                                    src="{{"/img/blogueprodesign_zones-e1593790674574.jpg" | relURL }}"
+                                    src="{{ .img | relURL }}"
                                     class="attachment-full size-full wp-post-image jetpack-lazy-image" alt=""
                                     loading="lazy"
-                                    data-lazy-src="{{"/img/blogueprodesign_zones-e1593790674574.jpg" | relURL}}"
+                                    data-lazy-src="{{ .img | relURL}}"
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
                         </div>
                         <div class="blog-title"><a
-                                href="{{ $data.home.landscape_design | safeHTML  }}">{{ $data.home.land_text1 | safeHTML  }}</a></div>
+                                href="{{ .landscape_link | relURL }}">{{ .land_text1 | safeHTML  }}</a></div>
                         <div class="blog-excerpt">
-                            <p>{{ $data.home.land_text2 | safeHTML  }} [&#8230;]</p>
+                            <p>{{ .land_text2 | safeHTML  }} [&#8230;]</p>
                             <p><a class="btn btn-secondary understrap-read-more-link"
-                                    href="{{ $data.home.landscape_design | safeHTML  }}">{{ $data.home.land_text3 | safeHTML  }}&#8230;</a></p>
+                                    href="{{ .landscape_link | relURL }}">{{ .land_text3 | safeHTML  }}&#8230;</a></p>
                         </div>
                     </div>
                 </div>
 
+                {{ end }}
+<!-- 
 
                 <div class="col-md-4 aBlogContainer">
                     <div class="aBlog">
@@ -298,7 +304,7 @@
                                     href="{{ $data.home.land_light_link | safeHTML  }}">{{ $data.home.land_text3 | safeHTML  }}&#8230;</a></p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </section>
@@ -306,38 +312,9 @@
     </div>
 
 
-
-    <section id="footer-logos">
-        <div class="container">
-            <div class="row d-flex justify-content-center align-items-center logosFooter">
-
-                <div class="col-md-4 text-center">
-                    <a href="https://www.maitrepaysagiste.com/" class="logosFooterImg" target="_blank">
-                        <img src="{{"/img/logo_maitre-paysagiste.png" | relURL }}"
-                            alt="" />
-                    </a>
-                </div>
-                <div class="col-md-4 text-center">
-                    <a href="https://appq.org/" class="logosFooterImg" target="_blank">
-                        <img src="{{"/img/logo_appq.png" | relURL }}"
-                            alt="" />
-                    </a>
-                </div>
-                <div class="col-md-4 text-center">
-                    <a href="https://rocvale.com/createur-dart-certifie-rocvale/" class="logosFooterImg"
-                        target="_blank">
-                        <img src="{{"/img/logo_createur-dart.png" | relURL }}"
-                            alt="" />
-                    </a>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
+{{ partial "footerlogo.html" . }}
 {{ partial "footer.html" . }}
-    <link rel='stylesheet' id='wpforms-full-css'
+    <!-- <link rel='stylesheet' id='wpforms-full-css'
         href='{{"/css/wpforms-full.min.css" | relURL }}'
         type='text/css' media='all' />
     <script type='text/javascript' src='{{"/js/photon.min.js" | relURL }}'
@@ -462,11 +439,11 @@
     </script>
 
     <!-- Slick Slider -->
-    <link rel="stylesheet" type="text/css" href="{{"/css/slick.css" | relURL }}" />
-    <script type="text/javascript" src="{{"/js/slick.min.js" | relURL }}"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="{{"/css/slick.css" | relURL }}" />
+    <script type="text/javascript" src="{{"/js/slick.min.js" | relURL }}"></script> -->
 
     <!-- WOW JS -->
-    <script src="{{"/js/wow.min.js" | relURL }}"></script>
+    <!-- <script src="{{"/js/wow.min.js" | relURL }}"></script>
     <script>
         function afterReveal(el) {
             el.addEventListener('animationend', function (event) {
@@ -478,11 +455,11 @@
         new WOW({
             callback: afterReveal
         }).init()
-    </script>
+    </script> -->
 
     <!-- Custom JS -->
-    <script type="text/javascript" src="{{"/js/custom.js" | relURL }}"></script>
-
+    <!-- <script type="text/javascript" src="{{"/js/custom.js" | relURL }}"></script> --> 
+{{ partial "last.html" . }}
 </main>
 
 </body>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="fr-FR">
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ partial "head.html" . }}
 <body
-    class="page-template page-template-page-templates page-template-template-carrieres page-template-page-templatestemplate-carrieres-php page page-id-906 wp-custom-logo wp-embed-responsive group-blog">
+    class="page-template page-template-page-templates page-template-template-carrieres page-template-page-templatestemplate-carrieres-php page page-id-902 page-parent wp-custom-logo wp-embed-responsive group-blog">
 
-{{ partial "header.html" . }}
-<span></span>
+
+    {{ partial "header.html" . }}
     <div id="careers">
 
         <section id="intro" class="d-flex justify-content-start align-items-center inner">
@@ -26,7 +26,7 @@
                 <div class="col-xl-6 d-flex flex-column">
                     <h2>
                         <span>{{ $data.careers.sub_head | safeHTML  }}</span>
-                        {{ $data.careers.sub_head6 | safeHTML  }}</h2>
+                        {{ $data.careers.sub_head2 | safeHTML  }}</h2>
                     <p>{{ $data.careers.text1 | safeHTML  }}</p>
                     <img src="{{"/img/careers_img1.png" | relURL }}"
                         class="mt-auto" width="100%" alt="" />
@@ -43,8 +43,8 @@
                 <div class="row">
                     <div class="col-12">
                         <h2 style="color: #fff;">
-                            <span></span>
-                        </h2>
+                            <span>{{ $data.careers.bottom_head | safeHTML  }}</span>
+                            {{ $data.careers.bottom_text | safeHTML  }} </h2>
                     </div>
                 </div>
             </div>
@@ -53,16 +53,35 @@
 
 
 
-
+                {{ range $data.careers.items}}
                 <div class="aStep">
                     <div class="aStep-icon">
-                        <img src="{{"/img/users-2.svg" | relURL }}" alt="" />
+                        <img src="{{.img | relURL }}" alt="" />
                     </div>
                     <div class="aStep-content">
                         <div class="small-title">
-                            <span>{{ $data.careers.item1 | safeHTML  }}</span>
-                        </div>
-                        <p></p>
+                            <span>{{ .item }}</span>
+                            {{ .item_title }}</div>
+                        <p>{{.item_content}}</p>
+                    </div>
+                </div>
+                {{end}}
+<!-- 
+
+
+
+                <div class="aStep">
+                    <div class="aStep-icon">
+                        <img src="https://pro-design.ca/wp-content/uploads/2021/03/trees.svg" alt="" />
+                    </div>
+                    <div class="aStep-content">
+                        <div class="small-title">
+                            <span>02</span>
+                            Être basé dans les Laurentides </div>
+                        <p>Nos projets sont basés au cœur de la région des Laurentides. Aucune circulation, de l’espace
+                            pour se stationner, le tout dans une ambiance naturelle et enivrante. Pas de stress de la
+                            ville. Souvent, nos chantiers sont à proximité de lacs, alors on peut même se rafraîchir sur
+                            l’heure du dîner et après la journée de travail. </p>
                     </div>
                 </div>
 
@@ -72,13 +91,16 @@
 
                 <div class="aStep">
                     <div class="aStep-icon">
-                        <img src="{{"/img/trees.svg" | relURL }}" alt="" />
+                        <img src="https://pro-design.ca/wp-content/uploads/2021/03/direction.svg" alt="" />
                     </div>
                     <div class="aStep-content">
                         <div class="small-title">
-                            <span>{{ $data.careers.item2 | safeHTML  }}</span>
-                            {{ $data.careers.item2_text | safeHTML  }} </div>
-                        <p>{{ $data.careers.item2_text2 | safeHTML  }}</p>
+                            <span>03</span>
+                            Avancer ensemble </div>
+                        <p>Notre croissance soutenue permet d’offrir de belles possibilités d’avancement aux membres de
+                            l’équipe. L’entreprise s’assure d’offrir les formations appropriées à ses employés et ce,
+                            tout au long de l’année. Si tu as soif de grimper les échelons et te perfectionner, tu
+                            trouveras ton compte avec nous. </p>
                     </div>
                 </div>
 
@@ -88,13 +110,15 @@
 
                 <div class="aStep">
                     <div class="aStep-icon">
-                        <img src="{{"/img/direction.svg" | relURL }}" alt="" />
+                        <img src="https://pro-design.ca/wp-content/uploads/2021/03/construction.svg" alt="" />
                     </div>
                     <div class="aStep-content">
                         <div class="small-title">
-                            <span>{{ $data.careers.item3 | safeHTML  }}</span>
-                            {{ $data.careers.item3_text | safeHTML  }} </div>
-                        <p>{{ $data.careers.item3_text2 | safeHTML  }}</p>
+                            <span>04</span>
+                            Un équipement à la fine pointe </div>
+                        <p>L’investissement est constant en équipement chez Pro Design. Jamais un employé se plaint
+                            qu’il manque un outil spécialisé pour faciliter le travail…. Nous avons les outils les plus
+                            productifs de l’industrie. </p>
                     </div>
                 </div>
 
@@ -104,13 +128,15 @@
 
                 <div class="aStep">
                     <div class="aStep-icon">
-                        <img src="{{"/img/construction.svg" | relURL }}" alt="" />
+                        <img src="https://pro-design.ca/wp-content/uploads/2021/03/sandbox-1.svg" alt="" />
                     </div>
                     <div class="aStep-content">
                         <div class="small-title">
-                            <span>{{ $data.careers.item4 | safeHTML  }}</span>
-                            {{ $data.careers.item4_text | safeHTML  }} </div>
-                        <p>{{ $data.careers.item4_text2 | safeHTML  }}</p>
+                            <span>05</span>
+                            Un gros carré de sable </div>
+                        <p>Avec la bonne ambiance de travail et l’ensemble des équipements et outils utilisés par Pro
+                            Design, les clients nous comparent régulièrement à des enfants qui travaillent dans un gros
+                            carré de sable!</p>
                     </div>
                 </div>
 
@@ -120,13 +146,15 @@
 
                 <div class="aStep">
                     <div class="aStep-icon">
-                        <img src="{{"/img/sandbox-1.svg"  | relURL }}"alt="" />
+                        <img src="https://pro-design.ca/wp-content/uploads/2021/03/balance-1.svg" alt="" />
                     </div>
                     <div class="aStep-content">
                         <div class="small-title">
-                            <span>{{ $data.careers.item5 | safeHTML  }}</span>
-                            {{ $data.careers.item5_text | safeHTML  }} </div>
-                        <p>{{ $data.careers.item5_text2 | safeHTML  }}</p>
+                            <span>06</span>
+                            L'équilibre </div>
+                        <p>Nos employés sont reconnus comme des membres de la famille. Nous accordons une grande
+                            importance à conserver un équilibre travail/famille/vie extérieure. Nous collaborons et
+                            évoluons ensemble.</p>
                     </div>
                 </div>
 
@@ -136,13 +164,14 @@
 
                 <div class="aStep">
                     <div class="aStep-icon">
-                        <img src="{{"/img/balance-1.svg" | relURL }}" alt="" />
+                        <img src="https://pro-design.ca/wp-content/uploads/2021/03/alarm-clock.svg" alt="" />
                     </div>
                     <div class="aStep-content">
                         <div class="small-title">
-                            <span>{{ $data.careers.item6 | safeHTML  }}</span>
-                            {{ $data.careers.item6_text | safeHTML  }} </div>
-                        <p>{{ $data.careers.item6_text2 | safeHTML  }}</p>
+                            <span>07</span>
+                            L'horaire de travail </div>
+                        <p>5 jours semaine, aucun week-end, vacances pour les semaines de la construction. Prenons le
+                            temps de vivre aussi!</p>
                     </div>
                 </div>
 
@@ -152,31 +181,18 @@
 
                 <div class="aStep">
                     <div class="aStep-icon">
-                        <img src="{{"/img/alarm-clock.svg" | relURL }}" alt="" />
+                        <img src="https://pro-design.ca/wp-content/uploads/2021/03/tshirt.svg" alt="" />
                     </div>
                     <div class="aStep-content">
                         <div class="small-title">
-                            <span>{{ $data.careers.item7 | safeHTML  }}</span>
-                            {{ $data.careers.item7_text | safeHTML  }} </div>
-                        <p>{{ $data.careers.item7_text2 | safeHTML  }}</p>
+                            <span>08</span>
+                            Être fier! </div>
+                        <p>Vêtements, casquette, chapeau, fournis par l’entreprise. Soyons beaux ensembles!</p>
                     </div>
                 </div>
+ -->
 
 
-
-
-
-                <div class="aStep">
-                    <div class="aStep-icon">
-                        <img src="{{"/img/tshirt.svg" | relURL }}" alt="" />
-                    </div>
-                    <div class="aStep-content">
-                        <div class="small-title">
-                            <span>{{ $data.careers.item8 | safeHTML  }}</span>
-                            {{ $data.careers.item8_text | safeHTML  }} </div>
-                        <p>{{ $data.careers.item8_text2 | safeHTML  }}</p>
-                    </div>
-                </div>
 
 
             </div>
@@ -192,22 +208,29 @@
                 <div class="col-md-6">
 
                     <div class="steps-accordion">
-                        <div class="accordion-title first">{{ $data.careers.post | safeHTML  }}</div>
+                        {{ range $data.careers.career}}
+                        <div class="accordion-title first">{{.sub_text1 | safeHTML  }}</div>
                         <div class="accordion-content first">
-                            <p class="intro">{{ $data.careers.sub_text1 | safeHTML  }} <br />
-                            </p>
-                            <p>{{ $data.careers.sub_text2 | safeHTML  }}
-                            </p>
-                            <div class="btn-container text-left"><a href="#" target="" class="btn-animated-line">{{ $data.careers.button | safeHTML  }}</a></div>
+                            <p class="intro">{{ .sub_text2 | safeHTML  }}</p>
+                            <p>{{ .sub_text_2 | safeHTML  }}</p>
+                            <p>{{ .sub_text_3 | safeHTML  }}</p>
+                            <p>{{ .sub_text_4 | safeHTML  }}</p>
+                            <div class="btn-container text-left"><a
+                                    href="{{ .first_link | relURL  }}" target=""
+                                    class="btn-animated-line">{{ .button | safeHTML  }}</a></div>
                         </div>
-                        <div class="accordion-title ">{{ $data.careers.post | safeHTML  }}</div>
+                        {{end}}
+                        <!-- <div class="accordion-title ">{{ $data.careers.sub_head3 | safeHTML  }} </div>
                         <div class="accordion-content ">
-                            <p class="intro">{{ $data.careers.sub_text3 | safeHTML  }} <br />
-                            </p>
-                            <p>{{ $data.careers.sub_text4 | safeHTML  }}
-                            </p>
-                            <div class="btn-container text-left"><a href="#" target="" class="btn-animated-line">{{ $data.careers.button | safeHTML  }}</a></div>
-                        </div>
+                            <p class="intro">{{ $data.careers.sub_text3 | safeHTML  }}.</p>
+                            <p>{{ $data.careers.sub_text4 | safeHTML  }}</p>
+                            <p>{{ $data.careers.sub_text5 | safeHTML  }}</p>
+                            <p>{{ $data.careers.sub_text6 | safeHTML  }}</p>
+                            <p>{{ $data.careers.sub_text7 | safeHTML  }}</p>
+                            <div class="btn-container text-left"><a href="/carrieres/technicien-paysagiste/" target=""
+                                    class="btn-animated-line">{{ $data.careers.button | safeHTML  }}</a></div>
+                        </div> -->
+
                         <div class="last-border"></div>
                     </div>
 
@@ -222,19 +245,23 @@
                         <span>{{ $data.careers.sub_head4 | safeHTML  }}</span>
                         {{ $data.careers.sub_head5 | safeHTML  }}
                     </h2>
-                    <p>{{ $data.careers.sub_text4 | safeHTML  }}</p>
                     <p>{{ $data.careers.sub_text5 | safeHTML  }}</p>
+                    <p>{{ $data.careers.sub_head | safeHTML  }}</p>
                 </div>
             </div>
         </section>
 
     </div>
 
-    {{ partial "innercta.html" . }}
-    {{ partial "footerlogo.html" . }}
-  
-{{ partial "footer.html" . }}
-{{ partial "last.html" . }}
+{{ partial "innercta.html" .}}
+
+   {{ partial "footerlogo.html" . }}
+
+   {{ partial "footer.html" .}}
+ 
+    {{ partial "last.html" . }}
 </body>
 
 </html>
+
+<!--  -->

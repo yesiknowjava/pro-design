@@ -1,6 +1,6 @@
 +++
-url = "portfolio/labonte-project-st-sauveur"
+url = "/portfolio/jardin-blanc-st-jerome-2/"
 type = "portfolio"
-title = "wrong-title"
+title = "Jardin blanc - St-Jérôme - Pro Design Aménagement Extérieur"
 category = ["DARE"]
 +++
