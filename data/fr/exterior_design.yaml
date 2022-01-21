@@ -16,7 +16,7 @@ pave_uni_name: "Pavé uni"
 
 stone_cutting_link: "/amenagement-exterieur/taille-de-pierreg/"
 stone_cutting_name: "Taille de pierre"
-
+portfolio_link: "/portfolio/"
 exterior:
 - exterior_tag: "amenagement-despace-nature"
   exterior_title: "PRO DESIGN AMÉNAGEMENT"
@@ -34,6 +34,7 @@ exterior:
   irrigation_img: "/img/irrigation.jpg"
   irrigation_title: "Avez-vous pensé à l'irrigation?"
   irrigation_content: "Un système d’irrigation automatique permettra à votre pelouse et à vos végétaux de conserver leur beauté, tout en assurant une utilisation contrôlée et efficace de l’eau"
+  portfolio_link: "/portfolio/"
 
 
 
@@ -56,6 +57,7 @@ exterior:
   irrigation_img: "/img/maconnerie-bloc2.jpg"
   irrigation_title: "Une expertise certifiée"
   irrigation_content: "Pro Design est certifiée par l'Interlocking Concrete Pavement Institute (ICPI) et investie régulièrement dans la formation continue et l'évolution des techniques de travail."
+  portfolio_link: "/portfolio/"
 
 
 
@@ -77,6 +79,7 @@ exterior:
   irrigation_img: "/img/muret-bloc2.jpg"
   irrigation_title: "Une expertise certifiée"
   irrigation_content: "Pro Design est certifiée par l'Interlocking Concrete Pavement Institute (ICPI) et investie régulièrement dans la formation continue et l'évolution des techniques de travail."
+  portfolio_link: "/portfolio/"
 
 
 
@@ -98,6 +101,7 @@ exterior:
   irrigation_img: "/img/pave-uni-bloc2.jpg"
   irrigation_title: "Une expertise certifiée"
   irrigation_content: "Pro Design est certifiée par l'Interlocking Concrete Pavement Institute (ICPI) et investie régulièrement dans la formation continue et l'évolution des techniques de travail."
+  portfolio_link: "/portfolio/"
 
 
 
@@ -120,3 +124,4 @@ exterior:
   irrigation_img: "/img/travaille-de-la-pierre-bloc2.jpg"
   irrigation_title: "Une expertise certifiée"
   irrigation_content: "Pro Design est certifiée par l'Interlocking Concrete Pavement Institute (ICPI) et investie régulièrement dans la formation continue et l'évolution des techniques de travail."
+  portfolio_link: "/portfolio/"

@@ -5,10 +5,8 @@ address1: "54 Chemin de Zermatt,"
 address2: "Saint-Sauveur-des-Monts,"
 address3: "Qc, J0R 1R2"
 subscribe: "Subscribe to our newsletter"
-hero_text1: "CAREER"
-hero_text2: "JOIN PRO DESIGN"
-text1: "We’re always on the lookout for new talent to join our team. Send us your CV and we’ll get in touch."
-upload_text: "Click or drag a file to this area to upload."
+
+
 fb: "Facebook"
 insta: "Instagram"
 contact_link: "/en/contact/"

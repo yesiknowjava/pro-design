@@ -1,3 +1,4 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <footer>
     <div class="row m-0 bordered d-flex justify-content-center align-items-center">
         <div class="col-md-12 col-lg-3 col-xl-2">
@@ -8,13 +9,12 @@
                 <div class="col-lg-12 col-xl-4">
                     <div class="paddingFooter">
                         <h6>Everything Starts With an Idea!</h6>
-                        <p><a class="tel-link" href="tel:+18885167067">888 516.7067</a><br />
-                            <a class="email" href="mailto:info@aprodesign.ca">info@pro-design.ca</a></p>
-                        <p>54 Chemin de Zermatt,<br />
-                            Saint-Sauveur-des-Monts,<br />
-                            Qc, J0R 1R2</p>
-                        <p><a href="/en/newsletter" data-fancybox="" data-type="iframe">Subscribe to our
-                                newsletter</a></p>
+                        <p><a class="tel-link" href="tel:+18885167067">{{ $data.footer_form.phone1 | safeHTML  }}</a><br />
+                            <a class="email" href="mailto:info@aprodesign.ca">{{ $data.footer_email1 | safeHTML  }}</a></p>
+                        <p>{{ $data.footer_form.add1 | safeHTML  }},<br />
+                            {{ $data.footer_form.add2 | safeHTML  }}<br />
+                            {{ $data.footer_form.add3 | safeHTML  }}</p>
+                        <p><a href="/en/newsletter" data-fancybox="" data-type="iframe">{{ $data.footer_form.news_letter | safeHTML  }}</a></p>
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-8">
@@ -23,54 +23,53 @@
                             <form id="wpforms-form-791" class="wpforms-validate wpforms-form" data-formid="791"
                                 method="post" enctype="multipart/form-data" action="/en/"
                                 data-token="f863153c7e8331350d9512c3a71d424e"><noscript
-                                    class="wpforms-error-noscript">Please enable JavaScript in your browser to
-                                    complete this form.</noscript>
+                                    class="wpforms-error-noscript">P{{ $data.footer_form.no_js | safeHTML  }}</noscript>
                                 <div class="wpforms-field-container">
                                     <div id="wpforms-791-field_2-container"
                                         class="wpforms-field wpforms-field-text wpforms-one-half wpforms-first"
                                         data-field-id="2"><label class="wpforms-field-label wpforms-label-hide"
-                                            for="wpforms-791-field_2">First name <span
+                                            for="wpforms-791-field_2">{{ $data.footer_form.first_name | safeHTML  }} <span
                                                 class="wpforms-required-label">*</span></label><input type="text"
                                             id="wpforms-791-field_2"
                                             class="wpforms-field-large wpforms-field-required"
-                                            name="wpforms[fields][2]" placeholder="First name" required></div>
+                                            name="wpforms[fields][2]" placeholder="{{ $data.footer_form.first_name | safeHTML  }}" required></div>
                                     <div id="wpforms-791-field_3-container"
                                         class="wpforms-field wpforms-field-text wpforms-one-half" data-field-id="3">
                                         <label class="wpforms-field-label wpforms-label-hide"
-                                            for="wpforms-791-field_3">Name <span
+                                            for="wpforms-791-field_3">{{ $data.footer_form.name | safeHTML  }}<span
                                                 class="wpforms-required-label">*</span></label><input type="text"
                                             id="wpforms-791-field_3"
                                             class="wpforms-field-large wpforms-field-required"
-                                            name="wpforms[fields][3]" placeholder="Name" required></div>
+                                            name="wpforms[fields][3]" placeholder="{{ $data.footer_form.name | safeHTML  }}" required></div>
                                     <div id="wpforms-791-field_5-container"
                                         class="wpforms-field wpforms-field-phone wpforms-one-half wpforms-first"
                                         data-field-id="5"><label class="wpforms-field-label wpforms-label-hide"
-                                            for="wpforms-791-field_5">Telephone</label><input type="tel"
+                                            for="wpforms-791-field_5">{{ $data.footer_form.telephone | safeHTML  }}</label><input type="tel"
                                             id="wpforms-791-field_5"
                                             class="wpforms-field-large wpforms-masked-input"
                                             data-inputmask="&#039;mask&#039;: &#039;(999) 999-9999&#039;"
                                             data-rule-us-phone-field="true" data-inputmask-inputmode="tel"
-                                            name="wpforms[fields][5]" placeholder="Telephone"></div>
+                                            name="wpforms[fields][5]" placeholder="{{ $data.footer_form.telephone | safeHTML  }}"></div>
                                     <div id="wpforms-791-field_6-container"
                                         class="wpforms-field wpforms-field-email wpforms-one-half"
                                         data-field-id="6"><label class="wpforms-field-label wpforms-label-hide"
-                                            for="wpforms-791-field_6">Email <span
+                                            for="wpforms-791-field_6">{{ $data.footer_form.email | safeHTML  }} <span
                                                 class="wpforms-required-label">*</span></label><input type="email"
                                             id="wpforms-791-field_6"
                                             class="wpforms-field-large wpforms-field-required"
-                                            name="wpforms[fields][6]" placeholder="Email" required></div>
+                                            name="wpforms[fields][6]" placeholder="{{ $data.footer_form.email | safeHTML  }}" required></div>
                                     <div id="wpforms-791-field_7-container"
                                         class="wpforms-field wpforms-field-textarea" data-field-id="7"><label
                                             class="wpforms-field-label wpforms-label-hide"
-                                            for="wpforms-791-field_7">Message <span
+                                            for="wpforms-791-field_7">{{ $data.footer_form.message | safeHTML  }} <span
                                                 class="wpforms-required-label">*</span></label><textarea
                                             id="wpforms-791-field_7"
                                             class="wpforms-field-large wpforms-field-required"
-                                            name="wpforms[fields][7]" placeholder="Message ..." required></textarea>
+                                            name="wpforms[fields][7]" placeholder="{{ $data.footer_form.message | safeHTML  }}" required></textarea>
                                     </div>
                                 </div>
                                 <div class="wpforms-field wpforms-field-hp"><label for="wpforms-791-field-hp"
-                                        class="wpforms-field-label">Email</label><input type="text"
+                                        class="wpforms-field-label">{{ $data.footer_form.email | safeHTML  }}</label><input type="text"
                                         name="wpforms[hp]" id="wpforms-791-field-hp" class="wpforms-field-medium">
                                 </div><input type="hidden" name="wpforms[recaptcha]" value="">
                                 <div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]"

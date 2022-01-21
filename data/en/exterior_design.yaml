@@ -16,7 +16,7 @@ pave_uni_name: "Pavé uni"
 
 stone_cutting_link: "/en/exterior_design/stone_cutting/"
 stone_cutting_name: "Stone cutting"
-
+portfolio_link: "/en/portfolio/"
 exterior:
 - exterior_tag: "landscaping"
   exterior_title: "Exterior Design"
@@ -35,7 +35,7 @@ exterior:
   irrigation_img: "/img/irrigation.jpg"
   irrigation_title: "Think About Irrigation"
   irrigation_content: "An automatic irrigation system will keep your lawn and plants beautiful while ensuring the efficient use of water."
-
+  portfolio_link: "/en/portfolio/"
 
 
 
@@ -57,6 +57,7 @@ exterior:
   irrigation_img: "/img/maconnerie-bloc2.jpg"
   irrigation_title: "Certified Expertise"
   irrigation_content: "Pro Design is certified by the Interlocking Concrete Pavement Institute (ICPI) and regularly invests in continuous training and the evolution of working techniques."
+  portfolio_link: "/en/portfolio/"
 
 
 
@@ -80,6 +81,7 @@ exterior:
   irrigation_img: "/img/muret-bloc2.jpg"
   irrigation_title: "Certified Expertise"
   irrigation_content: "Pro Design is certified by the Interlocking Concrete Pavement Institute (ICPI) and regularly invests in continuous training and the evolution of working techniques."
+  portfolio_link: "/en/portfolio/"
 
 
 - exterior_tag: "pave_uni"
@@ -99,6 +101,7 @@ exterior:
   irrigation_img: "/img/pave-uni-bloc2.jpg"
   irrigation_title: "Certified Expertise"
   irrigation_content: "Pro Design is certified by the Interlocking Concrete Pavement Institute (ICPI) and regularly invests in continuous training and the evolution of working techniques."
+  portfolio_link: "/en/portfolio/"
 
 
 
@@ -123,3 +126,4 @@ exterior:
   irrigation_img: "/img/travaille-de-la-pierre-bloc2.jpg"
   irrigation_title: "Certified Expertise"
   irrigation_content: "Pro Design is certified by the Interlocking Concrete Pavement Institute (ICPI) and regularly invests in continuous training and the evolution of working techniques."
+  portfolio_link: "/en/portfolio/"

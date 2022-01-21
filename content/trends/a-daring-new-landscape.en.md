@@ -1,6 +1,6 @@
 +++
-url = "en/a-daring-new-landscape"
+url = "/en/a-daring-new-landscape/"
 type = "trends"
-title = "A DARING NEW LANDSCAPE"
+title = "a daring new landscape"
 category = ["DARE"]
 +++
