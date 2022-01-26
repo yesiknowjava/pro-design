@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ {{ $data := index .Site.Data .Site.Language.Lang }}
+{{ partial "head.html" . }}
+<body class="archive post-type-archive post-type-archive-portfolio wp-custom-logo wp-embed-responsive group-blog hfeed">
+
+{{ partial "header.html" . }}
+    <div id="portfolio">
+
+        <section id="intro" class="d-flex justify-content-start align-items-center inner">
+            <div class="overlayContent">
+                <h1>
+                    <span class="small wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="">{{ $data.portfolio.hero_text1 | safeHTML  }}</span>
+                    <span class="big wow fadeInRight" data-wow-duration=".5s" data-wow-delay="">{{ $data.portfolio.hero_text2 | safeHTML  }}</span>
+                </h1>
+            </div>
+        </section>
+    
+        <section id="portfolio-listing">
+
+           
+            <div class="categories-listing wow fadeIn" data-wow-duration=".5s" data-wow-delay="">
+                <ul>
+                    <li class="current-cat"><a href="{{$data.portfolio.all_link}}">{{$data.portfolio.all}}</a></li>
+                    {{ range $data.portfolio.portfolio_listings }}
+
+                    <li class="cat-item cat-item-23"><a
+                            href="{{ .link }}
+                            ">{{ .name }}</a>
+                    </li>
+
+                    {{ end }}
+                    {{/*  <li class="cat-item cat-item-22"><a
+                            href="https://pro-design.ca/en/ct_portfolio/eclairage-paysager/">Éclairage paysager</a>
+                    </li>
+                    <li class="cat-item cat-item-20"><a href="https://pro-design.ca/en/ct_portfolio/pave-et-muret/">Pavé
+                            et muret</a>
+                    </li>
+                    <li class="cat-item cat-item-21"><a
+                            href="https://pro-design.ca/en/ct_portfolio/travail-de-la-pierre/">Travail de la pierre</a>
+                    </li>  */}}
+                </ul>
+            </div>
+
+
+
+            {{ range $data.portfolio.portfolios }}
+            
+            <div class="aPortfolio d-flex justify-content-start align-items-center wow fadeIn" data-wow-duration=".5s"
+                data-wow-delay="">
+                <div class="aPortfolio-container">
+                    <h2 class="white">
+                        <span>{{ .name1}}</span>
+                        {{ .name2}} </h2>
+                    <div class="portfolio-actions"><a
+                            href="{{ .link1 }}">{{ .button }}</a></div>
+                </div>
+                    {{ $url_link := .link1 }}
+                    
+                    <div class="overlaySlider">
+                        {{ range .img }}
+                        <div class="aPortfolioSlider"
+                            onclick="location.href='{{ $url_link }}';"
+                            style="background: url( '{{ . }}' ) center center no-repeat; background-size: cover;">
+                        </div>
+                        {{ end}}
+                    </div>
+                    
+                
+            </div>
+            {{ end }}
+
+{{/*  {{end}}
+            <div class="aPortfolio d-flex justify-content-start align-items-center wow fadeIn" data-wow-duration=".5s"
+                data-wow-delay="">
+                <div class="aPortfolio-container">
+                    <h2 class="white">
+                        <span>Saint-Sauveur</span>
+                        Nature’s Contrasts </h2>
+                    <div class="portfolio-actions"><a
+                            href="https://pro-design.ca/en/portfolio/labonte-project-st-sauveur/">View project</a></div>
+                </div>
+                <div class="overlaySlider">
+                    <div class="aPortfolioSlider"
+                        onclick="location.href='https://pro-design.ca/en/portfolio/labonte-project-st-sauveur/';"
+                        style="background: url(/img/st-sauveur-01.jpg) center center no-repeat; background-size: cover;">
+                    </div>
+                    <div class="aPortfolioSlider"
+                        onclick="location.href='https://pro-design.ca/en/portfolio/labonte-project-st-sauveur/';"
+                        style="background: url(/img/st-sauveur-02.jpg) center center no-repeat; background-size: cover;">
+                    </div>
+                    <div class="aPortfolioSlider"
+                        onclick="location.href='https://pro-design.ca/en/portfolio/labonte-project-st-sauveur/';"
+                        style="background: url(/img/st-sauveur-05.jpg) center center no-repeat; background-size: cover;">
+                    </div>
+
+                </div>
+            </div>  */}}
+
+
+
+        </section>
+
+    </div>
+
+   {{ partial "innercta.html" . }}
+   {{ partial "footerlogo.html" . }}
+{{ partial "footer.html" . }}
+{{ partial "last.html" .}}
+</body>
+
+</html>
