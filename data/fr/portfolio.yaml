@@ -21,6 +21,7 @@ portfolios:
     name2: "Jardin blanc"
     link1: "/portfolio/jardin-blanc-st-jerome-2/"
     title: "Jardin blanc - St-Jérôme - Pro Design Aménagement Extérieur"
+    category :  "amenagement-exterieur,eclairage-paysager,pave-et-muret,travail-de-la-pierre"
     button: "Voir le projet"
     img:
       - "/img/projet-blanc-01.jpg"
@@ -79,6 +80,7 @@ portfolios:
     name2: "Projet contraste en nature"
     link1: "/portfolio/projet-labonte-st-sauveur-2/"
     button: "Voir le projet"
+    category :  "amenagement-exterieur,eclairage-paysager,pave-et-muret,travail-de-la-pierre"
     title: "Labonté Project - St-Sauveur - Pro Design Exterior Design"
     img:
       - "/img/st-sauveur-01.jpg"
@@ -137,6 +139,7 @@ portfolios:
     name2: "Projet Le Monarque "
     link1: "/portfolio/projet-le-monarque/"
     button: "Voir le projet"
+    category :  "amenagement-exterieur,eclairage-paysager,pave-et-muret,travail-de-la-pierre"
     title: "Le Monarque - Pro Design Aménagement Extérieur"
     img:
       - "/img/monarque-2.jpg"
@@ -197,6 +200,7 @@ portfolios:
     name2: "Projet Zenitude banlieusarde"
     link1: "/portfolio/projet-zenitude-banlieusarde/"
     button: "Voir le projet"
+    category :  "amenagement-exterieur,eclairage-paysager,pave-et-muret,travail-de-la-pierre"
     title: "Zenitude banlieusarde - Pro Design Aménagement Extérieur"
     img:
     
