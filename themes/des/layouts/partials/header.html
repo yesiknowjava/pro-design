@@ -45,17 +45,21 @@
 
                     <div id="navbarNavDropdown" class="collapse navbar-collapse">
                         <ul id="main-menu" class="navbar-nav ml-auto">
-                            {{ $currentPage := . }}
+                            {{ $curNode := . }}
+
+                            
                             {{ range .Site.Menus.main }}
                                 {{ if .HasChildren }}
                                 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-{{ .Params.item }}"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children dropdown {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} menu-item-{{ .Params.item }} nav-item">
+                                    class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children dropdown {{ if or ($curNode.IsMenuCurrent "main" .) ($curNode.HasMenuCurrent "main" .) (eq $curNode.Section .Identifier) }}current-menu-item current_page_item active{{ end }} menu-item-{{ .Params.item }} nav-item">
                                     <a title="Aménagement extérieur" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                         class="dropdown-toggle nav-link" id="menu-item-dropdown-{{ .Params.item }}">{{ .Name }}</a>
+                                        {{ $parent := . }}
                                     <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-{{ .Params.item }}" role="menu">
                                         {{ range .Children }}
+                                        
                                         <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-530"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-73 current_page_item {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} menu-item-{{ .Params.item }} nav-item">
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-73 current_page_item {{ if or ($curNode.IsMenuCurrent "main" .) ($curNode.HasMenuCurrent "main" .) (eq $curNode.Section .Identifier) }}current-menu-item current_page_item active{{ end }} menu-item-{{ .Params.item }} nav-item">
                                             <a title="Aménagement d’espace nature"
                                                 href="{{ .URL }}"
                                                 class="dropdown-item">{{ .Name }}</a></li>
@@ -64,7 +68,7 @@
                                 </li>
                                 {{ else }}
                                 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-{{ .Params.item }}"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-{{ .Params.item }} nav-item"><a title="Expertise"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-{{ .Params.item }} nav-item {{ if or ($curNode.IsMenuCurrent "main" .) ($curNode.HasMenuCurrent "main" .) (eq $curNode.Section .Identifier)}}current-menu-item current_page_item active{{ end }}"><a title="Expertise"
                                         href="{{ .URL }}" class="nav-link">{{ .Name }}</a></li>
                                 
                                 {{ end }}

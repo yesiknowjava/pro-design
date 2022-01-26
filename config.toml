@@ -9,56 +9,68 @@ DefaultContentLanguage = "fr"
 
 [languages.en]
 [[languages.en.menu.main]]
+identifier = "exterior"
 name = "EXTERIOR DESIGN"
 weight = 1
-url ="/exterior_design/"
 [languages.en.menu.main.params]
     class = 'highlight-menu-item'
     item=525
+    check="exterior"
 
 [[languages.en.menu.main]]
+identifier = "landscaping"
 name = "landscaping"
 weight = 1
 url = "/en/exterior_design/landscaping/"
-parent = "EXTERIOR DESIGN"
+parent = "exterior"
 [languages.en.menu.main.params]
     item=530
+    check="landscaping"
 
 [[languages.en.menu.main]]
+identifier = "masonry"
 name = "masonry"
 weight = 2
 url = "/en/exterior_design/masonry/"
-parent = "EXTERIOR DESIGN"
+parent = "exterior"
 [languages.en.menu.main.params]
     item=529
+    check="masonry"
 
 [[languages.en.menu.main]]
+identifier = "retaining_wall"
 name = "Retaining walls"
 weight = 3
 url = "/en/exterior_design/retaining_wall/"
-parent = "EXTERIOR DESIGN"
+parent = "exterior"
 [languages.en.menu.main.params]
     item=528
+    check="retaining_wall"
 
 
 [[languages.en.menu.main]]
+identifier = "pave_uni"
 name = "pave-uni"
 weight = 4
 url = "/en/exterior_design/pave_uni/"
-parent = "EXTERIOR DESIGN"
+parent = "exterior"
 [languages.en.menu.main.params]
     item=527
+    check="pave_uni"
 
 
 [[languages.en.menu.main]]
+identifier = "stone_cutting"
 name = "Stone cutting"
 weight = 5
 url = "/en/exterior_design/stone_cutting/"
-parent = "EXTERIOR DESIGN"
+parent = "exterior"
 [languages.en.menu.main.params]
     item=526
+    check="stone_cutting"
 
 [[languages.en.menu.main]]
+identifier = "expertise"
 name = "EXPERTISE"
 weight = 2
 url = "/en/expertise/"
@@ -66,6 +78,7 @@ url = "/en/expertise/"
     item=121
 
 [[languages.en.menu.main]]
+identifier = "portfolio"
 name = "PORTFOLIO"
 weight = 3
 url = "/en/portfolio/"
@@ -73,6 +86,7 @@ url = "/en/portfolio/"
     item=374
 
 [[languages.en.menu.main]]
+identifier = "trends"
 name = "TRENDS"
 weight = 4
 url = "/en/trends/"
@@ -80,6 +94,7 @@ url = "/en/trends/"
     item=142
 
 [[languages.en.menu.main]]
+identifier = "careers"
 name = "CAREERS"
 weight = 5
 url = "/en/careers/"
@@ -87,6 +102,7 @@ url = "/en/careers/"
     item=904
 
 [[languages.en.menu.main]]
+identifier = "contact"
 name = "CONTACT"
 weight = 6
 url = "/en/contact/"
@@ -101,63 +117,97 @@ url = "/en/contact/"
 
 [languages.fr]
 [[languages.fr.menu.main]]
+identifier = "exterior"
 name = "AMÉNAGEMENT EXTÉRIEUR"
 weight = 1
+[languages.fr.menu.main.params]
+    class = 'highlight-menu-item'
+    item=525
 
 
 [[languages.fr.menu.main]]
+identifier = "landscaping"
 name = "Aménagement d’espace nature"
 weight = 1
 url = "/amenagement-exterieur/amenagement-despace-nature/"
-parent = "AMÉNAGEMENT EXTÉRIEUR"
+parent = "exterior"
+[languages.fr.menu.main.params]
+    item=530
 
 
 [[languages.fr.menu.main]]
+identifier = "masonry"
 name = "Maçonnerie"
 weight = 2
 url = "/amenagement-exterieur/maconnerie/"
-parent = "AMÉNAGEMENT EXTÉRIEUR"
+parent = "exterior"
+[languages.fr.menu.main.params]
+    item=529
 
 [[languages.fr.menu.main]]
+identifier = "retaining_wall"
 name = "Muret"
 weight = 3
 url = "/amenagement-exterieur/Muret/"
-parent = "AMÉNAGEMENT EXTÉRIEUR"
+parent = "exterior"
+[languages.fr.menu.main.params]
+    item=528
+
 
 [[languages.fr.menu.main]]
+identifier = "pave_uni"
 name = "Pavé uni"
 weight = 4
 url = "/amenagement-exterieur/pave-uni/"
-parent = "AMÉNAGEMENT EXTÉRIEUR"
-
+parent = "exterior"
+[languages.fr.menu.main.params]
+    item=527
 
 [[languages.fr.menu.main]]
+identifier = "stone_cutting"
 name = "Taille de pierre"
 weight = 5
 url = "/amenagement-exterieur/Taille de pierre/"
-parent = "AMÉNAGEMENT EXTÉRIEUR"
+parent = "exterior"
+[languages.fr.menu.main.params]
+    item=526
 
 [[languages.fr.menu.main]]
+identifier = "expertise"
 name = "EXPERTISE"
 weight = 2
 url = "/expertise/"
+[languages.fr.menu.main.params]
+    item=121
 
 [[languages.fr.menu.main]]
+identifier = "portfolio"
 name = "PORTFOLIO"
 weight = 3
 url = "/portfolio/"
+[languages.fr.menu.main.params]
+    item=374
 
 [[languages.fr.menu.main]]
+identifier = "trends"
 name = "TENDANCES"
 weight = 4
 url = "/tendances/"
+[languages.fr.menu.main.params]
+    item=142
 
 [[languages.fr.menu.main]]
+identifier = "careers"
 name = "CARRIÈRES"
 weight = 5
 url = "/careers/"
+[languages.fr.menu.main.params]
+    item=904
 
 [[languages.fr.menu.main]]
+identifier = "contact"
 name = "CONTACT"
 weight = 6
 url = "/contact/"
+[languages.fr.menu.main.params]
+    item=188
